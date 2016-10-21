@@ -37,8 +37,8 @@
 		<?php if(getDepthId($pagePath, 1) == "lecture"){ ?>
 			<div class="tab">
 				<ul class="children-count-2">
-					<li<?php if(getDepthId($pagePath, 2) == "student" || !getDepthId($pagePath, 2)){ ?> class="active"<?php } ?>><a href="gallery-chronicling-1.php"><span>대학생창업강좌</span></a></li>
-					<li<?php if(getDepthId($pagePath, 2) == "ordinary"){ ?> class="active"<?php } ?>><a href="gallery-chronicling-2.php"><span>일반인실전창업강좌</span></a></li>
+					<li<?php if(getDepthId($pagePath, 2) == "student" || !getDepthId($pagePath, 2)){ ?> class="active"<?php } ?>><a href="education-lecture-student.php"><span>대학생창업강좌</span></a></li>
+					<li<?php if(getDepthId($pagePath, 2) == "ordinary"){ ?> class="active"<?php } ?>><a href="education-lecture-ordinary.php"><span>일반인실전창업강좌</span></a></li>
 				</ul>
 			</div>
 		<?php } ?>

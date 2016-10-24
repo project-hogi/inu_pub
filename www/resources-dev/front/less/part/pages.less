@@ -312,7 +312,21 @@
 	.icon-down{
 		background: url(../images/part/layout-page/icon-down.png) 0 40px no-repeat;
 	}
-	
+	.icon-ip{
+		background: url(../images/part/layout-page/icon-ip.png) 0 40px no-repeat;
+	}
+	.icon-book{
+		background: url(../images/part/layout-page/icon-book.png) 0 40px no-repeat;
+	}
+	.icon-shop{
+		background: url(../images/part/layout-page/icon-shop.png) 0 40px no-repeat;
+	}
+	.icon-world{
+		background: url(../images/part/layout-page/icon-world.png) 0 40px no-repeat;
+	}
+	.icon-document{
+		background: url(../images/part/layout-page/icon-document.png) 0 40px no-repeat;
+	}
 }
 
 .page-pre{
@@ -395,6 +409,12 @@
 			top: 15px;
 		}
 	}
+	&.btn-detail{
+		padding: 0;
+		font-size: 11px;
+		color: #ff5a6c;
+		text-decoration: underline;
+	}
 	
 }
 .icon-next{
@@ -403,6 +423,14 @@
 	height: 24px;
 	vertical-align: middle;
 	background: url(../images/part/layout-page/icon-next.png) 50% 50% no-repeat;
+}
+.icon-detail{
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	vertical-align: middle;
+	background: url(../images/part/layout-page/icon-detail.png) 50% 50% no-repeat;
+	margin-right: 5px;
 	
 }
 .next-part-30{
@@ -411,31 +439,123 @@
 .next-part-20{
 	padding-top: 20px;
 }
+.next-part-10{
+	padding-top: 10px;
+}
 
-ol.bizcool{
-	li{
+.bizcool{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	border: 1px solid #eee;
+	box-sizing: content-box;
+	
+	&:after{
+		clear: both;
+		display: block;
+		content: '';
+	}
+	.pre-box,
+	.img-box{
+		position: relative;
+		width: 33.33%;
+		float: left;
+		height: 320px;
+		background-color: #fff;
 		a{
-			.img-box{
-				img{
-					
-				}
-				.text{
-					img{
-						
-					}
-				}
-			}
-			.pre-box{
-				.biz-tit{
-					
-				}
-				p{
-					
-				}
-				.btn-detail{
-					
-				}
-			}
+			display: block;
+			width: 100%;
+			height: 100%;
+			padding: 45px;
+		}
+	}
+	.img-box{
+		.text{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-left: -40px;
+			margin-top: -44px;
+		}
+	}
+	.pre-box{
+		width: 333px;
+		
+		p{
+			padding-top: 20px;
+			letter-spacing: -1px;
+			font-size: 12px;
+			line-height: 19px;
+			color: #888888;
+		}
+		.btn-detail{
+			margin-top: 20px;
+		}
+	}
+	&.boomup{
+		width: 66.66%;
+		margin: auto;
+		.pre-box,
+		.img-box{
+			width: 50%;
+		}
+		
+	}
+	
+	
+}
+.list-img-area{
+	padding-left: 10px;
+	ul{
+		&:after{
+			clear: both;
+			display: block;
+			content: '';
+		}
+		li{
+			width: 230px;
+			height: 160px;
+			float: left;
+			border-radius: 10px;
+			overflow: hidden;
+			padding: 5px;
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

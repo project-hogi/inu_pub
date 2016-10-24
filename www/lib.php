@@ -105,15 +105,15 @@ function getNavsToHtml($tab, $navs, $depth = 100, $curerntDepth = 1, $first = tr
 function getNavByDepth($pagePath, $depth = 1) {
 	$sitemap = getSitemap ( $pagePath );
 	
-	if ($depth == 0)
-		return $sitemap;
+	if ($depth < 0)
+		$depth = 0;
+	else
+		$depth -= 1;
 	
 	$pathIds = getPathIds ( $pagePath, $depth );
 	
 	if ($pathIds == null)
 		return null;
-	
-	$pathIds = array_splice ( $pathIds, 0, count ( $pathIds ) - 1 );
 	
 	$nav = findNavById ( $pathIds );
 	

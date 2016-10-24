@@ -7,8 +7,17 @@
 <?php require "part/header-sub.php"; ?>
 
 <div class="push-left">
-	<h3 class="left-title icon-board">
-		<span><strong class="point-db">일반인 </strong></span><span><span class="type-block"><strong>실천창업강좌</strong>를 </span></span><span>소개합니다.</span>
+	<h3 class="left-title">
+		<strong class="point-db">
+			<span class="under-line">일반인</span>
+		</strong><br>
+		<strong>
+			<span class="under-line">실천창업강좌</span>
+		</strong><br>
+		<span class="type-block">
+			<span class="under-line">소개합니다.</span>
+		</span>
+		<span class="icon-board"></span>
 	</h3>
 	<h4 class="page-pre first-letter">
 		<span class="first">인</span>천대학교 창업지원단에서 대학생들의 창업마인드를 고취시키고 학생창업이 활성화를 위한 창업강좌를	소개하고 실천방안 및 활성화방안을 안내합니다.

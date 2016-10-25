@@ -52,16 +52,34 @@
 				</ul>
 			</div>
 		<?php } else if(getDepthId($pagePath, 1) == "experience"){ ?>
-			<div class="tab">
-				<ul class="children-count-6">
-					<li<?php if(getDepthId($pagePath, 2) == "1" || !getDepthId($pagePath, 2)){ ?> class="active"<?php } ?>><a href="education-experience-1.php"><span>창업경진대회</span></a></li>
-					<li<?php if(getDepthId($pagePath, 2) == "2"){ ?> class="active"<?php } ?>><a href="education-experience-2.php"><span>대학생창업캠프</span></a></li>
-					<li<?php if(getDepthId($pagePath, 2) == "3"){ ?> class="active"<?php } ?>><a href="education-experience-3.php"><span>비즈쿨 프로그램</span></a></li>
-					<li<?php if(getDepthId($pagePath, 2) == "4"){ ?> class="active"<?php } ?>><a href="education-experience-4.php"><span>어린이 창업캠프</span></a></li>
-					<li<?php if(getDepthId($pagePath, 2) == "5"){ ?> class="active"<?php } ?>><a href="education-experience-5.php"><span>창업붐업이벤트</span></a></li>
-					<li<?php if(getDepthId($pagePath, 2) == "6"){ ?> class="active"<?php } ?>><a href="education-experience-6.php"><span>글로벌 창업</span></a></li>
-				</ul>
-			</div>
+			<?php if(getDepthId($pagePath, 2) == "1"){ ?>
+
+			<?php } else if(getDepthId($pagePath, 2) == "2"){ ?>
+
+			<?php } else if(getDepthId($pagePath, 2) == "3"){ ?>
+				<div class="tab">
+					<ul class="children-count-3">
+						<li<?php if(getDepthId($pagePath, 3) == "1" || !getDepthId($pagePath, 3)){ ?> class="active"<?php } ?>><a href="education-experience-3-1.php"><span>비즈쿨IP리더</span></a></li>
+						<li<?php if(getDepthId($pagePath, 3) == "2"){ ?> class="active"<?php } ?>><a href="education-experience-3-2.php"><span>비즈쿨 창업현장 연수</span></a></li>
+						<li<?php if(getDepthId($pagePath, 3) == "3"){ ?> class="active"<?php } ?>><a href="education-experience-3-3.php"><span>비즈쿨 드림콘서트</span></a></li>
+					</ul>
+				</div>
+			<?php } else if(getDepthId($pagePath, 2) == "4"){ ?>
+
+			<?php } else if(getDepthId($pagePath, 2) == "5"){ ?>
+				<div class="tab">
+					<ul class="children-count-2">
+						<li<?php if(getDepthId($pagePath, 3) == "1" || !getDepthId($pagePath, 3)){ ?> class="active"<?php } ?>><a href="education-experience-5-1.php"><span>한마당투어</span></a></li>
+						<li<?php if(getDepthId($pagePath, 3) == "2"){ ?> class="active"<?php } ?>><a href="education-experience-5-2.php"><span>창업페스티벌</span></a></li>
+					</ul>
+				</div>
+			<?php } else if(getDepthId($pagePath, 2) == "6"){ ?>
+
+			<?php } else if(getDepthId($pagePath, 2) == "7"){ ?>
+
+			<?php } ?>
+
+
 		<?php } else if(getDepthId($pagePath, 1) == "sk"){ ?>
 			<div class="tab">
 				<ul class="children-count-4">
@@ -73,7 +91,15 @@
 			</div>
 		<?php } ?>
 	<?php } else if(getDepthId($pagePath, 0) == "commercialization"){ ?>
-
+		<?php if(getDepthId($pagePath, 1) == "angel"){ ?>
+			<div class="tab">
+				<ul class="children-count-3">
+					<li<?php if(getDepthId($pagePath, 2) == "introduce" || !getDepthId($pagePath, 2)){ ?> class="active"<?php } ?>><a href="commercialization-angel-introduce.php"><span>엔젤클럽 소개</span></a></li>
+					<li<?php if(getDepthId($pagePath, 2) == "guide"){ ?> class="active"<?php } ?>><a href="commercialization-angel-guide.php"><span></span>IR 안내</a></li>
+					<li<?php if(getDepthId($pagePath, 2) == "cloud"){ ?> class="active"<?php } ?>><a href="commercialization-angel-cloud.php"><span></span>클라우드펀딩</a></li>
+				</ul>
+			</div>
+		<?php } ?>
 	<?php } else if(getDepthId($pagePath, 0) == "advice"){ ?>
 
 	<?php } else if(getDepthId($pagePath, 0) == "news"){ ?>

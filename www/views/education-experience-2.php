@@ -5,7 +5,6 @@
 <?php require "part/app-header.php"; ?>
 <?php require "part/header.php"; ?>
 <?php require "part/header-sub.php"; ?>
-
 <div class="push-left">
 	<h3 class="left-title">
 		<strong class="point-db">
@@ -70,10 +69,6 @@
 
 </div>
 <!-- /.push-left -->
-
-
-
-
 <?php require "part/footer-sub.php"; ?>
 <?php require "part/footer.php"; ?>
 <?php require "part/app-footer.php"; ?>

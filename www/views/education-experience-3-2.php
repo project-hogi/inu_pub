@@ -6,7 +6,7 @@
 <?php require "part/header.php"; ?>
 <?php require "part/header-sub.php"; ?>
 <div class="push-left">
-	<h3 class="left-title icon-write">
+	<h3 class="left-title">
 		<strong class="point-db">
 			<span class="under-line">비즈쿨</span>
 		</strong><br>
@@ -16,7 +16,7 @@
 		<span class="type-block">
 			<span class="under-line">안내</span>
 		</span>
-		<span class="icon-book"></span>
+		<span class="icon-write"></span>
 	</h3>
 	<h5 class="point-title">
 		지원대상

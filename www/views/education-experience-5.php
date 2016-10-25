@@ -7,7 +7,7 @@
 <?php require "part/header-sub.php"; ?>
 	<div class="bizcool boomup">
 		<div class="pre-box">
-			<a href="education-experience-4-1.php">
+			<a href="education-experience-5-1.php">
 				<h3 class="biz-tit"><img src="<?php echo $config["imageDir"]; ?>/part/content/education/boomup-1-h3.png"><span class="sr-only">비즈쿨<strong>IP리더</strong></span></h3>
 				<p>예비창업자 학생들이 관심 있는 분야의<br>
 					CEO와 함께 소통할 수 있는 기회의 장을<br>
@@ -28,7 +28,7 @@
 		</span>
 		</div>
 		<div class="pre-box">
-			<a href="education-experience-4-2.php">
+			<a href="education-experience-5-2.php">
 				<h3 class="biz-tit"><img src="<?php echo $config["imageDir"]; ?>/part/content/education/boomup-2-h3.png"><span class="sr-only">비즈쿨<strong>드림콘서트</strong></span></h3>
 				<p>창업게 관심 있는 학생 및 일반으로<br>
 					파트를 구성, 해당 분야의 창업페스티벌<br>

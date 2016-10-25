@@ -187,9 +187,9 @@ $sitemap = [
 								id => "angel",
 								children => [
 										[
-											"url" => "commercialization-angel-itroduce.php",
+											"url" => "commercialization-angel-introduce.php",
 											name => "엔젤클럽 소개",
-											id => "itroduce",
+											id => "introduce",
 										],
 										[
 											"url" => "commercialization-angel-guide.php",
@@ -284,11 +284,87 @@ $sitemap = [
 		[
 				"url" => "news.php",
 				name => "창업소식",
-				id => "news"
+				id => "news",
+				children => [
+						[
+								"url" => "news-report.php",
+								name => "창업소식",
+								id => "report",
+								children => [
+										[
+												"url" => "news-report-enterprise.php",
+												name => "공지사항",
+												id => "enterprise",
+										],
+										[
+												"url" => "news-report-marketing.php",
+												name => "창업뉴스",
+												id => "marketing",
+										],
+										[
+												"url" => "news-report-supporter.php",
+												name => "창업서포터즈",
+												id => "supporter",
+										],
+										[
+												"url" => "news-report-schedule.php",
+												name => "행사일정",
+												id => "schedule",
+										]
+								]
+						],
+						[
+								"url" => "news-job.php",
+								name => "구인정보",
+								id => "job",
+						],
+						[
+								"url" => "news-rule.php",
+								name => "창업법규정",
+								id => "rule",
+						]
+				]
 		],
 		[
 				"url" => "introduce.php",
 				name => "창업지원단 소개",
-				id => "introduce"
+				id => "introduce",
+				children => [
+						[
+								"url" => "introduce-greeting.php",
+								name => "인사말",
+								id => "greeting"
+						],
+						[
+								"url" => "introduce-place.php",
+								name => "시설안내(창업카페)",
+								id => "place",
+						],
+						[
+								"url" => "introduce-vision.php",
+								name => "비전 및 목표",
+								id => "vision",
+						],
+						[
+								"url" => "introduce-history.php",
+								name => "연혁",
+								id => "history"
+						],
+						[
+								"url" => "introduce-work.php",
+								name => "주요업무",
+								id => "work",
+						],
+						[
+								"url" => "introduce-people.php",
+								name => "조직도",
+								id => "people",
+						],
+						[
+								"url" => "introduce-way.php",
+								name => "오시는길",
+								id => "way",
+						]
+				]
 		] 
 ];

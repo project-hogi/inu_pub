@@ -17,8 +17,9 @@
 		<span class="type-block">
 			<span class="under-line">소개합니다.</span>
 		</span>
+		<span class="icon-tablet"></span>
 	</h3>
-	<h4 class="page-pre first-letter">
+	<h4 class="page-pre first-letter disable-underline">
 		<span class="first">인</span>천대학교 창업지원단에서 창업친화적 학사제도를 운영 다양한 창업지원서비스를	운영하고 있습니다.
 	</h4>
 

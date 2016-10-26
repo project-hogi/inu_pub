@@ -7,7 +7,7 @@
 <?php require "part/header-sub.php"; ?>
 
 
-<a href="incubating-benefit-join.php" class="btn btn-xl btn-primary">가입하기</a>
+
 
 
 <?php require "part/footer-sub.php"; ?>

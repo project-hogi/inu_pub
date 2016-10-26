@@ -11,9 +11,9 @@
 			<?php for($i = 1; $i < 10; $i++){ ?>
 				<?php
 				$nav = getNavByDepth($pagePath, $i);
-				
+
 				if($nav){
-				?>
+					?>
 					<li class="has-children">
 						<a href="#"><?php echo $nav["name"]; ?></a>
 						<?php echo getNavsToHtml("", getNavsByDepth($pagePath, $i - 1), 1); ?>
@@ -95,16 +95,48 @@
 			<div class="tab">
 				<ul class="children-count-3">
 					<li<?php if(getDepthId($pagePath, 2) == "introduce" || !getDepthId($pagePath, 2)){ ?> class="active"<?php } ?>><a href="commercialization-angel-introduce.php"><span>엔젤클럽 소개</span></a></li>
-					<li<?php if(getDepthId($pagePath, 2) == "guide"){ ?> class="active"<?php } ?>><a href="commercialization-angel-guide.php"><span></span>IR 안내</a></li>
-					<li<?php if(getDepthId($pagePath, 2) == "cloud"){ ?> class="active"<?php } ?>><a href="commercialization-angel-cloud.php"><span></span>클라우드펀딩</a></li>
+					<li<?php if(getDepthId($pagePath, 2) == "guide"){ ?> class="active"<?php } ?>><a href="commercialization-angel-guide.php"><span>IR 안내</span></a></li>
+					<li<?php if(getDepthId($pagePath, 2) == "cloud"){ ?> class="active"<?php } ?>><a href="commercialization-angel-cloud.php"><span>클라우드펀딩</span></a></li>
 				</ul>
 			</div>
 		<?php } ?>
 	<?php } else if(getDepthId($pagePath, 0) == "advice"){ ?>
+		<?php if(getDepthId($pagePath, 1) == "counsel"){ ?>
+			<div class="tab">
+				<ul class="children-count-7">
+					<li<?php if(getDepthId($pagePath, 2) == "1" || !getDepthId($pagePath, 2)){ ?> class="active"<?php } ?>><a href="advice-counsel-1.php"><span>전체</span></a></li>
+					<li<?php if(getDepthId($pagePath, 2) == "2"){ ?> class="active"<?php } ?>><a href="advice-counsel-2.php"><span>사업화<span class="small">(아이디어구체화/기술)</span></span></a></li>
+					<li<?php if(getDepthId($pagePath, 2) == "3"){ ?> class="active"<?php } ?>><a href="advice-counsel-3.php"><span>마케팅<span class="small">(판로개척/홍보전략)</span></span></a></li>
+					<li<?php if(getDepthId($pagePath, 2) == "4"){ ?> class="active"<?php } ?>><a href="advice-counsel-4.php"><span>재무관리<span class="small">(회계/세무)</span></span></a></li>
+					<li<?php if(getDepthId($pagePath, 2) == "5"){ ?> class="active"<?php } ?>><a href="advice-counsel-5.php"><span>보증/기술금융보증</span></a></li>
+					<li<?php if(getDepthId($pagePath, 2) == "6"){ ?> class="active"<?php } ?>><a href="advice-counsel-6.php"><span>투자/IR<span class="small">(투자유치/투자연계)</span></span></a></li>
+					<li<?php if(getDepthId($pagePath, 2) == "7"){ ?> class="active"<?php } ?>><a href="advice-counsel-7.php"><span>법률/지재권<span class="small">(특허/창업절차)</span></span></a></li>
+				</ul>
+			</div>
+		<?php } ?>
+
 
 	<?php } else if(getDepthId($pagePath, 0) == "news"){ ?>
 
 	<?php } else if(getDepthId($pagePath, 0) == "introduce"){ ?>
 
+	<?php } else if(getDepthId($pagePath, 0) == "membership"){ ?>
+		<h2 class="page-title">회원가입</h2>
+		<div class="breadcrumb">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">뎁스1</a></li>
+				<li><a href="#">뎁스2</a></li>
+				<li><a href="#">뎁스3</a></li>
+			</ul>
+		</div>
+		<div class="tab">
+			<ul class="children-count-4 arrow-type">
+				<li<?php if(getDepthId($pagePath, 1) == "terms" || !getDepthId($pagePath, 1)){ ?> class="active"<?php } ?>><a href="membership-terms.php"><span><span class="number">01</span>이용약관</span></a></li>
+				<li<?php if(getDepthId($pagePath, 1) == "certify"){ ?> class="active"<?php } ?>><a href="membership-certify.php"><span><span><span class="number">02</span>가입인증</span></a></li>
+				<li<?php if(getDepthId($pagePath, 1) == "input"){ ?> class="active"<?php } ?>><a href="membership-input.php"><span><span><span class="number">03</span>정보입력</span></a></li>
+				<li<?php if(getDepthId($pagePath, 1) == "finish"){ ?> class="active"<?php } ?>><a href="membership-finish.php"><span><span><span class="number">04</span>가입완료</span></a></li>
+			</ul>
+		</div>
 	<?php } ?>
 	<div id="content">

@@ -221,9 +221,9 @@ $sitemap = [
 								id => "benefit",
 						],
 						[
-								"url" => "incubating-guide.php",
-								name => "입주기업 안내",
-								id => "guide",
+								"url" => "incubating-inu.php",
+								name => "INU 입주기업",
+								id => "inu",
 						]
 				]
 		],
@@ -237,35 +237,41 @@ $sitemap = [
 								name => "창업상담",
 								id => "counsel",
 								children => [
+
 										[
-												"url" => "advice-counsel-enterprise.php",
-												name => "사업화",
-												id => "enterprise",
+											"url" => "advice-counsel-1.php",
+											name => "창업상담",
+											id => "1",
 										],
 										[
-												"url" => "advice-counsel-marketing.php",
-												name => "마케팅",
-												id => "marketing",
+											"url" => "advice-counsel-2.php",
+											name => "사업화",
+											id => "2",
 										],
 										[
-												"url" => "advice-counsel-finance.php",
-												name => "재무관리",
-												id => "finance",
+											"url" => "advice-counsel-3.php",
+											name => "마케팅",
+											id => "3",
 										],
 										[
-												"url" => "advice-counsel-surety.php",
-												name => "보증, 기술금융보증",
-												id => "surety",
+											"url" => "advice-counsel-4.php",
+											name => "재무관리",
+											id => "4",
 										],
 										[
-												"url" => "advice-counsel-invest.php",
-												name => "투자, IR",
-												id => "invest",
+											"url" => "advice-counsel-5.php",
+											name => "보증, 기술금융보증",
+											id => "5",
 										],
 										[
-												"url" => "advice-counsel-law.php",
-												name => "법률, 지재권",
-												id => "law",
+											"url" => "advice-counsel-6.php",
+											name => "투자, IR",
+											id => "6",
+										],
+										[
+											"url" => "advice-counsel-7.php",
+											name => "법률, 지재권",
+											id => "7",
 										]
 								]
 						],
@@ -366,5 +372,6 @@ $sitemap = [
 								id => "way",
 						]
 				]
-		] 
+		]
+
 ];

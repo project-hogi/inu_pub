@@ -2,145 +2,227 @@
 
 (function($) {
 
-	$(document).on("appinitOnce", function() {
-		$("body.layout-index").each(function() {
-			$(".lnb>ul>li:first-child").addClass("active");
-		});
-	});
-
 	$(document).on("appinit", function() {
 		$("body.layout-index").each(function() {
-			$(".scene-content-container img[usemap]").eachReadyScope(function() {
-				$(this).rwdImageMaps();
-			});
-
-			$(".scene-container-wrap").eachReadyScope(function() {
-				var $obj = $(this);
-				var $control = $(".lnb");
-				var $controlAs = $control.find(">ul>li>a");
-				var $next = $obj.find(".next");
-				var $sceneBgContainer = $obj.find(".scene-bg-container");
-				var $sceneBgEq0 = $sceneBgContainer.find(".scene-0");
-				var $sceneContentContainer = $obj.find(".scene-content-container");
-				var $sceneContentEq0 = $sceneContentContainer.find(".scene-0");
-				var $siteLogo = $(".site-logo");
-				var activeSceneIndex = 0;
-				var lastTriggingMousewheelDatetime = null;
-				var lastTriggingMousewheelPosition = null;
-				var sceneSize = $controlAs.size();
-				var sceneHeight = $obj.height();
-
-				$(window).on("resized", function() {
-					sceneHeight = $obj.height();
-					runAnimation();
+			$(".visual").each(function() {
+				var $visual = $(this);
+				var $cycle = $(".visual-content", $visual);
+				var options = {
+					slides : ">div",
+					timeout : 2400,
+					fx : "scrollHorz",
+					easing : "easeInOutExpo",
+					speed : 1200,
+					log : false,
+					pauseOnHover : false,
+					pagerActiveClass : "active"
+				};
+				var $prev = $(".visual-prev").each(function() {
+					options.prev = this;
+				});
+				var $next = $(".visual-next").each(function() {
+					options.next = this;
 				});
 
-				$siteLogo.on("click", function(event) {
-					if (!$obj.filter(":visible").size())
-						return;
+				setTimeout(function() {
+					$next.trigger("click");
+				}, 800);
 
+				var $pager = $(".visual-pager", $visual).each(function() {
+					options.pager = this;
+					options.pagerTemplate = "<a href=\"#{{slideNum}}\"><span><span class=\"sr-only\">{{slideNum}}</span></span></a>";
+					options.pagerEvent = "mouseover";
+				}).on("click", "a", function(event) {
+					event.preventDefault();
+				});
+				var $pause = $(".visual-pause", $visual).on("click", function(event) {
 					event.preventDefault();
 
-					run(0);
-				});
+					var $this = $(this);
 
-				$control.on("mouseover", ">ul>li>a", function(event) {
-					if (!$obj.filter(":visible").size())
-						return;
-
-					event.preventDefault();
-
-					var index = $controlAs.index(this);
-
-					run(index);
-				});
-
-				$next.on("click", function(event) {
-					event.preventDefault();
-
-					if (activeSceneIndex < sceneSize - 1)
-						run(activeSceneIndex + 1);
-				});
-
-				$(window).on("mousewheel DOMMouseScroll", function(event) {
-					if (!$obj.filter(":visible").size())
-						return;
-
-					var position = null;
-
-					if (event && event.originalEvent && event.originalEvent.deltaY)
-						position = event.originalEvent.deltaY >= 0 ? 1 : -1;
-					else if (event && event.originalEvent && event.originalEvent.wheelDelta)
-						position = event.originalEvent.wheelDelta <= 0 ? 1 : -1;
-					else
-						return;
-
-					if ((lastTriggingMousewheelPosition == null || lastTriggingMousewheelPosition != null && position == lastTriggingMousewheelPosition) && lastTriggingMousewheelDatetime != null && new Date().getTime() - lastTriggingMousewheelDatetime < 600)
-						return;
-
-					var index = activeSceneIndex;
-
-					if (position === 1) {
-						if (activeSceneIndex < sceneSize - 1)
-							index = activeSceneIndex + 1;
+					if ($this.hasClass("active")) {
+						$this.removeClass("active");
+						$cycle.cycle("resume");
 					} else {
-						if (activeSceneIndex > 0)
-							index = activeSceneIndex - 1;
+						$this.addClass("active");
+						$cycle.cycle("pause");
 					}
+				});
+				var $nav = $(".visual-nav", $visual);
+				var $navControls = $nav.find("a");
 
-					run(index);
+				$nav.on("click", "a", function(event) {
+					event.preventDefault();
 
-					lastTriggingMousewheelDatetime = new Date().getTime();
-					lastTriggingMousewheelPosition = position;
+					var index = $navControls.index(this);
+
+					$pager.find("a").eq(index).trigger("mouseover");
+				});
+				$cycle.on("cycle-before", function(event, optionHash, outgoingSlideEl, incomingSlideEl, forwardFlag) {
+					var index = $cycle.find(">div").index(incomingSlideEl) - 1;
+
+					$navControls.parent().removeClass("active").eq(index).addClass("active");
 				});
 
-				function run(index) {
-					if (!$obj.filter(":visible").size())
-						return;
+				$cycle.cycle(options);
 
-					if (index === null || activeSceneIndex === index)
-						return;
+				$(document).one("appDestroy", function() {
+					$cycle.cycle("destroy");
+				});
+			});
+			$(".articles").each(function() {
+				var $articles = $(this);
+				var $cycle = $(".articles-content .eq-0", $articles);
+				var $cycle2 = $(".articles-content .eq-1", $articles);
+				var $cycle3 = $(".articles-content .eq-2", $articles);
+				var options = {
+					slides : ">a",
+					timeout : 2400,
+					fx : "scrollHorz",
+					easing : "easeInOutExpo",
+					speed : 1200,
+					log : false,
+					pauseOnHover : false,
+					pagerActiveClass : "active"
+				};
+				var options2 = {
+					slides : ">a",
+					timeout : 2400,
+					fx : "scrollHorz",
+					easing : "easeInOutExpo",
+					speed : 1200,
+					log : false,
+					pauseOnHover : false,
+					pagerActiveClass : "active",
+					paused : true
+				};
+				var $prev = $(".articles-prev").each(function() {
+					options.prev = this;
+				});
+				var $next = $(".articles-next").each(function() {
+					options.next = this;
+				});
 
-					activeSceneIndex = index;
+				setTimeout(function() {
+					$next.trigger("click");
+				}, 800);
 
-					$controlAs.parent().removeClass("active");
-					$controlAs.eq(activeSceneIndex).parent().addClass("active");
+				var $pager = $(".articles-pager", $articles).each(function() {
+					options.pager = this;
+					options.pagerTemplate = "";
+					options.pagerEvent = "mouseover";
+				}).on("click", "a", function(event) {
+					event.preventDefault();
+				});
+				$articles.on("mouseenter", function() {
+					$cycle.cycle("pause");
+				});
+				$articles.on("mouseleave", function() {
+					$cycle.cycle("resume");
+				});
 
-					if (activeSceneIndex >= sceneSize - 1)
-						$next.removeClass("active");
-					else
-						$next.addClass("active");
+				var cycle2TimeoutId = null;
+				var cycle3TimeoutId = null;
 
-					$sceneBgContainer.removeClass("active").eq(activeSceneIndex).addClass("active");
-					$sceneContentContainer.removeClass("active").eq(activeSceneIndex).addClass("active");
+				$cycle.on("cycle-before", function(event, optionHash, outgoingSlideEl, incomingSlideEl, forwardFlag) {
+					var index = $cycle.find(">a").index(incomingSlideEl) - 1;
 
-					runAnimation();
-				}
+					if (cycle2TimeoutId != null)
+						clearTimeout(cycle2TimeoutId);
 
-				function runAnimation() {
-					if (!$obj.filter(":visible").size())
-						return;
+					cycle2TimeoutId = setTimeout(function() {
+						$cycle2.cycle('goto', index);
 
-					var targetPosition = activeSceneIndex * sceneHeight * -1;
-					var duration = 400;
-					var top = parseInt($sceneBgEq0.css("margin-top"));
+						if (cycle3TimeoutId != null)
+							clearTimeout(cycle3TimeoutId);
 
-					duration += Math.round(Math.abs(targetPosition - top) / sceneHeight * 300);
+						cycle3TimeoutId = setTimeout(function() {
+							$cycle3.cycle('goto', index);
+						}, 120);
+					}, 120);
+				});
 
-					$sceneBgEq0.stop().animate({
-						"margin-top" : targetPosition
-					}, {
-						duration : duration,
-						easing : "easeInOutExpo"
-					});
+				$cycle.cycle(options);
+				$cycle2.cycle(options2);
+				$cycle3.cycle(options2);
 
-					$sceneContentEq0.stop().animate({
-						"margin-top" : targetPosition
-					}, {
-						duration : Math.round(duration * 1.2),
-						easing : "easeInOutExpo"
-					});
-				}
+				$(document).one("appDestroy", function() {
+					$cycle.cycle("destroy");
+				});
+			});
+			$(".section-news").each(function() {
+				var $news = $(this);
+				var $cycle = $(".section-news-content>li:eq(0)>ul", $news);
+				var $cycle2 = $(".section-news-content>li:eq(1)>ul", $news);
+				var $cycle3 = $(".section-news-content>li:eq(2)>ul", $news);
+				var options = {
+					slides : ">li",
+					timeout : 2400,
+					fx : "scrollVert",
+					easing : "easeInOutExpo",
+					speed : 1200,
+					log : false,
+					pauseOnHover : false,
+					pagerActiveClass : "active"
+				};
+				var options2 = {
+					slides : ">li",
+					timeout : 2400,
+					fx : "scrollVert",
+					easing : "easeInOutExpo",
+					speed : 1200,
+					log : false,
+					pauseOnHover : false,
+					pagerActiveClass : "active",
+					paused : true
+				};
+
+				setTimeout(function() {
+					$cycle.cycle("next");
+				}, 800);
+
+				var $pager = $(".section-news-pager", $news).each(function() {
+					options.pager = this;
+					options.pagerTemplate = "<a href=\"#{{slideNum}}\"><span><span class=\"sr-only\">{{slideNum}}</span></span></a>";
+					options.pagerEvent = "mouseover";
+				}).on("click", "a", function(event) {
+					event.preventDefault();
+				});
+				$news.on("mouseenter", function() {
+					$cycle.cycle("pause");
+				});
+				$news.on("mouseleave", function() {
+					$cycle.cycle("resume");
+				});
+
+				var cycle2TimeoutId = null;
+				var cycle3TimeoutId = null;
+
+				$cycle.on("cycle-before", function(event, optionHash, outgoingSlideEl, incomingSlideEl, forwardFlag) {
+					var index = $cycle.find(">li").index(incomingSlideEl) - 1;
+
+					if (cycle2TimeoutId != null)
+						clearTimeout(cycle2TimeoutId);
+
+					cycle2TimeoutId = setTimeout(function() {
+						$cycle2.cycle('goto', index);
+
+						if (cycle3TimeoutId != null)
+							clearTimeout(cycle3TimeoutId);
+
+						cycle3TimeoutId = setTimeout(function() {
+							$cycle3.cycle('goto', index);
+						}, 120);
+					}, 120);
+				});
+
+				$cycle.cycle(options);
+				$cycle2.cycle(options2);
+				$cycle3.cycle(options2);
+
+				$(document).one("appDestroy", function() {
+					$cycle.cycle("destroy");
+				});
 			});
 		});
 	});

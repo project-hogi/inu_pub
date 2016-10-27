@@ -93,7 +93,7 @@ function getNavsToHtml($tab, $navs, $depth = 100, $curerntDepth = 1, $first = tr
 		$html .= ($hasChildren ? $tab . "\t\t" : null) . "<a href=\"" . $nav ["url"] . "\">" . $nav ["name"] . "</a>" . ($hasChildren ? "\r\n" : null);
 		
 		if ($hasChildren && $depth > $curerntDepth)
-			$html .= getNavsToHtml ( $tab . "\t\t", $nav ["children"], $depth, $currentDepth + 1, false );
+			$html .= getNavsToHtml ( $tab . "\t\t", $nav ["children"], $depth, $curerntDepth + 1, false );
 		
 		$html .= ($hasChildren ? $tab . "\t" : null) . "</li>\r\n";
 	}

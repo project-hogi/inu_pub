@@ -36,7 +36,7 @@
 		<li><strong>진행절차</strong></li>
 	</ul>
 
-	<div class="design-box-2">
+	<div class="design-box-2 next-part-10">
 		<div class="main-content">
 			<table class="table-design-box arrow-style">
 				<col width="33.33%">

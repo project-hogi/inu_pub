@@ -119,7 +119,22 @@
 	<?php } else if(getDepthId($pagePath, 0) == "news"){ ?>
 
 	<?php } else if(getDepthId($pagePath, 0) == "introduce"){ ?>
+		<?php if(getDepthId($pagePath, 1) == "greeting"){ ?>
 
+		<?php } else if(getDepthId($pagePath, 1) == "place"){ ?>
+
+		<?php } else if(getDepthId($pagePath, 1) == "vision"){ ?>
+
+		<?php } else if(getDepthId($pagePath, 1) == "history"){ ?>
+
+		<?php } else if(getDepthId($pagePath, 1) == "work"){ ?>
+
+		<?php } else if(getDepthId($pagePath, 1) == "people"){ ?>
+
+		<?php } else if(getDepthId($pagePath, 1) == "way"){ ?>
+			<img src="<?php echo $config["imageDir"]; ?>/part/content/introduce/way/map.jpg" alt="vision mission stratege effect 차트">
+
+		<?php } ?>
 	<?php } else if(getDepthId($pagePath, 0) == "membership"){ ?>
 		<h2 class="page-title">회원가입</h2>
 		<div class="breadcrumb">
@@ -138,5 +153,118 @@
 				<li<?php if(getDepthId($pagePath, 1) == "finish"){ ?> class="active"<?php } ?>><a href="membership-finish.php"><span><span><span class="number">04</span>가입완료</span></a></li>
 			</ul>
 		</div>
+	<?php } else if(getDepthId($pagePath, 0) == "member"){ ?>
+		<?php if(getDepthId($pagePath, 1) == "login"){ ?>
+			<h2 class="page-title">로그인</h2>
+			<div class="breadcrumb">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">뎁스1</a></li>
+					<li><a href="#">뎁스2</a></li>
+					<li><a href="#">뎁스3</a></li>
+				</ul>
+			</div>
+		<?php } else if(getDepthId($pagePath, 1) == "findid"){ ?>
+			<h2 class="page-title">아이디 찾기</h2>
+			<div class="breadcrumb">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">뎁스1</a></li>
+					<li><a href="#">뎁스2</a></li>
+					<li><a href="#">뎁스3</a></li>
+				</ul>
+			</div>
+		<?php } else if(getDepthId($pagePath, 1) == "findpw"){ ?>
+			<h2 class="page-title">비밀번호 찾기</h2>
+			<div class="breadcrumb">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">뎁스1</a></li>
+					<li><a href="#">뎁스2</a></li>
+					<li><a href="#">뎁스3</a></li>
+				</ul>
+			</div>
+		<?php } ?>
 	<?php } ?>
 	<div id="content">
+
+		<?php if(getDepthId($pagePath, 0) == "education"){ ?>
+
+		<?php } else if(getDepthId($pagePath, 0) == "introduce"){ ?>
+			<?php if(getDepthId($pagePath, 1) == "greeting"){ ?>
+				<div class="content-left-title">
+					<img src="<?php echo $config["imageDir"]; ?>/part/content/introduce/greeting/greeting-title.png" alt="대한민국 미래를 짊어질 청년 여러분! 대한민국의 미래는 여러분의 도전정신에 달려있습니다.">
+				</div>
+			<?php } else if(getDepthId($pagePath, 1) == "place"){ ?>
+
+			<?php } else if(getDepthId($pagePath, 1) == "vision"){ ?>
+				<div class="content-left-title">
+					<h3 class="left-title">
+						<strong class="point-db">
+							<span class="under-line">동북아<span class="normal">최고</span></span>
+						</strong><br>
+						<strong>
+							<span class="under-line">청년창업<span class="normal">의</span></span>
+						</strong><br>
+						<span class="type-block">
+							<span class="under-line">메카!</span>
+						</span>
+						<span class="icon-world-best"></span>
+					</h3>
+				</div>
+			<?php } else if(getDepthId($pagePath, 1) == "history"){ ?>
+				<div class="content-left-title">
+					<h3 class="left-title">
+						<strong class="point-db">
+							<span class="under-line">체계적인<span class="normal">창업</span></span>
+						</strong><br>
+						<strong>
+							<span class="under-line">지원<span class="normal">프로그램</span></span>
+						</strong><br>
+						<span class="type-block">
+							<span class="under-line">운영!</span>
+						</span>
+						<span class="icon-factory"></span>
+					</h3>
+				</div>
+			<?php } else if(getDepthId($pagePath, 1) == "work"){ ?>
+				<div class="content-left-title">
+					<h3 class="left-title">
+						<strong class="point-db">
+							<span class="under-line">창업클러스터<span class="normal"></span></span>
+						</strong><br>
+						<strong>
+							<span class="under-line">기업가<span class="normal">정신의</span></span>
+						</strong><br>
+						<span class="type-block">
+							<span class="under-line">활성화!</span>
+						</span>
+						<span class="icon-cube"></span>
+					</h3>
+				</div>
+			<?php } else if(getDepthId($pagePath, 1) == "people"){ ?>
+				<div class="content-left-title">
+					<h3 class="left-title">
+						<strong class="point-db">
+							<span class="under-line">체계적인<span class="normal"></span></span>
+						</strong><br>
+						<strong>
+							<span class="under-line">창업지원<span class="normal">을 위한</span></span>
+						</strong><br>
+						<span class="type-block">
+							<span class="under-line">맨파워!</span>
+						</span>
+						<span class="icon-clipboard"></span>
+					</h3>
+				</div>
+			<?php } else if(getDepthId($pagePath, 1) == "way"){ ?>
+				<div class="content-left-title">
+					<h3 class="way-title">
+						<span class="sr-only">
+							<span class="point">미래</span>를 향한 첫 발걸음<br>인천대 창업지원단!
+						</span>
+					</h3>
+					</h3>
+				</div>
+			<?php } ?>
+		<?php } ?>

@@ -114,8 +114,6 @@
 				</ul>
 			</div>
 		<?php } ?>
-
-
 	<?php } else if(getDepthId($pagePath, 0) == "news"){ ?>
 
 	<?php } else if(getDepthId($pagePath, 0) == "introduce"){ ?>
@@ -132,7 +130,7 @@
 		<?php } else if(getDepthId($pagePath, 1) == "people"){ ?>
 
 		<?php } else if(getDepthId($pagePath, 1) == "way"){ ?>
-			<img src="<?php echo $config["imageDir"]; ?>/part/content/introduce/way/map.jpg" alt="vision mission stratege effect 차트">
+			<img src="/resources/front/images/part/content/introduce/way/map.jpg" alt="vision mission stratege effect 차트">
 
 		<?php } ?>
 	<?php } else if(getDepthId($pagePath, 0) == "membership"){ ?>

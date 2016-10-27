@@ -5,7 +5,6 @@
 <?php require "part/app-header.php"; ?>
 <?php require "part/header.php"; ?>
 <?php require "part/header-sub.php"; ?>
-
 <div class="push-left">
 	<h3 class="left-title">
 		<strong class="point-db">
@@ -22,8 +21,6 @@
 	<h4 class="page-pre first-letter disable-underline">
 		<span class="first">인</span>천대학교 창업지원단에서 창업친화적 학사제도를 운영 다양한 창업지원서비스를	운영하고 있습니다.
 	</h4>
-
-
 	<table class="table-primary table-striped last-left">
 		<col width="90px">
 		<col width="90px">
@@ -82,35 +79,8 @@
 		</tr>
 		</tbody>
 	</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 <!-- /.push-left -->
-
-
-
-
 <?php require "part/footer-sub.php"; ?>
 <?php require "part/footer.php"; ?>
 <?php require "part/app-footer.php"; ?>

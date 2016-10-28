@@ -70,6 +70,8 @@
 				$familysite.removeClass("active");
 			});
 		});
+
 	});
+
 
 })(jQuery);

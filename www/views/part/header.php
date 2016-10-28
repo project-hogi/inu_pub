@@ -25,10 +25,11 @@
 			<div class="container">
 				<p class="sr-only"><strong>창업사업화에서 다양한 창업관련 콘텐츠를 제공합니다.</strong><br>
 					인천대학교 창업지원단의 창업관련 서비스를 만나보세요!</p>
-				<a href="#close" class="close"><span class="sr-only">닫기</span></a>
+				<a href="#close" class="close-panel"><span class="sr-only">닫기</span></a>
 			</div>
 		</div>
 	</div>
+	<div class="header-over-panel-bg"></div>
 	<div id="container">
 		<div>
 <!-- //Header.html -->

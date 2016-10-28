@@ -138,6 +138,64 @@
 			}
 		});
 
+		$(".sitemap").eachReadyScope(function() {
+			var $sitemap = $(this);
+			var $sitemapCont = $sitemap.find(".cont");
+			var timeoutId = null;
+
+			$("a.open-sitemap").on("click", function(event) {
+				event.preventDefault();
+
+				open();
+			});
+			$sitemap.find(">.bg").on("click", function() {
+				close();
+			});
+			$sitemap.find("a.close-sitemap").on("click", function(event) {
+				event.preventDefault();
+
+				close();
+			});
+			$sitemap.on("click", "ul a", function(event) {
+				$sitemap.find("li").removeClass("active");
+				$(this).parents("li").addClass("active");
+				close();
+			});
+
+			$(window).on("resized.sitemap", function() {
+				$sitemapCont.height($sitemap.height());
+			}).triggerHandler("resized.sitemap");
+
+			function open() {
+				if ($sitemap.hasClass("active"))
+					return;
+
+				clearTimeout(timeoutId);
+				$.scrollLock();
+				$sitemap.show();
+
+				timeoutId = setTimeout(function() {
+					$sitemap.addClass("active");
+				}, 10);
+			}
+			function close() {
+				if (!$sitemap.hasClass("active"))
+					return;
+
+				clearTimeout(timeoutId);
+				$sitemap.removeClass("active");
+
+				timeoutId = setTimeout(function() {
+					$sitemap.hide();
+					$.scrollLock("unlock");
+				}, 300);
+			}
+
+			$(document).on("esc", function() {
+				close();
+			});
+		});
+
 	});
 
 })(jQuery);

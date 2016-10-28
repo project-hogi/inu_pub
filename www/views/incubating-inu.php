@@ -10,7 +10,7 @@
 		<ul>
 			<li>
 				<div class="img-area">
-					<img src="<?php echo $config["imageDir"]; ?>/part/content/incubating/buzzpia.png" alt="buzzpia">
+					<img src="/resources/front/images/part/content/incubating/buzzpia.png" alt="buzzpia">
 				</div>
 				<div class="pre-area">
 					<h3 class="title"><span class="title-type">업체명</span><span class="tit">(주)버즈피아</span></h3>
@@ -19,14 +19,14 @@
 					<p class="homepage">홈페이지 : <a href="http://www.buzzpia.com/" target="_blank">http://www.buzzpia.com/</a></p>
 					<p class="item">아이템 : 안드로이드 OS 오픈형 런처 플랫폼인 버즈런처, 홈팩버즈  서비스</p>
 					<div class="detail-group">
-						<a href="#" class="btn btn-detail-popup" type="button" data-toggle="modal" data-target="#board-incubating-detail"><span>상세보기</span></a>
+						<a href="#none" class="btn btn-detail-popup" type="button" data-toggle="modal" data-target="#board-incubating-detail"><span>상세보기</span></a>
 						<a href="http://www.buzzpia.com/" target="_blank" class="btn btn-homepage" type="button"><span>홈페이지</span></a>
 					</div>
 				</div>
 			</li>
 			<li>
 				<div class="img-area">
-					<img src="<?php echo $config["imageDir"]; ?>/part/content/incubating/onnet.png" alt="onnet">
+					<img src="/resources/front/images/part/content/incubating/onnet.png" alt="onnet">
 				</div>
 				<div class="pre-area">
 					<h3 class="title"><span class="title-type">업체명</span><span class="tit">주식회사 온네트</span></h3>
@@ -42,7 +42,7 @@
 			</li>
 			<li>
 				<div class="img-area">
-					<img src="<?php echo $config["imageDir"]; ?>/part/content/incubating/dialoio.png" alt="dialoid">
+					<img src="/resources/front/images/part/content/incubating/dialoio.png" alt="dialoid">
 				</div>
 				<div class="pre-area">
 					<h3 class="title"><span class="title-type">업체명</span><span class="tit">다이알로이드(주)</span></h3>
@@ -58,7 +58,7 @@
 			</li>
 			<li>
 				<div class="img-area">
-					<img src="<?php echo $config["imageDir"]; ?>/part/content/incubating/imageon.png" alt="imageon">
+					<img src="/resources/front/images/part/content/incubating/imageon.png" alt="imageon">
 				</div>
 				<div class="pre-area">
 					<h3 class="title"><span class="title-type">업체명</span><span class="tit">이미지온(주)</span></h3>
@@ -74,7 +74,7 @@
 			</li>
 			<li>
 				<div class="img-area">
-					<img src="<?php echo $config["imageDir"]; ?>/part/content/incubating/tnk.png" alt="tnk">
+					<img src="/resources/front/images/part/content/incubating/tnk.png" alt="tnk">
 				</div>
 				<div class="pre-area">
 					<h3 class="title"><span class="title-type">업체명</span><span class="tit">(주)티앤케이팩토리</span></h3>
@@ -120,7 +120,7 @@
 				<div class="modal-body">
 					<div class="info">
 						<div class="img-area">
-							<img src="<?php echo $config["imageDir"]; ?>/part/content/incubating/buzzpia.png" alt="buzzpia">
+							<img src="/resources/front/images/part/content/incubating/buzzpia.png" alt="buzzpia">
 						</div>
 						<div class="pre-area">
 							<h3 class="title"><span class="title-type">업체명</span><span class="tit">(주)버즈피아</span></h3>
@@ -139,7 +139,7 @@
 						<p>버즈피아의 멤버들은 한국의 성공적인 IT 분야의 상장 기업 출신으로, 지난 10년간 삼성, LG, 화웨이, 샤프, 보다폰 (Vodafone)과 같은 국내외 글로벌 스마트폰 제조사와 함께 일해왔습니다. 혜성같이 등장한 안드로이드 기반의 앱과 런처 개발은 최근 몇 년간 우리의 주요 일거리였죠. 스마트폰이 생겨난 이후 우린 편리함과 동시에 고민할 것들이 더 많아졌습니다.<br>
 							'무슨 어플이 내게 유용한지, 어떻게 하면 더 편리하게 스마트폰을 우리 라이프 스타일에 맞출 수 있을지..'<br>
 							우리는 스마트폰을 어떻게 하면, 자연스럽게 내 일상에 편하게 활용할 수 있을지 고민하던 중, 다년간의 경험을 바탕으로 우리가 직접 시장에 놀라움을 안겨줄 수 있는 무언가를 만들기로 결심했습니다.</p>
-						<img src="<?php echo $config["imageDir"]; ?>/part/content/incubating/buzzpia-content.png" alt="">
+						<img src="/resources/front/images/part/content/incubating/buzzpia-content.png" alt="">
 					</div>
 				</div>
 				<div class="modal-footer">

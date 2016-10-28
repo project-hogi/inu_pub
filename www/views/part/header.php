@@ -12,11 +12,11 @@
 					<ul class="gnb">
 						<li><a href="#">Login</a></li>
 						<li><a href="#">Join</a></li>
-						<li><a href="#">Sitemap</a></li>
+						<li><a href="#sitemap" class="open-sitemap">Sitemap</a></li>
 					</ul>
 					<ul class="tools">
 						<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-						<li><a href="#"><strong><i class="fa fa-bars" aria-hidden="true"></i></strong></a></li>
+						<li><a href="#sitemap" class="open-sitemap"><strong><i class="fa fa-bars" aria-hidden="true"></i></strong></a></li>
 					</ul>
 				</div>
 			</div>

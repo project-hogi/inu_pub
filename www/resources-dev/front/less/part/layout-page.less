@@ -37,9 +37,6 @@ body.layout-page{
 			background: #d5d5d5 url("@{partLayoutPageImageDir}visual-introduce.jpg") no-repeat 50% 0;
 		}
 	}
-	
-	
-	
 	.snb{
 		height: 55px;
 		border-bottom: 1px solid #d1d1d1;
@@ -225,7 +222,6 @@ body.layout-page{
 		
 		>ul{
 			overflow: hidden;
-			margin-right: -1px;
 			
 			>li{
 				float: left;
@@ -295,12 +291,13 @@ body.layout-page{
 			}
 			.for(1, 10); .-each(@i) {
 				&.children-count-@{i}{
+					margin-right: -1px * (@i - 1);
+					
 					>li{
 						width: 100% / @i;
 					}
 				}
 			}
-			
 			&.arrow-type{
 				li{
 					position: relative;

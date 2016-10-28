@@ -9,7 +9,10 @@
 			var firstOn = true;
 			var $body = $("body");
 			var overOnDelayTime = 400;
-			var $overPanelContainer = $("#header .over-panel .container");
+			var $header = $("#header");
+			var $overPanel = $header.find(".over-panel");
+			var $overPanelContainer = $overPanel.find(".container");
+			var $headerOverPanelBg = $(".header-over-panel-bg");
 
 			$lnb.on("mouseover", "li", function() {
 				var $currentLi = $(this);
@@ -25,6 +28,12 @@
 				$currentLi.addClass("over-on");
 				timeoutClear($ul);
 				childrenOn($currentLi);
+
+				$lnb.addClass("active");
+				$overPanel.addClass("active");
+				$headerOverPanelBg.addClass("active");
+				depthCheck();
+				heightInit();
 			});
 
 			$lnb.on("mouseout", "li", function() {
@@ -38,14 +47,14 @@
 					var $liOn = $li.removeClass("over-on");
 					$li.filter(".active").addClass("over-on");
 					childrenOn($liOn);
+					depthCheck();
+					heightInit();
 				}, overOnDelayTime));
 			});
 
 			if (firstOn && !$lnb.find(">ul>li.active").size()) {
 				deepFirstOn($lnb);
 			}
-
-			$lnb.find("li.active").addClass("over-on");
 
 			depthCheck();
 
@@ -69,8 +78,12 @@
 					depth++;
 				}
 
+				initLnbShowClass(depth);
+			}
+
+			function heightInit() {
 				var maxHeight = 0;
-				var $currentPoint = $lnb.find(">ul>li.over-on>ul");
+				var $currentPoint = $lnb.find(">ul");
 
 				while (true) {
 					$currentPoint = $currentPoint.find(">li.over-on>ul");
@@ -78,39 +91,31 @@
 					if (!$currentPoint.size())
 						break;
 
-					var height = $currentPoint.height();
+					var height = $currentPoint.outerHeight();
 
-					console.log(height);
 					if (maxHeight < height)
 						maxHeight = height;
 				}
-				console.log("sssssssss");
 
 				$overPanelContainer.height(maxHeight);
-
-				initLnbShowClass(depth);
 			}
 
 			function childrenOn($li) {
 				if (!$li || !$li.size()) {
-					depthCheck();
-
 					return;
 				}
 
 				var $childrenLi = $li.find(">ul>li");
 
 				if (!$childrenLi.size()) {
-					depthCheck();
-
 					return;
 				}
 
 				if (!$childrenLi.filter(".over-on").size()) {
 					var $firstChildLi = $childrenLi.first().addClass("over-on");
-				}
 
-				childrenOn($firstChildLi);
+					childrenOn($firstChildLi);
+				}
 			}
 
 			function timeoutClear($ul) {
@@ -136,6 +141,29 @@
 
 				$body.attr("class", newBodyClassList.join(" ")).addClass("lnb-show-depth-" + depth);
 			}
+		});
+
+		$("#header").eachReadyScope(function() {
+			var $header = $(this);
+			var $lnb = $(".lnb");
+			var $overPanel = $header.find(".over-panel");
+			var $overPanelContainer = $overPanel.find(".container");
+			var $headerOverPanelBg = $(".header-over-panel-bg");
+			var $overPanelClose = $overPanel.find(".close-panel");
+
+			$header.on("close.header", function() {
+				$lnb.removeClass("active");
+				$overPanel.removeClass("active");
+				$headerOverPanelBg.removeClass("active");
+			});
+			$headerOverPanelBg.on("mouseover", function() {
+				$header.trigger("close.header");
+			});
+			$overPanelClose.on("click", function(event) {
+				event.preventDefault();
+
+				$header.trigger("close.header");
+			});
 		});
 
 	});

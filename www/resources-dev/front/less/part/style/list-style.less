@@ -5,6 +5,10 @@
 	padding-left: 10px;
 	text-indent: -10px;
 	
+	&.font-4{
+		padding-left: 50px;
+		text-indent: -50px;
+	}
 	&.doted{
 		padding-left: 20px;
 		text-indent: -0px;
@@ -270,11 +274,47 @@
 }
 .way-list{
 	li{
+		position: relative;
+		min-height: 45px;
+		border-top: 1px solid #dfdfdf;
+		margin-top: 20px;
+		padding-left: 105px;
+		padding-top: 20px;
+		font-size: 16px;
+		color: #777;
+		letter-spacing: -0.5px;
+		
+		&:first-child{
+			border-top: none;
+			padding-top: 0;
+			margin-top: 0;
+			.left{
+				top: 0;
+			}
+		}
+		p{
+			line-height: 24px;
+		}
 		.left{
+			position: absolute;
+			left: 0;
+			top: 20px;
+			display: block;
 			background-color: #27567d;
 			color: #fff;
 			font-size: 18px;
+			width: 90px;
+			height: 45px;
+			text-align: center;
+			border-radius: 20px;
 			
+			:before{
+				display: inline-block;
+				content: '';
+				width: 1px;
+				height: 100%;
+				vertical-align: middle;
+			}
 			&.blue{
 				background-color: #27567d;
 			}
@@ -284,7 +324,6 @@
 			&.orange{
 				background-color: #f4bb2e;
 			}
-			
 		}
 	}
 }

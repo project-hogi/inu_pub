@@ -74,7 +74,12 @@
 					</ul>
 				</div>
 			<?php } else if(getDepthId($pagePath, 2) == "6"){ ?>
-
+				<div class="tab">
+					<ul class="children-count-2">
+						<li<?php if(getDepthId($pagePath, 3) == "1" || !getDepthId($pagePath, 3)){ ?> class="active"<?php } ?>><a href="education-experience-6-1.php"><span>글로벌셀러</span></a></li>
+						<li<?php if(getDepthId($pagePath, 3) == "2"){ ?> class="active"<?php } ?>><a href="education-experience-6-2.php"><span>프론티어</span></a></li>
+					</ul>
+				</div>
 			<?php } else if(getDepthId($pagePath, 2) == "7"){ ?>
 
 			<?php } ?>
@@ -130,7 +135,6 @@
 		<?php } else if(getDepthId($pagePath, 1) == "people"){ ?>
 
 		<?php } else if(getDepthId($pagePath, 1) == "way"){ ?>
-			<img src="/resources/front/images/part/content/introduce/way/map.jpg" alt="vision mission stratege effect 차트">
 
 		<?php } ?>
 	<?php } else if(getDepthId($pagePath, 0) == "membership"){ ?>
@@ -256,13 +260,6 @@
 					</h3>
 				</div>
 			<?php } else if(getDepthId($pagePath, 1) == "way"){ ?>
-				<div class="content-left-title">
-					<h3 class="way-title">
-						<span class="sr-only">
-							<span class="point">미래</span>를 향한 첫 발걸음<br>인천대 창업지원단!
-						</span>
-					</h3>
-					</h3>
-				</div>
+
 			<?php } ?>
 		<?php } ?>

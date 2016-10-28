@@ -52,9 +52,7 @@
 		<tr><td>23</td><td>IDM(베이비스토리)</td><td>제조</td><td>애착인형</td></tr>
 		<tr><td>24</td><td>Kinyo</td><td>제조</td><td>페이퍼 조명 품빛</td></tr>
 		<tr><td>25</td><td>꿈꾸는 나무</td><td>제조</td><td>교육용 키트 및 교구 개발</td></tr>
-
 		</tbody></table>
-
 </div>
 <!-- /.push-left -->
 <?php require "part/footer-sub.php"; ?>

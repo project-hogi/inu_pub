@@ -5,7 +5,6 @@
 <?php require "part/app-header.php"; ?>
 <?php require "part/header.php"; ?>
 <?php require "part/header-sub.php"; ?>
-
 <div class="push-left">
 	<h3 class="left-title">
 		<strong class="point-db">

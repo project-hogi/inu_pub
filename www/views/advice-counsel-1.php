@@ -14,7 +14,7 @@
 		<ul>
 			<li>
 				<div class="img-area">
-					<img src="<?php echo $config["imageDir"]; ?>/part/content/mento/1.jpg" alt="">
+					<img src="/resources/front/images/part/content/mento/1.jpg" alt="">
 				</div>
 				<div class="pre-area">
 					<h3 class="title"><span class="title-type">멘토명</span><span class="tit">윤인성</span></h3>
@@ -28,7 +28,7 @@
 			</li>
 			<li>
 				<div class="img-area">
-					<img src="<?php echo $config["imageDir"]; ?>/part/content/mento/2.jpg" alt="">
+					<img src="/resources/front/images/part/content/mento/2.jpg" alt="">
 				</div>
 				<div class="pre-area">
 					<h3 class="title"><span class="title-type">멘토명</span><span class="tit">최현수</span></h3>
@@ -42,7 +42,7 @@
 			</li>
 			<li>
 				<div class="img-area">
-					<img src="<?php echo $config["imageDir"]; ?>/part/content/mento/3.jpg" alt="">
+					<img src="/resources/front/images/part/content/mento/3.jpg" alt="">
 				</div>
 				<div class="pre-area">
 					<h3 class="title"><span class="title-type">멘토명</span><span class="tit">이용석</span></h3>
@@ -56,7 +56,7 @@
 			</li>
 			<li>
 				<div class="img-area">
-					<img src="<?php echo $config["imageDir"]; ?>/part/content/mento/4.jpg" alt="">
+					<img src="/resources/front/images/part/content/mento/4.jpg" alt="">
 				</div>
 				<div class="pre-area">
 					<h3 class="title"><span class="title-type">멘토명</span><span class="tit">오영서</span></h3>
@@ -70,7 +70,7 @@
 			</li>
 			<li>
 				<div class="img-area">
-					<img src="<?php echo $config["imageDir"]; ?>/part/content/mento/1.jpg" alt="">
+					<img src="/resources/front/images/part/content/mento/1.jpg" alt="">
 				</div>
 				<div class="pre-area">
 					<h3 class="title"><span class="title-type">멘토명</span><span class="tit">윤인성</span></h3>
@@ -84,7 +84,7 @@
 			</li>
 			<li>
 				<div class="img-area">
-					<img src="<?php echo $config["imageDir"]; ?>/part/content/mento/2.jpg" alt="">
+					<img src="/resources/front/images/part/content/mento/2.jpg" alt="">
 				</div>
 				<div class="pre-area">
 					<h3 class="title"><span class="title-type">멘토명</span><span class="tit">최현수</span></h3>
@@ -98,7 +98,7 @@
 			</li>
 			<li>
 				<div class="img-area">
-					<img src="<?php echo $config["imageDir"]; ?>/part/content/mento/3.jpg" alt="">
+					<img src="/resources/front/images/part/content/mento/3.jpg" alt="">
 				</div>
 				<div class="pre-area">
 					<h3 class="title"><span class="title-type">멘토명</span><span class="tit">이용석</span></h3>
@@ -112,7 +112,7 @@
 			</li>
 			<li>
 				<div class="img-area">
-					<img src="<?php echo $config["imageDir"]; ?>/part/content/mento/4.jpg" alt="">
+					<img src="/resources/front/images/part/content/mento/4.jpg" alt="">
 				</div>
 				<div class="pre-area">
 					<h3 class="title"><span class="title-type">멘토명</span><span class="tit">오영서</span></h3>

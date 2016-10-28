@@ -6,7 +6,7 @@
 <?php require "part/header.php"; ?>
 <?php require "part/header-sub.php"; ?>
 <div>
-	<img src="<?php echo $config["imageDir"]; ?>/part/content/news/notice/news-1.png" alt="detail">
+	<img src="<?php echo $config["imageDir"]; ?>/part/content/news/notice/detail.png" alt="detail">
 </div>
 <?php require "part/footer-sub.php"; ?>
 <?php require "part/footer.php"; ?>

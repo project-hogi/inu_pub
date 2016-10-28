@@ -34,5 +34,6 @@
 			</div>
 		</div>
 	</div>
+	<div class="header-over-bg"></div>
 </div>
 <!-- //Footer.html -->

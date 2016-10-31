@@ -1,5 +1,31 @@
 @partLayoutImageDir: "@{basePartImageDir}layout/";
-
+#top-banner-area{
+	width: 100%;
+	//height: 130px;
+	height: 0;
+	overflow: hidden;
+	background-color: #e9e9e9;
+	-webkit-transition: height ease-in-out 0.8s;
+	-moz-transition: height ease-in-out 0.8s;
+	-ms-transition: height ease-in-out 0.8s;
+	-o-transition: height ease-in-out 0.8s;
+	transition: height ease-in-out 0.8s;
+	
+	&.on,
+	&.active{
+		height: 130px;
+	}
+	
+	.container{
+		ul{
+			li{
+				img{
+					
+				}
+			}
+		}
+	}
+}
 .container{
 	position: relative;
 	padding: 0 20px;
@@ -420,7 +446,7 @@ body>.sitemap{
 	overflow: hidden;
 	
 	.bg{
-		position: absolute;
+		position: fixed;
 		top: 0;
 		right: 0;
 		bottom: 0;
@@ -434,9 +460,10 @@ body>.sitemap{
 		transition: opacity ease-in-out .3s;
 	}
 	.cont{
+		display: none;
 		position: relative;
 		width: 100%;
-		left: 100%;
+		left: 0;
 		height: 100%;
 		background-color: #000;
 		#util>.opacity(.85);
@@ -669,7 +696,7 @@ body>.sitemap{
 			#util>.opacity(0);
 		}
 		.cont{
-			left: 0;
+			display: block;
 		}
 		.close-sitemap{
 			right: 50%;

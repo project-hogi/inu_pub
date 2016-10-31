@@ -170,9 +170,11 @@
 			var $sitemap = $(this);
 			var $sitemapCont = $sitemap.find(".cont");
 			var timeoutId = null;
+			var $topBannerArea = $('#top-banner-area');
 
 			$("a.open-sitemap").on("click", function(event) {
 				event.preventDefault();
+				$topBannerArea.removeClass('active');
 
 				open();
 			});
@@ -224,6 +226,24 @@
 			});
 		});
 
+		$('#top-banner-area').eachReadyScope(function() {
+			var $topBanner = $(this);
+			var $topBannerClose = $('.top-banner-close',$topBanner);
+			$topBannerClose.on('click',function(){
+				$topBanner.removeClass('active');
+			});
+		});
+
+		$('body.page-index').each(function(){
+			topBannerArea()
+			function topBannerArea(){
+				var $topBannerArea = $('#top-banner-area');
+				$topBannerArea.delay(3000).addClass('active');
+			}
+		});
+
+
 	});
 
 })(jQuery);
+

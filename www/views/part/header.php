@@ -1,3 +1,16 @@
+<div id="top-banner-area">
+	<div class="container">
+		<ul>
+			<li>
+				<img src="<?php echo $config["imageDir"]; ?>/part/layout/main-top-banner.jpg" alt="" width="1000" height="130" usemap="#Map-Top" border="0"/>
+				<map name="Map-Top">
+					<area shape="rect" coords="870,103,1036,141" href="#close" class="top-banner-close">
+				</map>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- /.top-banner-area -->
 <!-- Header.html -->
 <div id="wrap">
 	<div id="header">

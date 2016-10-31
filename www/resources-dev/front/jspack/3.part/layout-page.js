@@ -38,7 +38,7 @@
 		$(".snb").eachReadyScope(function() {
 			var $snb = $(this);
 
-			$snb.find(".container>ul>li").each(function() {
+			$snb.find(".container>ul>li:not(.home)").each(function() {
 				var $item = $(this);
 
 				$item.on("mouseenter", function() {

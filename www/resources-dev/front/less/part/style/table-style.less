@@ -30,6 +30,9 @@
 		&:first-child{
 			border-left: none;
 		}
+		.bdl1{
+			border: 1px solid @table-primary-border;;
+		}
 	}
 	th {
 		color: @table-primary-font;
@@ -42,13 +45,12 @@
 	}
 	td {
 		color: @table-primary-font;
-		font-size: 13px;
+		font-size: 12px;
 		font-weight: normal;
 		line-height: 1.4em;
 		padding: 6px 6px 4px;
 		text-align: center;
 		vertical-align: middle;
-		font-size: 12px;
 	}
 	tbody{
 		tr{
@@ -103,6 +105,97 @@
 	}
 }
 
+.table-info {
+	border-collapse: collapse;
+	table-layout: auto;
+	width: auto;
+	margin-top: 20px;
+	
+	thead{
+		th{
+		}
+	}
+	th,td{
+		word-break: break-all;
+		vertical-align: middle;
+		font-size: 12px;
+		line-height: 19px;
+		
+		&:first-child{
+			border-left: none;
+		}
+	}
+	th {
+		color: #aaa;
+		font-weight: normal;
+		text-align: left;
+	}
+	td {
+		color: #666;
+		font-weight: normal;
+		text-align: left;
+	}
+	
+	&.text-left-even{
+		tbody{
+			tr{
+				th,td{
+					&:nth-child(even){
+						text-align: left;
+						padding-left: 15px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.table-history {
+	border-collapse: collapse;
+	border-top: 2px solid @pointDarkBlue;
+	table-layout: auto;
+	width: 100%;
+	tr{
+		border-bottom: 1px solid #e1e1e1;
+	}
+	th,td{
+		word-break: break-all;
+		vertical-align: middle;
+		font-size: 12px;
+		height: 50px;
+		line-height: 19px;
+		
+		&:first-child{
+			border-left: none;
+		}
+	}
+	th {
+		color: #0f4c9a;
+		font-size: 32px;
+		font-weight: normal;
+		text-align: center;
+		
+	}
+	td {
+		color: #666;
+		font-weight: normal;
+		text-align: left;
+		line-height: 24px;
+		padding: 10px 0;
+		color: #777;
+		font-size: 14px;
+		background: url(../images/part/content/introduce/history/dotdotdot.png) 95% 50% no-repeat;
+		
+		strong{
+			display: inline-block;
+			margin-right: 10px;
+			font-weight: bold;
+		}
+		
+		
+	}
+}
+
 .table-design-box{
 	width: 100%;
 	
@@ -154,7 +247,7 @@
 			}
 		}
 	}
-	&.arrow-style{
+	&.arrow-styl{
 		tbody{
 			tr{
 				

@@ -1,0 +1,139 @@
+div.board-job{
+	
+	.board-job-list{
+		>ul{
+			>li{
+				height: 208px;
+				border: 1px solid #ddd;
+				overflow: hidden;
+				background: #fff url(../images/part/layout-page/notice-list-bg.png) 95% 50% no-repeat;
+				
+				&:hover,
+				&:focus,
+				&.on,
+				&.active{
+					border-color: #999;
+				}
+				
+				.img-area,
+				.pre-area{
+					height: 208px;
+				}
+				
+				.img-area{
+					width: 215px;
+					padding: 7px;
+					text-align: center;
+					border-right: 2px solid #eee;
+					margin-right: 25px;
+					float: left;
+					
+					.img{
+						width: 100%;
+						height: 100%;
+						background-color: #f2f2f2;
+						
+						&:before{
+							display: inline-block;
+							content: '';
+							width: 1px;
+							height: 100%;
+							vertical-align: middle;
+						}
+						*{
+							display: inline-block;
+							vertical-align: middle;
+						}
+					}
+					
+				}
+				
+				.pre-area{
+					position: relative;
+					width: 100%;
+					padding: 25px 130px 20px 25px;
+					
+					
+					.title{
+						font-size: 18px;
+						padding-bottom: 5px;
+						color: #444;
+						
+						.title-type{
+							display: inline-block;
+							height: 25px;
+							font-family:'돋움',Dotum;
+							font-size: 12px;
+							color: #fff;
+							background-color: #c4c4c4;
+							border-radius: 2px;
+							padding: 0 5px;
+							
+							&:before{
+								display: inline-block;
+								content: '';
+								width: 1px;
+								height: 100%;
+								vertical-align: middle;
+							}
+							
+						}
+						.tit{
+							display: inline-block;
+							height: 25px;
+							font-size: 16px;
+							font-weight: bold;
+							padding-left: 10px;
+							margin-top: 1px;
+						}
+					}
+					p{
+						font-size: 12px;
+						line-height: 17px !important;
+						color: #888;
+						padding: 0;
+						margin: 0;
+					}
+					.pre{
+						height: 35px;
+						overflow: hidden;
+						color: #aaa;
+					}
+					.draftsman{
+						margin-top: 20px;
+						>span{
+							font-size: 11px;
+							color: #999;
+							padding: 0 9px 0 10px;
+							background: url(../images/part/layout-page/bar.png) 0 50% no-repeat;
+							
+							&:first-child{
+								padding-left: 0;
+								background: none;
+							}
+							.icon{
+								margin-right: 5px;
+							}
+						}
+						.writer{
+							color: #666;
+						}
+						.counter{
+							span{
+								display: inline-block;
+								margin-left: 2px;
+								font-weight: bold;
+								color: #ef624e;
+							}
+						}
+						.date{
+							
+						}
+						
+					}
+				}
+			}
+		}
+	}
+	
+}

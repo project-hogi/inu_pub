@@ -60,7 +60,7 @@
 		<li><strong>인천지역 대학교</strong> : 홍보 및 모집 협조, 캠프 운영지원 등</li>
 	</ul>
 	<div class="next-part-30">
-		<img src="/resources/front/images/part/content/education/diagram-1.jpg" alt="인천지역 대학생 창업챔프">
+		<img src="<?php echo $config["imageDir"]; ?>/part/content/education/diagram-1.jpg" alt="인천지역 대학생 창업챔프">
 	</div>
 </div>
 <!-- /.push-left -->

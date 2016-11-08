@@ -259,7 +259,7 @@
 					<div class="calendar-wrap">
 						<div class="calendar-month">
 							<p class="title-month">
-								6
+								12
 								<span class="small">June</span>
 							</p>
 							<p class="calendar-control">
@@ -301,10 +301,10 @@
 								</tr>
 								<tr>
 									<td><a href="#">13</a></td>
-									<td class="schedule-type-2"><a href="#">14</a></td>
+									<td class="schedule-type-1"><a href="#">14</a></td>
 									<td><a href="#">15</a></td>
-									<td class="schedule-type-3"><a href="#">16</a></td>
-									<td class="schedule-type-3"><a href="#">17</a></td>
+									<td class="schedule-type-today"><a href="#">16</a></td>
+									<td class="schedule-type-1"><a href="#">17</a></td>
 									<td><a href="#">18</a></td>
 									<td><a href="#">19</a></td>
 								</tr>
@@ -315,13 +315,13 @@
 									<td class="schedule-type-1"><a href="#">23</a></td>
 									<td><a href="#">24</a></td>
 									<td><a href="#">25</a></td>
-									<td class="schedule-type-4"><a href="#">26</a></td>
+									<td class="schedule-type-1"><a href="#">26</a></td>
 								</tr>
 								<tr>
-									<td class="schedule-type-5"><a href="#">27</a></td>
+									<td class="schedule-type-1"><a href="#">27</a></td>
 									<td><a href="#">28</a></td>
 									<td><a href="#">29</a></td>
-									<td class="schedule-type-6"><a href="#">30</a></td>
+									<td class="schedule-type-1"><a href="#">30</a></td>
 									<td><a href="#">31</a></td>
 									<td class="disabled"><a href="#">1</a></td>
 									<td class="disabled"><a href="#">2</a></td>
@@ -414,6 +414,31 @@
 						</li>
 					</ul>
 				</li>
+				<li class="last">
+					<ul>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-2.png');"></span>
+								<strong class="subject">(예비)창업자 공간, 창업사관학교 안내</strong>
+								<span class="content">인천대학교 창업지원단이 보유한 인프라(기술·경영멘토, 창업공간, 기자재 등) 및 창업 프로그램을 활용하여 창업자의 원활한 창업활동 지원개인 및 팀원 창업공간으로 개인별 책상이 배치되어 있습니다 …</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-2.png');"></span>
+								<strong class="subject">2(예비)창업자 공간, 창업사관학교 안내</strong>
+								<span class="content">인천대학교 창업지원단이 보유한 인프라(기술·경영멘토, 창업공간, 기자재 등) 및 창업 프로그램을 활용하여 창업자의 원활한 창업활동 지원개인 및 팀원 창업공간으로 개인별 책상이 배치되어 있습니다 …</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-2.png');"></span>
+								<strong class="subject">3(예비)창업자 공간, 창업사관학교 안내</strong>
+								<span class="content">인천대학교 창업지원단이 보유한 인프라(기술·경영멘토, 창업공간, 기자재 등) 및 창업 프로그램을 활용하여 창업자의 원활한 창업활동 지원개인 및 팀원 창업공간으로 개인별 책상이 배치되어 있습니다 …</span>
+							</a>
+						</li>
+					</ul>
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -425,5 +450,29 @@
 			</div>
 		</div>
 	</div>
+
+
+	<!--팝업-->
+	<div class="layer_popup" style="position:absolute; width:420px;left:50%; margin-left: -210px; top:90px; z-index:1000;" id="layer_pop">
+		<div class="popup-content">
+			<img src="<?php echo $config["imageDir"]?>/part/popup/inu-popup-00.jpg" />
+		</div>
+		<div class="popup-footer">
+			<input type="checkbox" name="pop_today" id="pop_today" /><label for="pop_today">오늘 하루 이 창 열지 않음</label>
+			<a href="javascript:closeWin();">닫기</a>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		cookiedata = document.cookie;
+		if (cookiedata.indexOf("ncookie=done") < 0){
+			document.getElementById('layer_pop').style.display = "inline";
+		}
+		else {
+			document.getElementById('layer_pop').style.display = "none";
+		}
+	</script>
+	<!--//팝업-->
+
 <?php require "part/footer.php"; ?>
 <?php require "part/app-footer.php"; ?>

@@ -68,7 +68,7 @@ body.layout-index{
 			
 			
 			ul{
-				
+				width: 100%;
 			}
 			li{
 				
@@ -105,38 +105,17 @@ body.layout-index{
 	.section-main-service{
 		
 		.left{
-						
+			padding: 0 25px;
 		}
 		.right{
-			
+			padding: 0 25px 35px 25px;
 		}
 	}
 	.news{
 		
 		.news-title{
-			display: inline-block;
-			padding: 10px 0;
-			font-size: 22px;
-			font-weight: 600;
-			line-height: 33px;
-			letter-spacing: -1px;
-			color: #333333;
 		}
 		.news-more{
-			position: absolute;
-			right: 0;
-			top: 15px;
-			display: inline-block;
-			padding: 5px 11px 5px 5px;
-			background: url("@{partLayoutIndexImageDir}news.png") no-repeat 100% 50%;
-			font-size: 12px;
-			line-height: 1.4em;
-			color: #999;
-			-webkit-transition: color ease-in-out .18s;
-			-moz-transition: color ease-in-out .18s;
-			-ms-transition: color ease-in-out .18s;
-			-o-transition: color ease-in-out .18s;
-			transition: color ease-in-out .18s;
 			
 			&:hover, &:focus{
 				color: #333;
@@ -236,8 +215,9 @@ body.layout-index{
 		}
 		.calendar-more{
 			position: absolute;
-			right: 5px;
-			top: 20px;
+			right: 0;
+			left: 110px;
+			top: 15px;
 			width: 0;
 			height: 0;
 			margin: 0;
@@ -247,6 +227,11 @@ body.layout-index{
 			background: url(../images/part/layout-index/calendar-more-mo.png) 50% 50% no-repeat;
 			background-size: 8px 13px;
 			
+		}
+		.calendar-wrap{
+			width: 50%;
+			float: right;
+			margin-top: 15px;
 		}
 	}
 	.section-sitemap{
@@ -282,7 +267,8 @@ body.layout-index{
 					content: '';
 				}
 				>li{
-					width: 50%;
+					width: 25%;
+					min-height: 160px;
 					float: left;
 					display: inline-block;
 					vertical-align: top;

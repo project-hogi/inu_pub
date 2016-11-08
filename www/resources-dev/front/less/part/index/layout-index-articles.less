@@ -3,9 +3,12 @@
 body.layout-index{
 	.articles{
 		position: relative;
-		
+		&:after{
+			clear: both;
+			display: block;
+			content: '';
+		}
 		.articles-pager{
-			margin-left: -9px;
 			
 			a{
 				display: inline-block;

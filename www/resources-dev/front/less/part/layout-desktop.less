@@ -24,30 +24,21 @@
 				width: 50%;
 				float: left;
 				display: inline-block;
-				padding: 30px 20px 0;
+				padding: 20px 20px 0;
 				height: 130px;
-				background: url(../images/part/layout/top-banner-bar.png) 0 50% no-repeat;
 				
 				&:first-child{
-					background: none;
+					
 				}
 				
 				.img-box{
-					width: 100px;
-					float: left;
+					
 				}
 				dl{
-					margin: 0 0 10px 0;
 					dt{
-						font-size: 15px;
-						color: #e14840;
-						#util .ellipsis();
+						
 					}
 					dd{
-						font-size: 11px;
-						color: #888888;
-						line-height: 16px;
-						word-break: break-all;
 						
 					}
 				}
@@ -131,14 +122,14 @@
 	.lnb{
 		display: block;
 		text-align: center;
-		
+		margin-top: 40px;
 		>ul{
 			>li{
 				display: inline-block;
 				
 				>a{
 					display: block;
-					padding: 32px 14px;
+					padding: 0 14px 25px 14px;
 					border-bottom: 0 solid #ff6b24;
 					font-size: 17px;
 					font-weight: 600;
@@ -195,7 +186,6 @@
 			>ul>li{
 				&.over-on{
 					>a{
-						padding-bottom: 33px;
 						border-bottom-width: 4px;
 					}
 					>ul{
@@ -204,6 +194,7 @@
 						>li{
 							&.over-on{
 								>a{
+									padding-bottom: 25px;
 									background-color: #ffcc02;
 								}
 								>ul{
@@ -226,15 +217,15 @@
 	}
 	.gnb-and-tools{
 		position: absolute;
-		right: -230px;
-		top: 0;
+		right: 105px;
+		top: -25px;
 		display: inline-block;
 		width: 300px;
 		text-align: right;
 	}
 	.gnb{
 		position: absolute;
-		right: 128px;
+		right: 110px;
 		top: 40px;
 		display: inline-block;
 		overflow: hidden;
@@ -254,7 +245,8 @@
 				font-size: 11px;
 				font-weight: bold;
 				text-transform: uppercase;
-				color: #fff;
+				color: #034a87;
+				font-weight: bold;
 				-webkit-transition: color ease-in-out .12s;
 				-moz-transition: color ease-in-out .12s;
 				-ms-transition: color ease-in-out .12s;
@@ -281,11 +273,11 @@
 				text-align: center;
 				font-size: 22px;
 				line-height: 33px;
-				color: #fff;
+				color: #fdd501;
 				
 				strong{
 					font-size: 24px;
-					color: #fdd501;
+					color: #0f86e0;
 				}
 			}
 		}
@@ -399,11 +391,10 @@
 	}
 	.sns{
 		position: absolute;
-		right: 0;
+		left: 925px;
 		top: 15px;
 		display: inline-block;
-		width: auto;
-		text-align: right;
+		width: 75px;
 		
 		ul{
 			display: inline-block;
@@ -448,6 +439,7 @@
 		color: #aaa;
 	}
 	.familysite{
+		display: block;
 		position: absolute;
 		right: 0;
 		top: 16px;
@@ -752,8 +744,8 @@ body>.sitemap{
 	}
 	.close-sitemap{
 		position: absolute;
-		right: 50%;
-		top: 125px;
+		left: 50%;
+		top: 130px;
 		margin-left: 500px;
 		display: inline-block;
 		width: 55px;
@@ -776,10 +768,14 @@ body>.sitemap{
 		}
 		.cont{
 			display: block;
+			margin: 0;
 		}
 		.close-sitemap{
-			right: 50%;
-			margin-right: -500px;
+			position: absolute;
+			left: 50%;
+			top: 130px;
+			margin-left: 500px;
+			
 		}
 	}
 	

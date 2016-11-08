@@ -512,3 +512,78 @@
 	}
 	
 }
+div.calendar{
+	&.main{
+		.calendar-wrap{
+			.calendar-month{
+				float: left;
+				.title-month{
+					width: 73px;
+					overflow: hidden;
+					font-size: 80px;
+					line-height: 0.8;
+					font-weight: bold;
+					font-family: Arial;
+					letter-spacing: -10px;
+					text-align: center;
+					text-indent: -15px;
+					
+					.small{
+						display: block;
+						font-size: 20px;
+						letter-spacing: 0;
+						text-indent: 0;
+					}
+				}
+				.calendar-control{
+					.prev-month{
+						
+					}
+					.next-month{
+						
+					}
+				}
+			}
+			.calender-area{
+				padding-left: 75px;
+				.table-calender{
+					border-collapse: collapse;
+					table-layout: auto;
+					width: 100%;
+					border-bottom: none;
+					
+					th,td{
+						text-align: center;
+						line-height: 30px;
+						a{
+							color: #333;
+						}
+						&.disabled{
+							a{
+								color: #bdbdbd;
+								cursor: not-allowed;
+							}
+						}
+					}
+					thead{
+						th{
+							background-color: #fff;
+						}
+						.sun{
+							border-radius: 5px 0 0 5px;
+						}
+						.sat{
+							border-radius: 0 5px 5px 0;
+						}
+					}
+				}
+			}
+			
+			
+		}
+		
+		
+		
+		
+	}
+}

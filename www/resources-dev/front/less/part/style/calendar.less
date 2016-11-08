@@ -517,6 +517,8 @@ div.calendar{
 		.calendar-wrap{
 			.calendar-month{
 				float: left;
+				text-align: center;
+				 
 				.title-month{
 					width: 73px;
 					overflow: hidden;
@@ -536,11 +538,31 @@ div.calendar{
 					}
 				}
 				.calendar-control{
+					display: inline-block;
+					
+					&:after{
+						clear: both;
+						display: block;
+						content: '';
+					}
+					a{
+						display: inline-block;
+						float: left;
+						width: 21px;
+						height: 21px;
+						background-color: #fff;
+						border: 1px solid #bdbdbd;
+						font-size: 12px;
+						text-align: center;
+						line-height: 18px;
+						color: #e35d5e;
+					}
 					.prev-month{
-						
+						margin-right: -1px;
+						border-radius: 3px 0 0 3px;
 					}
 					.next-month{
-						
+						border-radius: 0 3px 3px 0;
 					}
 				}
 			}
@@ -554,8 +576,9 @@ div.calendar{
 					
 					th,td{
 						text-align: center;
-						line-height: 30px;
 						a{
+							display: block;
+							
 							color: #333;
 						}
 						&.disabled{
@@ -566,6 +589,9 @@ div.calendar{
 						}
 					}
 					thead{
+						th,td{
+							height: 23px;
+						}
 						th{
 							background-color: #fff;
 						}
@@ -575,6 +601,60 @@ div.calendar{
 						.sat{
 							border-radius: 0 5px 5px 0;
 						}
+					}
+					tbody{
+						tr{
+							th,td{
+								line-height: 29px;
+								padding: 2px;
+								
+								a{
+									border-radius: 50%;
+								}
+								&.schedule-type-1{
+									a{
+										background-color: #fff;
+									}
+								}
+								&.schedule-type-2{
+									a{
+										background-color: #526f99;
+										color: #fff;
+									}
+								}
+								&.schedule-type-3{
+									a{
+										background-color: #5f823c;
+										color: #fff;
+									}
+								}
+								&.schedule-type-4{
+									a{
+										background-color: #7155a0;
+										color: #fff;
+									}
+								}
+								&.schedule-type-5{
+									a{
+										background-color: #a5620a;
+										color: #fff;
+									}
+								}
+								&.schedule-type-6{
+									a{
+										background-color: #e35d5e;
+										color: #fff;
+									}
+								}
+							}
+							
+							&:first-child{
+								th,td{
+									padding-top: 10px;
+								}
+							}
+						}
+						
 					}
 				}
 			}

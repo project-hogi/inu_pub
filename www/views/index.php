@@ -259,7 +259,7 @@
 					<div class="calendar-wrap">
 						<div class="calendar-month">
 							<p class="title-month">
-								12
+								6
 								<span class="small">June</span>
 							</p>
 							<p class="calendar-control">
@@ -292,36 +292,36 @@
 								</tr>
 								<tr>
 									<td><a href="#">6</a></td>
-									<td><a href="#">7</a></td>
-									<td><a href="#">8</a></td>
-									<td><a href="#">9</a></td>
+									<td class="schedule-type-1"><a href="#">7</a></td>
+									<td ><a href="#">8</a></td>
+									<td class="schedule-type-1"><a href="#">9</a></td>
 									<td><a href="#">10</a></td>
-									<td><a href="#">11</a></td>
+									<td class="schedule-type-1"><a href="#">11</a></td>
 									<td><a href="#">12</a></td>
 								</tr>
 								<tr>
 									<td><a href="#">13</a></td>
-									<td><a href="#">14</a></td>
+									<td class="schedule-type-2"><a href="#">14</a></td>
 									<td><a href="#">15</a></td>
-									<td><a href="#">16</a></td>
-									<td><a href="#">17</a></td>
+									<td class="schedule-type-3"><a href="#">16</a></td>
+									<td class="schedule-type-3"><a href="#">17</a></td>
 									<td><a href="#">18</a></td>
 									<td><a href="#">19</a></td>
 								</tr>
 								<tr>
 									<td><a href="#">20</a></td>
 									<td><a href="#">21</a></td>
-									<td><a href="#">22</a></td>
-									<td><a href="#">23</a></td>
+									<td class="schedule-type-1"><a href="#">22</a></td>
+									<td class="schedule-type-1"><a href="#">23</a></td>
 									<td><a href="#">24</a></td>
 									<td><a href="#">25</a></td>
-									<td><a href="#">26</a></td>
+									<td class="schedule-type-4"><a href="#">26</a></td>
 								</tr>
 								<tr>
-									<td><a href="#">27</a></td>
+									<td class="schedule-type-5"><a href="#">27</a></td>
 									<td><a href="#">28</a></td>
 									<td><a href="#">29</a></td>
-									<td><a href="#">30</a></td>
+									<td class="schedule-type-6"><a href="#">30</a></td>
 									<td><a href="#">31</a></td>
 									<td class="disabled"><a href="#">1</a></td>
 									<td class="disabled"><a href="#">2</a></td>
@@ -330,8 +330,6 @@
 							</table>
 						</div>
 					</div>
-
-					<img src="<?php echo $config["imageDir"]; ?>/_temp/calendar.png" alt="" style="display: block;" />
 				</div>
 			</div>
 		</div>

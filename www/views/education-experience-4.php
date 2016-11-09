@@ -37,7 +37,7 @@
 
 		<ul class="list-style doted">
 			<li><strong>교육시간</strong> : 총 2일간(1일 6시간), 여름방학 중 진행(7월중)</li>
-			<li><strong>교육인원</strong> : 총 120여명(1회 30명)</li>
+			<li><strong>교육인원</strong> : 총 60여명(1회 30명)</li>
 			<li><strong>교육대상</strong> : 창업 및 발명에 관심 있는 경인 지역 소재 초등학생(5학년~6학년)</li>
 		</ul>
 		<h5 class="point-title">

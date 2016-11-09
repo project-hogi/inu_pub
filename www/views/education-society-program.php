@@ -20,7 +20,7 @@
 		<span class="icon-write"></span>
 	</h3>
 	<h4 class="page-pre first-letter">
-		<span class="first">인</span>업동아리는 참신한 아이디어를 보유한 창업동아리를 발굴 및 지원하며 우수한 동아리 창업준비공간 등을 제공하고 제작을 지원합니다.
+		<span class="first">창</span>업동아리는 참신한 아이디어를 보유한 창업동아리를 발굴 및 지원하며 우수한 동아리 창업준비공간 등을 제공하고 제작을 지원합니다.
 	</h4>
 
 	<h5 class="point-title">창업동아리 발굴ㆍ육성 지원배경</h5>
@@ -62,11 +62,10 @@
 					<td>시제품설계 및 개발</td>
 					<td>계속지원팀 및<br>
 						지원중단팀 결정</td>
-					<td>총장실 수여 및<br>
-						HK메가쇼 참가지원</td>
+					<td>총장상 수여</td>
 				</tr>
 				<tr>
-					<td colspan="4">특허, 실용방안 등 지식재산권리화 지원</td>
+					<td colspan="4">특허, 실용실안 등 지식재산권리화 지원</td>
 				</tr>
 
 				</tbody>

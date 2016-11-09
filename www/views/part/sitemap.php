@@ -50,15 +50,15 @@ $sitemap = [
 								]
 						],
 						[
+								"url" => "education-contest.php",
+								name => "창업경진대회",
+								id => "contest"
+						],
+						[
 								"url" => "education-experience.php",
 								name => "창업체험학습",
 								id => "experience",
 								children => [
-										[
-												"url" => "education-experience-1.php",
-												name => "창업경진대회",
-												id => "1"
-										],
 										[
 												"url" => "education-experience-2.php",
 												name => "대학생창업캠프",
@@ -358,7 +358,7 @@ $sitemap = [
 						],
 						[
 								"url" => "introduce-work.php",
-								name => "주요업무",
+								name => "주요사업",
 								id => "work",
 						],
 						[

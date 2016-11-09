@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="1;url=education-experience-1.php">
+<meta http-equiv="refresh" content="1;url=education-experience-2.php">

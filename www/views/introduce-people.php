@@ -54,12 +54,11 @@
 		<td rowspan="2" style="text-align: left">창업확산팀</td>
 		<td>장해선</td>
 		<td>9642</td>
-		<td style="text-align: left">대학 내·외 창업생태계 조성 및 창업 교육 업무 - 창업강좌 및 창업동아리 운영 - 창업경진대회, 창업한마당투어 - 창업친화적 학제구축 - 청소년 연계 창업 캠프 운영, 비즈쿨 관련 </td>
+		<td rowspan="2" style="text-align: left">대학 내·외 창업생태계 조성 및 창업 교육 업무 - 창업강좌 및 창업동아리 운영 - 창업경진대회, 창업한마당투어 - 창업친화적 학제구축 - 청소년 연계 창업 캠프 운영, 비즈쿨 관련 <br> - 창업서포터즈 및 INU 리더스 관리</td>
 	</tr>
 	<tr>
 		<td>차우림</td>
 		<td>9644</td>
-		<td style="text-align: left"> - 창업서포터즈 및 INU 리더스 관리</td>
 	</tr>
 	<tr>
 		<td rowspan="5" style="text-align: left">사업화지원팀</td>
@@ -98,12 +97,11 @@
 		<td rowspan="2" style="text-align: left">SK청년비상팀</td>
 		<td>백상흠</td>
 		<td>9689</td>
-		<td style="text-align: left">SK청년비상프로그램</td>
+		<td rowspan="2" style="text-align: left">SK청년비상프로그램<br> - 창업강좌 및 창업동아리 운영 - 창업경진대회</td>
 	</tr>
 	<tr>
 		<td>박지영</td>
 		<td>9686</td>
-		<td style="text-align: left"> - 창업강좌 및 창업동아리 운영 - 창업경진대회</td>
 	</tr>
 	</tbody>
 </table>

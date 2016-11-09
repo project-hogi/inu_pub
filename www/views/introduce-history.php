@@ -61,7 +61,7 @@
 		<td>
 			<ul>
 				<li><strong>03.</strong> 2015년 창업선도대학육성사업 (거점형) 선정</li>
-				<li><strong>12.1</strong> SK청년비상프로그램 사업 선정</li>
+				<li><strong>12.</strong> SK청년비상프로그램 사업 선정</li>
 			</ul>
 		</td>
 	</tr>

@@ -138,6 +138,55 @@
 			</table>
 		</div>
 	</div>
+	<h5 class="point-title">강의 내용</h5>
+	<table class="table-primary table-striped">
+		<tr>
+			<td>순번</td>
+			<td>강좌명</td>
+			<td>교육대상</td>
+			<td>교육시수</td>
+			<td>기간</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>스마트    물류 창업강좌</td>
+			<td>예비창업자    또는<br>
+				창업 1년 미만자</td>
+			<td>32시간</td>
+			<td>2016.6.~7.</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Lv.1    IDEA ACCELERATING</td>
+			<td>예비창업자</td>
+			<td>30시간</td>
+			<td>2016.9.~11.</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Lv.2 (예비) 창업자의 마케팅 전략</td>
+			<td>예비창업자    또는<br>
+				창업 1년 미만자</td>
+			<td>30시간</td>
+			<td>2016.9.~11.</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Lv.3    신뢰받는 창업기업 만들기</td>
+			<td>예비창업자 또는<br>
+				창업 1년 미만자</td>
+			<td>30시간</td>
+			<td>2016.9.~11.</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>추가 개설 예정</td>
+			<td>예비창업자 또는<br>
+				창업 1년 미만자</td>
+			<td>-</td>
+			<td>12월중</td>
+		</tr>
+	</table>
 </div>
 <!-- /.push-left -->
 <?php require "part/footer-sub.php"; ?>

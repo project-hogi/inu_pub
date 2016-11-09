@@ -5,11 +5,10 @@
 <?php require "part/app-header.php"; ?>
 <?php require "part/header.php"; ?>
 <?php require "part/header-sub.php"; ?>
-
 <div class="push-left">
 	<h3 class="left-title">
 		<strong class="point-db">
-			<span class="under-line">일반인</span>
+			<span class="under-line">대학생</span>
 		</strong><br>
 		<strong>
 			<span class="under-line">실천창업강좌</span>
@@ -132,6 +131,18 @@
 			<td>11</td>
 			<td>INU리더십</td>
 			<td>기업가정신 및 리더십 함양</td>
+			<td>2학기</td>
+		</tr>
+		<tr>
+			<td>12</td>
+			<td>기업창업론</td>
+			<td>기업가정신 기초 지식 습득</td>
+			<td>2학기</td>
+		</tr>
+		<tr>
+			<td>13</td>
+			<td>혁신과창업</td>
+			<td>창업 입문 강의 및 창업가 마인드 함양</td>
 			<td>2학기</td>
 		</tr>
 		</tbody>

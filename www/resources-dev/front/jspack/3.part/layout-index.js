@@ -155,6 +155,8 @@
 				var $cycle = $(".section-news-content>li:eq(0)>ul", $news);
 				var $cycle2 = $(".section-news-content>li:eq(1)>ul", $news);
 				var $cycle3 = $(".section-news-content>li:eq(2)>ul", $news);
+				var $cycle4 = $(".section-news-content>li:eq(3)>ul", $news);
+
 				var options = {
 					slides : ">li",
 					timeout : 2400,
@@ -197,6 +199,7 @@
 
 				var cycle2TimeoutId = null;
 				var cycle3TimeoutId = null;
+				var cycle4TimeoutId = null;
 
 				$cycle.on("cycle-before", function(event, optionHash, outgoingSlideEl, incomingSlideEl, forwardFlag) {
 					var index = $cycle.find(">li").index(incomingSlideEl) - 1;
@@ -212,6 +215,13 @@
 
 						cycle3TimeoutId = setTimeout(function() {
 							$cycle3.cycle('goto', index);
+
+							if (cycle4TimeoutId != null)
+								clearTimeout(cycle3TimeoutId);
+
+							cycle4TimeoutId = setTimeout(function() {
+								$cycle4.cycle('goto', index);
+							}, 120);
 						}, 120);
 					}, 120);
 				});
@@ -219,12 +229,14 @@
 				$cycle.cycle(options);
 				$cycle2.cycle(options2);
 				$cycle3.cycle(options2);
+				$cycle4.cycle(options2);
 
 				$(document).one("appDestroy", function() {
 					$cycle.cycle("destroy");
 				});
 			});
 		});
+		$('#layer_pop').draggable();
 	});
 
 })(jQuery);

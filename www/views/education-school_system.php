@@ -8,13 +8,13 @@
 <div class="push-left">
 	<h3 class="left-title">
 		<strong class="point-db">
-			<span class="under-line">일반인</span>
+			<span class="under-line">창업</span>
 		</strong><br>
 		<strong>
-			<span class="under-line">실천창업강좌</span>
+			<span class="under-line">친화적</span>
 		</strong><br>
 		<span class="type-block">
-			<span class="under-line">소개합니다.</span>
+			<span class="under-line">학사제도</span>
 		</span>
 		<span class="icon-tablet"></span>
 	</h3>

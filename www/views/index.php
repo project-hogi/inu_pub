@@ -259,7 +259,7 @@
 					<div class="calendar-wrap">
 						<div class="calendar-month">
 							<p class="title-month">
-								6
+								12
 								<span class="small">June</span>
 							</p>
 							<p class="calendar-control">
@@ -301,10 +301,10 @@
 								</tr>
 								<tr>
 									<td><a href="#">13</a></td>
-									<td class="schedule-type-2"><a href="#">14</a></td>
+									<td class="schedule-type-1"><a href="#">14</a></td>
 									<td><a href="#">15</a></td>
-									<td class="schedule-type-3"><a href="#">16</a></td>
-									<td class="schedule-type-3"><a href="#">17</a></td>
+									<td class="schedule-type-today"><a href="#">16</a></td>
+									<td class="schedule-type-1"><a href="#">17</a></td>
 									<td><a href="#">18</a></td>
 									<td><a href="#">19</a></td>
 								</tr>
@@ -315,13 +315,13 @@
 									<td class="schedule-type-1"><a href="#">23</a></td>
 									<td><a href="#">24</a></td>
 									<td><a href="#">25</a></td>
-									<td class="schedule-type-4"><a href="#">26</a></td>
+									<td class="schedule-type-1"><a href="#">26</a></td>
 								</tr>
 								<tr>
-									<td class="schedule-type-5"><a href="#">27</a></td>
+									<td class="schedule-type-1"><a href="#">27</a></td>
 									<td><a href="#">28</a></td>
 									<td><a href="#">29</a></td>
-									<td class="schedule-type-6"><a href="#">30</a></td>
+									<td class="schedule-type-1"><a href="#">30</a></td>
 									<td><a href="#">31</a></td>
 									<td class="disabled"><a href="#">1</a></td>
 									<td class="disabled"><a href="#">2</a></td>
@@ -334,7 +334,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="section-news">
+	<div class="section-news mobile">
 		<div class="container">
 			<storng class="section-news-title">창업 아이템</storng>
 			<div class="section-news-pager"></div>
@@ -414,6 +414,135 @@
 						</li>
 					</ul>
 				</li>
+				<li class="last">
+					<ul>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-2.png');"></span>
+								<strong class="subject">(예비)창업자 공간, 창업사관학교 안내</strong>
+								<span class="content">인천대학교 창업지원단이 보유한 인프라(기술·경영멘토, 창업공간, 기자재 등) 및 창업 프로그램을 활용하여 창업자의 원활한 창업활동 지원개인 및 팀원 창업공간으로 개인별 책상이 배치되어 있습니다 …</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-2.png');"></span>
+								<strong class="subject">2(예비)창업자 공간, 창업사관학교 안내</strong>
+								<span class="content">인천대학교 창업지원단이 보유한 인프라(기술·경영멘토, 창업공간, 기자재 등) 및 창업 프로그램을 활용하여 창업자의 원활한 창업활동 지원개인 및 팀원 창업공간으로 개인별 책상이 배치되어 있습니다 …</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-2.png');"></span>
+								<strong class="subject">3(예비)창업자 공간, 창업사관학교 안내</strong>
+								<span class="content">인천대학교 창업지원단이 보유한 인프라(기술·경영멘토, 창업공간, 기자재 등) 및 창업 프로그램을 활용하여 창업자의 원활한 창업활동 지원개인 및 팀원 창업공간으로 개인별 책상이 배치되어 있습니다 …</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="section-news desktop">
+		<div class="container">
+			<storng class="section-news-title">창업 아이템</storng>
+			<div class="section-news-pager"></div>
+			<ul class="section-news-content">
+				<li>
+					<ul>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-1.png');"></span>
+								<strong class="subject">인천엔젤포럼 IR(Investor Relation, 기업설명회)</strong>
+								<span class="content">인천지역 거점의 우수 중소기업과 엔젤투자자를 발굴하여 비즈니스 네트워크 구축 및 건전한 투자문화를 확산 창업육성기관에서 발굴한 창업기업을 위한 투자유치 세미나 …</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-1.png');"></span>
+								<strong class="subject">2인천엔젤포럼 IR(Investor Relation, 기업설명회)</strong>
+								<span class="content">인천지역 거점의 우수 중소기업과 엔젤투자자를 발굴하여 비즈니스 네트워크 구축 및 건전한 투자문화를 확산 창업육성기관에서 발굴한 창업기업을 위한 투자유치 세미나 …</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-1.png');"></span>
+								<strong class="subject">3인천엔젤포럼 IR(Investor Relation, 기업설명회)</strong>
+								<span class="content">인천지역 거점의 우수 중소기업과 엔젤투자자를 발굴하여 비즈니스 네트워크 구축 및 건전한 투자문화를 확산 창업육성기관에서 발굴한 창업기업을 위한 투자유치 세미나 …</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-1.png');"></span>
+								<strong class="subject">2인천엔젤포럼 IR(Investor Relation, 기업설명회)</strong>
+								<span class="content">인천지역 거점의 우수 중소기업과 엔젤투자자를 발굴하여 비즈니스 네트워크 구축 및 건전한 투자문화를 확산 창업육성기관에서 발굴한 창업기업을 위한 투자유치 세미나 …</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-2.png');"></span>
+								<strong class="subject">(예비)창업자 공간, 창업사관학교 안내</strong>
+								<span class="content">인천대학교 창업지원단이 보유한 인프라(기술·경영멘토, 창업공간, 기자재 등) 및 창업 프로그램을 활용하여 창업자의 원활한 창업활동 지원개인 및 팀원 창업공간으로 개인별 책상이 배치되어 있습니다 …</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-2.png');"></span>
+								<strong class="subject">2(예비)창업자 공간, 창업사관학교 안내</strong>
+								<span class="content">인천대학교 창업지원단이 보유한 인프라(기술·경영멘토, 창업공간, 기자재 등) 및 창업 프로그램을 활용하여 창업자의 원활한 창업활동 지원개인 및 팀원 창업공간으로 개인별 책상이 배치되어 있습니다 …</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-2.png');"></span>
+								<strong class="subject">3(예비)창업자 공간, 창업사관학교 안내</strong>
+								<span class="content">인천대학교 창업지원단이 보유한 인프라(기술·경영멘토, 창업공간, 기자재 등) 및 창업 프로그램을 활용하여 창업자의 원활한 창업활동 지원개인 및 팀원 창업공간으로 개인별 책상이 배치되어 있습니다 …</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-2.png');"></span>
+								<strong class="subject">2(예비)창업자 공간, 창업사관학교 안내</strong>
+								<span class="content">인천대학교 창업지원단이 보유한 인프라(기술·경영멘토, 창업공간, 기자재 등) 및 창업 프로그램을 활용하여 창업자의 원활한 창업활동 지원개인 및 팀원 창업공간으로 개인별 책상이 배치되어 있습니다 …</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-3.png');"></span>
+								<strong class="subject">창업지원단 가족회사 역량강화 프로그램</strong>
+								<span class="content">창업사업화 지원 이후 창업지원단 가족회사 역량강화 프로그램을 통해 기업간 협력 위한 포럼과 세미나를 지원하며, 전문가 멘토를 통해 창업 초기 성장 전력과 판로개척, 후속 사업화 지원…</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-3.png');"></span>
+								<strong class="subject">2창업지원단 가족회사 역량강화 프로그램</strong>
+								<span class="content">창업사업화 지원 이후 창업지원단 가족회사 역량강화 프로그램을 통해 기업간 협력 위한 포럼과 세미나를 지원하며, 전문가 멘토를 통해 창업 초기 성장 전력과 판로개척, 후속 사업화 지원…</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-3.png');"></span>
+								<strong class="subject">3창업지원단 가족회사 역량강화 프로그램</strong>
+								<span class="content">창업사업화 지원 이후 창업지원단 가족회사 역량강화 프로그램을 통해 기업간 협력 위한 포럼과 세미나를 지원하며, 전문가 멘토를 통해 창업 초기 성장 전력과 판로개척, 후속 사업화 지원…</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="image" style="background-image: url('<?php echo $config["imageDir"]; ?>/_temp/index-news-image-3.png');"></span>
+								<strong class="subject">2창업지원단 가족회사 역량강화 프로그램</strong>
+								<span class="content">창업사업화 지원 이후 창업지원단 가족회사 역량강화 프로그램을 통해 기업간 협력 위한 포럼과 세미나를 지원하며, 전문가 멘토를 통해 창업 초기 성장 전력과 판로개척, 후속 사업화 지원…</span>
+							</a>
+						</li>
+					</ul>
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -425,5 +554,29 @@
 			</div>
 		</div>
 	</div>
+
+
+	<!--팝업-->
+	<div class="layer_popup" style="position:absolute; width:420px;left:50%; margin-left: -210px; top:90px; z-index:1000;" id="layer_pop">
+		<div class="popup-content">
+			<img src="<?php echo $config["imageDir"]?>/part/popup/inu-popup-00.jpg" />
+		</div>
+		<div class="popup-footer">
+			<input type="checkbox" name="pop_today" id="pop_today" /><label for="pop_today">오늘 하루 이 창 열지 않음</label>
+			<a href="javascript:closeWin();">닫기</a>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		cookiedata = document.cookie;
+		if (cookiedata.indexOf("ncookie=done") < 0){
+			document.getElementById('layer_pop').style.display = "inline";
+		}
+		else {
+			document.getElementById('layer_pop').style.display = "none";
+		}
+	</script>
+	<!--//팝업-->
+
 <?php require "part/footer.php"; ?>
 <?php require "part/app-footer.php"; ?>

@@ -15,8 +15,8 @@
 			</div>
 			<div class="sns">
 				<ul>
-					<li class="twitter"><a href="#"><span class="sr-only">트위터</span></a></li>
-					<li class="facebook"><a href="#"><span class="sr-only">페이스북</span></a></li>
+					<li class="twitter"><a href="https://www.instagram.com/inustartup/"><span class="sr-only">인스타</span></a></li>
+					<li class="facebook"><a href="https://www.facebook.com/inustartup/"><span class="sr-only">페이스북</span></a></li>
 				</ul>
 			</div>
 		</div>
@@ -189,25 +189,3 @@
 	<a href="#close-sitemap" class="close-sitemap"><span class="sr-only">사이트맵 닫기</span></a> </div>
 <!-- //Footer.html -->
 
-
-<!--팝업-->
-<div class="layer_popup" style="position:absolute; width:420px;left:50%; margin-left: -210px; top:90px; z-index:1000;" id="layer_pop">
-	<div class="popup-content">
-		<img src="<?php echo $config["imageDir"]?>/part/popup/inu-popup-00.jpg" />
-	</div>
-	<div class="popup-footer">
-		<input type="checkbox" name="pop_today" id="pop_today" /><label for="pop_today">오늘 하루 이 창 열지 않음</label>
-		<a href="javascript:closeWin();">닫기</a>
-	</div>
-</div>
-
-<script type="text/javascript">
-	cookiedata = document.cookie;
-	if (cookiedata.indexOf("ncookie=done") < 0){
-		document.getElementById('layer_pop').style.display = "inline";
-	}
-	else {
-		document.getElementById('layer_pop').style.display = "none";
-	}
-</script>
-<!--//팝업-->

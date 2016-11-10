@@ -242,7 +242,52 @@
 			}
 		});
 
+		$('#top-banner-area .mobile').each(function() {
+			var $topBannerArea = $(this);
+			var $topBannerContent = $('.rolling-mobile-content', $topBannerArea);
+			var options = {
+				slides : '>li',
+				timeout : 2400,
+				fx : 'fade',
+				log : false,
+				pauseOnHover : true,
+				pagerActiveClass : 'on'
+			};
+			var $pager = $('.top-banner-pager', $topBannerArea).each(function() {
+				options.pager = this;
+				options.pagerTemplate = '';
+				options.pagerEvent = 'mouseover';
+			});
 
+			$topBannerContent.cycle(options);
+
+			$(document).one('pjax:beforeReplace', function() {
+				$visualContent.cycle('destroy');
+			});
+		});
+		$('#top-banner-area .desktop').each(function() {
+			var $topBannerArea = $(this);
+			var $topBannerContent = $('.rolling-mobile-content', $topBannerArea);
+			var options = {
+				slides : '>li',
+				timeout : 2400,
+				fx : 'fade',
+				log : false,
+				pauseOnHover : true,
+				pagerActiveClass : 'on'
+			};
+			var $pager = $('.top-banner-pager', $topBannerArea).each(function() {
+				options.pager = this;
+				options.pagerTemplate = '';
+				options.pagerEvent = 'mouseover';
+			});
+
+			$topBannerContent.cycle(options);
+
+			$(document).one('pjax:beforeReplace', function() {
+				$visualContent.cycle('destroy');
+			});
+		});
 	});
 
 })(jQuery);

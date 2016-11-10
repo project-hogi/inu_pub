@@ -18,7 +18,21 @@
 	.container{
 		position: relative;
 		height: 130px;
-		ul{
+		
+		&.mobile{
+			display: block;
+			
+			>ul{
+				li{
+					background: none;
+				}
+			}
+		}
+		&.desktop{
+			display: none;
+		}
+		
+		>ul{
 			li{
 				width: 100%;
 				float: left;
@@ -79,8 +93,29 @@
 				color: #666;
 				text-decoration: underline;
 			}
+		}
+	}
+	
+	.top-banner-pager{
+		position: absolute;
+		left: 0;
+		top: 110px;
+		width: 100%;
+		text-align: center;
+		a{
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			background-color: #fff;
+			border-radius: 50%;
+			margin: 0 1px;
 			
-			
+			&:hover,
+			&:focus,
+			&.on,
+			&.active{
+				background-color: @pointBlue;
+			}
 		}
 	}
 }
@@ -200,7 +235,6 @@
 			>ul>li{
 				&.over-on{
 					>a{
-						padding-bottom: 33px;
 						border-bottom-width: 4px;
 					}
 					>ul{
@@ -596,7 +630,7 @@ body>.sitemap{
 						&:hover, &:focus,
 						&.active{
 							>a{
-								color: #ab8f73;
+								
 							}
 						}
 						>ul{

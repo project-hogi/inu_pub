@@ -6,7 +6,7 @@
 <?php require "part/header.php"; ?>
 <?php require "part/header-sub.php"; ?>
 <div class="img-area">
-	<img src="/resources/front/images/part/content/advice/move/top-img.jpg" alt="vision mission stratege effect 차트">
+	<img src="<?php echo $config["imageDir"]; ?>/part/content/advice/move/top-img.jpg" alt="vision mission stratege effect 차트">
 </div>
 <div class="push-left move">
 	<div class="content-left-title">

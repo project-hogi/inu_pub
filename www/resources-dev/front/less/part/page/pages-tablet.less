@@ -62,7 +62,6 @@ body.page-introduce-way{
 }
 
 #content{
-	margin-top: 20px;
 	.left-title + .point-title{
 		margin-top: 0;
 		padding-top: 0;
@@ -200,7 +199,7 @@ body.page-introduce-way{
 		.pre-box,
 		.img-box{
 			position: relative;
-			width: 100%;
+			width: 50%;
 			float: left;
 			height: 320px;
 			background-color: #fff;
@@ -212,7 +211,11 @@ body.page-introduce-way{
 			}
 		}
 		.img-box{
-			display: none;
+			display: block;
+			background-size: cover;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			
 			.text{
 				position: absolute;
 				left: 50%;
@@ -222,13 +225,13 @@ body.page-introduce-way{
 			}
 		}
 		.pre-box{
+			width: 50%;
 			
 			p{
 				padding-top: 20px;
 				letter-spacing: -1px;
 				font-size: 12px;
 				line-height: 19px;
-				text-align: left;
 				color: #888888;
 			}
 			.btn-detail{
@@ -240,7 +243,7 @@ body.page-introduce-way{
 			margin: auto;
 			.pre-box,
 			.img-box{
-				width: 100%;
+				width: 50%;
 			}
 			
 		}

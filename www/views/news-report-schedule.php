@@ -64,9 +64,11 @@
 			<td>
 				<sub><a href="#">8</a></sub>
 				<span class="schedule eq-0  first block-5">
-					<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
-					&#91;<span class="time">12:30</span>&#93;
-					창업자와 교류의 만남
+					<div class="schedule-title">
+						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
+						&#91;<span class="time">12:30</span>&#93;
+						창업자와 교류의 만남
+					</div>
 					<div class="pre-content">
 						<div class="title">
 							<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
@@ -88,9 +90,11 @@
 					</div>
 				</span>
 				<span class="schedule eq-1 first block-2">
-					<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
-					&#91;<span class="time">12:30</span>&#93;
-					2016 년Game Developers 컨퍼런스
+					<div class="schedule-title">
+						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
+						&#91;<span class="time">12:30</span>&#93;
+						2016 년Game Developers 컨퍼런스
+					</div>
 					<div class="pre-content">
 						<div class="title">
 							<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
@@ -112,9 +116,11 @@
 					</div>
 				</span>
 				<span class="schedule eq-2 first last">
-					<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
-					&#91;<span class="time">12:30</span>&#93;
-					2016 년Game Developers 컨퍼런스
+					<div class="schedule-title">
+						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
+						&#91;<span class="time">12:30</span>&#93;
+						2016 년Game Developers 컨퍼런스
+					</div>
 					<div class="pre-content">
 						<div class="title">
 							<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
@@ -139,9 +145,11 @@
 			<td>
 				<sub><a href="#">9</a></sub>
 				<span class="schedule eq-0">
-					<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
-					&#91;<span class="time">12:30</span>&#93;
-					2016 년Game Developers 컨퍼런스
+					<div class="schedule-title">
+						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
+						&#91;<span class="time">12:30</span>&#93;
+						2016 년Game Developers 컨퍼런스
+					</div>
 					<div class="pre-content">
 						<div class="title">
 							<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
@@ -163,9 +171,11 @@
 					</div>
 				</span>
 				<span class="schedule eq-1 last">
-					<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
-					&#91;<span class="time">12:30</span>&#93;
-					2016 년Game Developers 컨퍼런스
+					<div class="schedule-title">
+						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
+						&#91;<span class="time">12:30</span>&#93;
+						2016 년Game Developers 컨퍼런스
+					</div>
 					<div class="pre-content">
 						<div class="title">
 							<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
@@ -190,9 +200,11 @@
 			<td>
 				<sub><a href="#">10</a></sub>
 				<span class="schedule eq-0">
-					<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
-					&#91;<span class="time">12:30</span>&#93;
-					2016 년Game Developers 컨퍼런스
+					<div class="schedule-title">
+						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
+						&#91;<span class="time">12:30</span>&#93;
+						2016 년Game Developers 컨퍼런스
+					</div>
 					<div class="pre-content">
 						<div class="title">
 							<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
@@ -217,9 +229,11 @@
 			<td>
 				<sub><a href="#">11</a></sub>
 				<span class="schedule eq-0">
-					<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
-					&#91;<span class="time">12:30</span>&#93;
-					2016 년Game Developers 컨퍼런스
+					<div class="schedule-title">
+						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
+						&#91;<span class="time">12:30</span>&#93;
+						2016 년Game Developers 컨퍼런스
+					</div>
 					<div class="pre-content">
 						<div class="title">
 							<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
@@ -244,9 +258,11 @@
 			<td class="sat">
 				<sub><a href="#">12</a></sub>
 				<span class="schedule eq-0">
-					<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
-					&#91;<span class="time">12:30</span>&#93;
-					2016 년Game Developers 컨퍼런스
+					<div class="schedule-title">
+						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
+						&#91;<span class="time">12:30</span>&#93;
+						2016 년Game Developers 컨퍼런스
+					</div>
 					<div class="pre-content">
 						<div class="title">
 							<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
@@ -273,9 +289,11 @@
 			<td class="sun">
 				<sub><a href="#">13</a></sub>
 				<span class="schedule eq-0 week-first block-2">
-					<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
-					&#91;<span class="time">12:30</span>&#93;
-					2016 년Game Developers 컨퍼런스
+					<div class="schedule-title">
+						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
+						&#91;<span class="time">12:30</span>&#93;
+						2016 년Game Developers 컨퍼런스
+					</div>
 					<div class="pre-content">
 						<div class="title">
 							<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
@@ -300,9 +318,11 @@
 			<td>
 				<sub><a href="#">14</a></sub>
 				<span class="schedule eq-0 last">
-					<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
-					&#91;<span class="time">12:30</span>&#93;
-					2016 년Game Developers 컨퍼런스
+					<div class="schedule-title">
+						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
+						&#91;<span class="time">12:30</span>&#93;
+						2016 년Game Developers 컨퍼런스
+					</div>
 					<div class="pre-content">
 						<div class="title">
 							<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
@@ -353,9 +373,11 @@
 			<td>
 				<sub><a href="#">23</a></sub>
 				<span class="schedule first eq-0 last">
-					<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
-					&#91;<span class="time">12:30</span>&#93;
-					2016 년Game Developers 컨퍼런스
+					<div class="schedule-title">
+						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
+						&#91;<span class="time">12:30</span>&#93;
+						2016 년Game Developers 컨퍼런스
+					</div>
 					<div class="pre-content">
 						<div class="title">
 							<span class="icon icon-dday"><span class="sr-only">d-day</span></span>

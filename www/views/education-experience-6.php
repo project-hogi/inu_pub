@@ -15,13 +15,13 @@
 			<span class="btn btn-detail"><span class="icon-detail"></span>자세히보기</span>
 		</a>
 	</div>
-	<div class="img-box"><img src="<?php echo $config["imageDir"]; ?>/part/content/education/global-1.jpg" alt="">
+	<div class="img-box" style="background-image: url(<?php echo $config["imageDir"]; ?>/part/content/education/global-1.jpg);">
 		<span class="text">
 			<img src="<?php echo $config["imageDir"]; ?>/part/content/education/bizcool-1-1.png" alt="">
 			<span class="sr-only">01</span>
 		</span>
 	</div>
-	<div class="img-box"><img src="<?php echo $config["imageDir"]; ?>/part/content/education/global-2.jpg" alt="">
+	<div class="img-box" style="background-image: url(<?php echo $config["imageDir"]; ?>/part/content/education/global-2.jpg);">
 		<span class="text">
 			<img src="<?php echo $config["imageDir"]; ?>/part/content/education/bizcool-2-1.png" alt="">
 			<span class="sr-only">02</span>

@@ -1,5 +1,6 @@
 <!-- Header Sub.html -->
 <div class="visual">
+	<h2 class="page-title-depth-0"><?php echo getPageName($pagePath, 0); ?>창업교육</h2>
 	<?php if(getDepthId($pagePath, 0) == "education"){ ?>
 		<p class="sr-only">창업지원단의 체계적인 지원으로 창업단계별 맞춤지원 프로그램!<br> 인천대학교 창업지원단</p>
 	<?php } ?>
@@ -14,7 +15,7 @@
 
 				if($nav){
 					?>
-					<li class="has-children">
+					<li class="has-children eq-<?php echo $i ?>">
 						<a href="#"><?php echo $nav["name"]; ?></a>
 						<?php echo getNavsToHtml("", getNavsByDepth($pagePath, $i - 1), 1); ?>
 					</li>
@@ -23,6 +24,7 @@
 		</ul>
 	</div>
 </div>
+
 <div class="container">
 	<h2 class="page-title"><?php echo getPageName($pagePath, 2); ?></h2>
 	<div class="breadcrumb">

@@ -4,12 +4,15 @@ div.board-mento{
 	
 	.board-mento-list{
 		.comment-box{
-			width: auto;
-			height: auto;
-			margin-bottom: 20px;
+			position: absolute;
+			top: -60px;
+			width: 1000px;
+			height: 48px;
 			
 			.list-comment{
-				font-size: 12px !important;
+				position: relative;
+				top: 20px;
+				font-size: 18px !important;
 				color: #444444;
 				font-family:"Nanum Gothic", NanumGothic, NanumGothicWeb, "Malgun Gothic", MalgunGothic, "맑은고딕", Arial, sans-serif;
 				
@@ -18,12 +21,14 @@ div.board-mento{
 				}
 			}
 			.btn{
-				display: block;
-				width: 100%;
+				position: absolute;
+				right: 0;
+				top: 0;
 			}
 		}
 		
 		>ul{
+			margin-left: -10px;
 			
 			&:after{
 				clear: both;
@@ -32,11 +37,12 @@ div.board-mento{
 			}
 			
 			>li{
-				width: 100%;
-				min-height: 142px;
+				width: 495px;
+				height: 142px;
 				border: 1px solid #ddd;
 				overflow: hidden;
 				float: left;
+				margin-left: 10px;
 				
 				&:hover,
 				&:focus,
@@ -53,16 +59,14 @@ div.board-mento{
 				
 				.img-area,
 				.pre-area{
+					height: 142px;
 					float: left;
 				}
 				
 				.img-area{
-					display: none;
-					min-height: 142px;
-					background-repeat:no-repeat;
-					background-position: 50% 50%;
-					background-size: contain;
-					display: block;
+					width: 214px;
+					border: 7px solid #fff;
+					text-align: center;
 					
 					img{
 						
@@ -70,9 +74,8 @@ div.board-mento{
 				}
 				
 				.pre-area{
-					display: block;
-					width: 100%;
 					position: relative;
+					width: 279px;
 					padding: 20px 17px;
 					background-color: #fff;
 					border-left: 2px solid #eee;

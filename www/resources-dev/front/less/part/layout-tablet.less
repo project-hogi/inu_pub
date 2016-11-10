@@ -17,12 +17,34 @@
 	}
 	
 	.container{
-		ul{
+		
+		&.mobile{
+			display: none;
+		}
+		&.desktop{
+			display: block;
+		}
+		
+		>ul{
 			li{
-				width: 50%;
+				width: 100%;
 				padding: 10px 20px 0;
 				height: 130px;
 				
+				background: none;
+				
+				ul{
+					li{
+						width: 50%;
+						height: 100%;
+						padding-top: 0;
+						background: url(../images/part/layout/top-banner-bar.png) 0 50% no-repeat;
+						
+						&:first-child{
+							background: none;
+						}
+					}
+				}
 				.img-box{
 					
 				}
@@ -106,7 +128,7 @@ body>.sitemap{
 						&:hover, &:focus,
 						&.active{
 							>a{
-								color: #ab8f73;
+								
 							}
 						}
 						>ul{

@@ -151,13 +151,17 @@
 							height: 27px;
 							line-height: 27px;
 							margin-top: 2px;
-							overflow-y: hidden;
 							background-color: #f2f4f8;
 							border-top: 1px solid #a9b0be;
 							border-bottom: 1px solid #a9b0be;
 							font-size: 0;
 							text-indent: -99999px;
 							color: #4b525f;
+							
+							.schedule-title{
+								height: 27px;
+								overflow-y: hidden;
+							}
 							
 							.icon {
 								margin-left: 5px;
@@ -237,11 +241,11 @@
 									clear: both;
 									display: block;
 									content: '';
-									width: 17px;
+									width: 100%;
 									height: 10px;
-									background: url(../images/part/schedule/pre-box.png) 0 0 no-repeat;
+									background: url(../images/part/schedule/pre-box.png) 25px 0 no-repeat;
 									position: absolute;
-									left: 25px;
+									left: 0;
 									bottom: -10px;
 								}
 								
@@ -266,7 +270,7 @@
 								.link-style {
 									font-size: 11px;
 									position: absolute;
-									bottom: 2px;
+									bottom: 6px;
 									margin-left: 30px;
 									line-height: 1.2;
 								}
@@ -281,102 +285,11 @@
 									display: block;
 									position: absolute;
 									left: -1px;
-									top: -138px;
+									top: -120px;
 								}
 								
 							}
 							
-							&.eq-0 {
-								&:hover,
-								&:focus,
-								&.on,
-								&.active {
-									.pre-content {
-										top: -138px;
-									}
-								}
-							}
-							&.eq-1 {
-								&:hover,
-								&:focus,
-								&.on,
-								&.active {
-									.pre-content {
-										top: -167px;
-									}
-								}
-							}
-							&.eq-2 {
-								&:hover,
-								&:focus,
-								&.on,
-								&.active {
-									.pre-content {
-										top: -196px;
-									}
-								}
-							}
-							&.eq-3 {
-								&:hover,
-								&:focus,
-								&.on,
-								&.active {
-									.pre-content {
-										top: -225px;
-									}
-								}
-							}
-							&.eq-4 {
-								&:hover,
-								&:focus,
-								&.on,
-								&.active {
-									.pre-content {
-										top: -254px;
-									}
-								}
-							}
-							
-							&.eq-5 {
-								&:hover,
-								&:focus,
-								&.on,
-								&.active {
-									.pre-content {
-										top: -283px;
-									}
-								}
-							}
-							&.eq-6 {
-								&:hover,
-								&:focus,
-								&.on,
-								&.active {
-									.pre-content {
-										top: -312px;
-									}
-								}
-							}
-							&.eq-7 {
-								&:hover,
-								&:focus,
-								&.on,
-								&.active {
-									.pre-content {
-										top: -341px;
-									}
-								}
-							}
-							&.eq-8 {
-								&:hover,
-								&:focus,
-								&.on,
-								&.active {
-									.pre-content {
-										top: -370px;
-									}
-								}
-							}
 						}
 					}
 					.sun{

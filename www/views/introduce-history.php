@@ -7,7 +7,7 @@
 <?php require "part/header-sub.php"; ?>
 
 <table class="table-history table-striped">
-	<col width="17.8%">
+	<col width="100px">
 	<col width="*">
 
 	<tbody>

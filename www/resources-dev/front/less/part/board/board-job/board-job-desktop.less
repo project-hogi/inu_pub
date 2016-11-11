@@ -3,12 +3,12 @@ div.board-job{
 	.board-job-list{
 		>ul{
 			>li{
-				height: auto;
-				margin: 2% 0;
+				width: 100%;
+				float: inherit;
+				height: 208px;
 				border: 1px solid #ddd;
 				overflow: hidden;
-				background-color: #fff;
-				//background: #fff url(../images/part/layout-page/notice-list-bg.png) 95% 90% no-repeat;
+				background: #fff url(../images/part/layout-page/notice-list-bg.png) 95% 50% no-repeat;
 				
 				&:hover,
 				&:focus,
@@ -23,10 +23,12 @@ div.board-job{
 				}
 				
 				.img-area{
-					width: 100%;
+					width: 215px;
 					padding: 7px;
 					text-align: center;
+					border-right: 2px solid #eee;
 					margin-right: 25px;
+					float: left;
 					
 					.img{
 						width: 100%;
@@ -51,8 +53,7 @@ div.board-job{
 				.pre-area{
 					position: relative;
 					width: 100%;
-					height: auto;
-					padding: 25px 30px 20px 25px;
+					padding: 25px 130px 20px 25px;
 					
 					
 					.title{
@@ -61,7 +62,6 @@ div.board-job{
 						color: #444;
 						
 						.title-type{
-							clear: both;
 							display: inline-block;
 							height: 25px;
 							font-family:'돋움',Dotum;
@@ -78,14 +78,15 @@ div.board-job{
 								height: 100%;
 								vertical-align: middle;
 							}
+							
 						}
 						.tit{
-							display: block;
-							height: auto;
+							display: inline-block;
+							height: 25px;
 							font-size: 16px;
 							font-weight: bold;
+							padding-left: 10px;
 							margin-top: 1px;
-							#util .ellipsis();
 						}
 					}
 					p{
@@ -136,9 +137,11 @@ div.board-job{
 			}
 		}
 	}
+	
 	.employment-info{
+		margin-left: 215px;
 		margin-top: 10px;
-		width: 100%;
+		width: 80%;
 		
 		&:after{
 			clear: both;
@@ -146,14 +149,13 @@ div.board-job{
 			content: '';
 		}
 		li{
-			width: 100%;
-			height: auto;
+			width: 50%;
+			float: left;
 			float: left;
 			line-height: 22px;
 			font-size: 12px;
 			
 			dl{
-				position: relative;
 				width: 100%;
 				margin: 0;
 				padding: 0;
@@ -167,17 +169,11 @@ div.board-job{
 					float: left;
 				}
 				dt{
-					position: absolute;
-					left: 0;
-					top: 0;
 					width: 90px;
 					color: #aaaaaa;
 				}
 				dd{
-					width: 100%;
-					padding-left: 90px;
 					color: #666666;
-					#util .ellipsis();
 				}
 			}
 		}

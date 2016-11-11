@@ -2,13 +2,22 @@ div.board-job{
 	
 	.board-job-list{
 		>ul{
+			margin: 0 -0.5%;
+			
+			&:after{
+				clear: both;
+				display: block;
+				content: '';
+			}
 			>li{
+				position: relative;
+				width: 49%;
+				float: left;
 				height: auto;
-				margin: 2% 0;
+				margin: 0.5% 0.5%;
 				border: 1px solid #ddd;
 				overflow: hidden;
-				background-color: #fff;
-				//background: #fff url(../images/part/layout-page/notice-list-bg.png) 95% 90% no-repeat;
+				//background: #fff url(../images/part/layout-page/notice-list-bg.png) 95% 50% no-repeat;
 				
 				&:hover,
 				&:focus,
@@ -51,7 +60,7 @@ div.board-job{
 				.pre-area{
 					position: relative;
 					width: 100%;
-					height: auto;
+					height: 275px;
 					padding: 25px 30px 20px 25px;
 					
 					
@@ -85,7 +94,6 @@ div.board-job{
 							font-size: 16px;
 							font-weight: bold;
 							margin-top: 1px;
-							#util .ellipsis();
 						}
 					}
 					p{
@@ -147,13 +155,12 @@ div.board-job{
 		}
 		li{
 			width: 100%;
-			height: auto;
+			float: left;
 			float: left;
 			line-height: 22px;
 			font-size: 12px;
 			
 			dl{
-				position: relative;
 				width: 100%;
 				margin: 0;
 				padding: 0;
@@ -167,17 +174,11 @@ div.board-job{
 					float: left;
 				}
 				dt{
-					position: absolute;
-					left: 0;
-					top: 0;
 					width: 90px;
 					color: #aaaaaa;
 				}
 				dd{
-					width: 100%;
-					padding-left: 90px;
 					color: #666666;
-					#util .ellipsis();
 				}
 			}
 		}

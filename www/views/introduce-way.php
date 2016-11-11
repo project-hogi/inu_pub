@@ -5,8 +5,8 @@
 <?php require "part/app-header.php"; ?>
 <?php require "part/header.php"; ?>
 <?php require "part/header-sub.php"; ?>
-<div class="map-area">
-	<img src="<?php echo $config["imageDir"]; ?>/part/content/introduce/way/map.jpg" alt="vision mission stratege effect 차트">
+<div class="map-area" style="background-image: url(<?php echo $config["imageDir"]; ?>/part/content/introduce/way/map.jpg);">
+
 </div>
 <div class="push-left way">
 	<div class="content-left-title">

@@ -16,7 +16,7 @@
 				if($nav){
 					?>
 					<li class="has-children eq-<?php echo $i ?>">
-						<a href="#"><?php echo $nav["name"]; ?></a>
+						<a href="#none"><?php echo $nav["name"]; ?></a>
 						<?php echo getNavsToHtml("", getNavsByDepth($pagePath, $i - 1), 1); ?>
 					</li>
 				<?php } ?>

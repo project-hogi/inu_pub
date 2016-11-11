@@ -32,40 +32,50 @@
 						<p class="pre">
 							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
 						</p>
-						<div class="employment-info">
-							<table class="table-info">
-								<col width="70">
-								<col width="240">
-								<col width="70">
-								<col width="240">
-								<tbody>
-								<tr>
-									<th>ㆍ고용형태</th>
-									<td>단기, 정직원</td>
-									<th>ㆍ업무분야</th>
-									<td>소프트웨어엔지니어 디자인</td>
-								</tr>
-								<tr>
-									<th>ㆍ모집인원</th>
-									<td>00명</td>
-									<th>ㆍ접수기간</th>
-									<td>2016.08.01 (월) ~ 2016.12.31 (토)</td>
-								</tr>
-								<tr>
-									<th>ㆍ연락처</th>
-									<td>02-3222-0011</td>
-									<th>ㆍ홈페이지</th>
-									<td><span class="link-style">http://www.buzzpia.co.kr</span></td>
-								</tr>
-								<tr>
-									<th>ㆍ기타</th>
-									<td>동종업종의 경력자를 우대합니다.</td>
-									<th></th>
-									<td></td>
-								</tr>
-								</tbody>
-							</table>
-						</div>
+						<ul class="employment-info">
+							<li>
+								<dl>
+									<dt>ㆍ고용형태</dt>
+									<dd>단기, 정직원</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ업무분야</dt>
+									<dd>소프트웨어엔지니어 디자인</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ모집인원</dt>
+									<dd>00명</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ접수기간</dt>
+									<dd>2016.08.01 (월) ~ 2016.12.31 (토)</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ연락처</dt>
+									<dd>02-3222-0011</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ홈페이지</dt>
+									<dd><span class="link-style">http://www.buzzpia.co.kr</span></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ기타</dt>
+									<dd>동종업종의 경력자를 우대합니다.</dd>
+								</dl>
+							</li>
+						</ul>
 					</div>
 				</a>
 			</li>
@@ -81,41 +91,50 @@
 						<p class="pre">
 							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
 						</p>
-						<div class="employment-info">
-							<table class="table-info">
-								<col width="70">
-								<col width="240">
-								<col width="70">
-								<col width="240">
-
-								<tbody>
-								<tr>
-									<th>ㆍ고용형태</th>
-									<td>단기, 정직원</td>
-									<th>ㆍ업무분야</th>
-									<td>소프트웨어엔지니어 디자인</td>
-								</tr>
-								<tr>
-									<th>ㆍ모집인원</th>
-									<td>00명</td>
-									<th>ㆍ접수기간</th>
-									<td>2016.08.01 (월) ~ 2016.12.31 (토)</td>
-								</tr>
-								<tr>
-									<th>ㆍ연락처</th>
-									<td>02-3222-0011</td>
-									<th>ㆍ홈페이지</th>
-									<td><span class="link-style">http://www.buzzpia.co.kr</span></td>
-								</tr>
-								<tr>
-									<th>ㆍ기타</th>
-									<td>동종업종의 경력자를 우대합니다.</td>
-									<th></th>
-									<td></td>
-								</tr>
-								</tbody>
-							</table>
-						</div>
+						<ul class="employment-info">
+							<li>
+								<dl>
+									<dt>ㆍ고용형태</dt>
+									<dd>단기, 정직원</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ업무분야</dt>
+									<dd>소프트웨어엔지니어 디자인</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ모집인원</dt>
+									<dd>00명</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ접수기간</dt>
+									<dd>2016.08.01 (월) ~ 2016.12.31 (토)</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ연락처</dt>
+									<dd>02-3222-0011</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ홈페이지</dt>
+									<dd><span class="link-style">http://www.buzzpia.co.kr</span></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ기타</dt>
+									<dd>동종업종의 경력자를 우대합니다.</dd>
+								</dl>
+							</li>
+						</ul>
 					</div>
 				</a>
 			</li>
@@ -131,41 +150,50 @@
 						<p class="pre">
 							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
 						</p>
-						<div class="employment-info">
-							<table class="table-info">
-								<col width="70">
-								<col width="240">
-								<col width="70">
-								<col width="240">
-
-								<tbody>
-								<tr>
-									<th>ㆍ고용형태</th>
-									<td>단기, 정직원</td>
-									<th>ㆍ업무분야</th>
-									<td>소프트웨어엔지니어 디자인</td>
-								</tr>
-								<tr>
-									<th>ㆍ모집인원</th>
-									<td>00명</td>
-									<th>ㆍ접수기간</th>
-									<td>2016.08.01 (월) ~ 2016.12.31 (토)</td>
-								</tr>
-								<tr>
-									<th>ㆍ연락처</th>
-									<td>02-3222-0011</td>
-									<th>ㆍ홈페이지</th>
-									<td><span class="link-style">http://www.buzzpia.co.kr</span></td>
-								</tr>
-								<tr>
-									<th>ㆍ기타</th>
-									<td>동종업종의 경력자를 우대합니다.</td>
-									<th></th>
-									<td></td>
-								</tr>
-								</tbody>
-							</table>
-						</div>
+						<ul class="employment-info">
+							<li>
+								<dl>
+									<dt>ㆍ고용형태</dt>
+									<dd>단기, 정직원</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ업무분야</dt>
+									<dd>소프트웨어엔지니어 디자인</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ모집인원</dt>
+									<dd>00명</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ접수기간</dt>
+									<dd>2016.08.01 (월) ~ 2016.12.31 (토)</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ연락처</dt>
+									<dd>02-3222-0011</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ홈페이지</dt>
+									<dd><span class="link-style">http://www.buzzpia.co.kr</span></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ기타</dt>
+									<dd>동종업종의 경력자를 우대합니다.</dd>
+								</dl>
+							</li>
+						</ul>
 					</div>
 				</a>
 			</li>
@@ -181,41 +209,50 @@
 						<p class="pre">
 							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
 						</p>
-						<div class="employment-info">
-							<table class="table-info">
-								<col width="70">
-								<col width="240">
-								<col width="70">
-								<col width="240">
-
-								<tbody>
-								<tr>
-									<th>ㆍ고용형태</th>
-									<td>단기, 정직원</td>
-									<th>ㆍ업무분야</th>
-									<td>소프트웨어엔지니어 디자인</td>
-								</tr>
-								<tr>
-									<th>ㆍ모집인원</th>
-									<td>00명</td>
-									<th>ㆍ접수기간</th>
-									<td>2016.08.01 (월) ~ 2016.12.31 (토)</td>
-								</tr>
-								<tr>
-									<th>ㆍ연락처</th>
-									<td>02-3222-0011</td>
-									<th>ㆍ홈페이지</th>
-									<td><span class="link-style">http://www.buzzpia.co.kr</span></td>
-								</tr>
-								<tr>
-									<th>ㆍ기타</th>
-									<td>동종업종의 경력자를 우대합니다.</td>
-									<th></th>
-									<td></td>
-								</tr>
-								</tbody>
-							</table>
-						</div>
+						<ul class="employment-info">
+							<li>
+								<dl>
+									<dt>ㆍ고용형태</dt>
+									<dd>단기, 정직원</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ업무분야</dt>
+									<dd>소프트웨어엔지니어 디자인</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ모집인원</dt>
+									<dd>00명</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ접수기간</dt>
+									<dd>2016.08.01 (월) ~ 2016.12.31 (토)</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ연락처</dt>
+									<dd>02-3222-0011</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ홈페이지</dt>
+									<dd><span class="link-style">http://www.buzzpia.co.kr</span></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ기타</dt>
+									<dd>동종업종의 경력자를 우대합니다.</dd>
+								</dl>
+							</li>
+						</ul>
 					</div>
 				</a>
 			</li>
@@ -231,41 +268,50 @@
 						<p class="pre">
 							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
 						</p>
-						<div class="employment-info">
-							<table class="table-info">
-								<col width="70">
-								<col width="240">
-								<col width="70">
-								<col width="240">
-
-								<tbody>
-								<tr>
-									<th>ㆍ고용형태</th>
-									<td>단기, 정직원</td>
-									<th>ㆍ업무분야</th>
-									<td>소프트웨어엔지니어 디자인</td>
-								</tr>
-								<tr>
-									<th>ㆍ모집인원</th>
-									<td>00명</td>
-									<th>ㆍ접수기간</th>
-									<td>2016.08.01 (월) ~ 2016.12.31 (토)</td>
-								</tr>
-								<tr>
-									<th>ㆍ연락처</th>
-									<td>02-3222-0011</td>
-									<th>ㆍ홈페이지</th>
-									<td><span class="link-style">http://www.buzzpia.co.kr</span></td>
-								</tr>
-								<tr>
-									<th>ㆍ기타</th>
-									<td>동종업종의 경력자를 우대합니다.</td>
-									<th></th>
-									<td></td>
-								</tr>
-								</tbody>
-							</table>
-						</div>
+						<ul class="employment-info">
+							<li>
+								<dl>
+									<dt>ㆍ고용형태</dt>
+									<dd>단기, 정직원</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ업무분야</dt>
+									<dd>소프트웨어엔지니어 디자인</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ모집인원</dt>
+									<dd>00명</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ접수기간</dt>
+									<dd>2016.08.01 (월) ~ 2016.12.31 (토)</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ연락처</dt>
+									<dd>02-3222-0011</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ홈페이지</dt>
+									<dd><span class="link-style">http://www.buzzpia.co.kr</span></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>ㆍ기타</dt>
+									<dd>동종업종의 경력자를 우대합니다.</dd>
+								</dl>
+							</li>
+						</ul>
 					</div>
 				</a>
 			</li>

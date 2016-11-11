@@ -10,7 +10,7 @@
 				var options = {
 					slides : ">div",
 					timeout : 2400,
-					fx : "scrollHorz",
+					fx : "fade",
 					easing : "easeInOutExpo",
 					speed : 1200,
 					log : false,

@@ -18,10 +18,10 @@
 					<p class="address">주소 : 경기도 성남시 판교역로 231 H스퀘어 S동 712호</p>
 					<p class="homepage">홈페이지 : <a href="http://www.buzzpia.com/" target="_blank">http://www.buzzpia.com/</a></p>
 					<p class="item">아이템 : 안드로이드 OS 오픈형 런처 플랫폼인 버즈런처, 홈팩버즈  서비스</p>
-					<div class="detail-group">
-						<a href="#none" class="btn btn-detail-popup" type="button" data-toggle="modal" data-target="#board-incubating-detail"><span>상세보기</span></a>
-						<a href="http://www.buzzpia.com/" target="_blank" class="btn btn-homepage" type="button"><span>홈페이지</span></a>
-					</div>
+				</div>
+				<div class="detail-group">
+					<a href="#none" class="btn btn-detail-popup" type="button" data-toggle="modal" data-target="#board-incubating-detail"><span>상세보기</span></a>
+					<a href="http://www.buzzpia.com/" target="_blank" class="btn btn-homepage" type="button"><span>홈페이지</span></a>
 				</div>
 			</li>
 			<li>
@@ -34,10 +34,10 @@
 					<p class="address">주소 : 경기도 성남시 분당구 판교로 323(삼평동) 6층</p>
 					<p class="homepage">홈페이지 : <a href="http://www.onnet.co.kr/" target="_blank">http://www.onnet.co.kr/</a></p>
 					<p class="item">아이템 : 게임제작, 게임 퍼블리싱 등</p>
-					<div class="detail-group">
-						<a href="#" class="btn btn-detail-popup" type="button" data-toggle="modal" data-target="#board-incubating-detail"><span>상세보기</span></a>
-						<a href="http://www.onnet.co.kr/" target="_blank" class="btn btn-homepage" type="button"><span>홈페이지</span></a>
-					</div>
+				</div>
+				<div class="detail-group">
+					<a href="#" class="btn btn-detail-popup" type="button" data-toggle="modal" data-target="#board-incubating-detail"><span>상세보기</span></a>
+					<a href="http://www.onnet.co.kr/" target="_blank" class="btn btn-homepage" type="button"><span>홈페이지</span></a>
 				</div>
 			</li>
 			<li>
@@ -50,10 +50,10 @@
 					<p class="address">주소 : 경기도 성남시 판교역로 231 H스퀘어 S동 712호</p>
 					<p class="homepage">홈페이지 : <a href="http://www.dialoid.com/" target="_blank">http://www.dialoid.com/</a></p>
 					<p class="item">아이템 : 음성인식 원천 기술</p>
-					<div class="detail-group">
-						<a href="#" class="btn btn-detail-popup" type="button" data-toggle="modal" data-target="#board-incubating-detail"><span>상세보기</span></a>
-						<a href="http://www.dialoid.com/" target="_blank" class="btn btn-homepage" type="button"><span>홈페이지</span></a>
-					</div>
+				</div>
+				<div class="detail-group">
+					<a href="#" class="btn btn-detail-popup" type="button" data-toggle="modal" data-target="#board-incubating-detail"><span>상세보기</span></a>
+					<a href="http://www.dialoid.com/" target="_blank" class="btn btn-homepage" type="button"><span>홈페이지</span></a>
 				</div>
 			</li>
 			<li>
@@ -66,10 +66,10 @@
 					<p class="address">주소 : 경기도 성남시 분당구 판교로 323(삼평동) 6층</p>
 					<p class="homepage">홈페이지 : <a href="http://www.pixview.co.kr/m/tour.html" target="_blank">http://www.pixview.co.kr/m/tour.html</a></p>
 					<p class="item">아이템 : 지도 서비스의 컨텐츠 생산을 담당하고 있는 계열사</p>
-					<div class="detail-group">
-						<a href="#" class="btn btn-detail-popup" type="button" data-toggle="modal" data-target="#board-incubating-detail"><span>상세보기</span></a>
-						<a href="http://www.pixview.co.kr/m/tour.html" target="_blank" class="btn btn-homepage" type="button"><span>홈페이지</span></a>
-					</div>
+				</div>
+				<div class="detail-group">
+					<a href="#" class="btn btn-detail-popup" type="button" data-toggle="modal" data-target="#board-incubating-detail"><span>상세보기</span></a>
+					<a href="http://www.pixview.co.kr/m/tour.html" target="_blank" class="btn btn-homepage" type="button"><span>홈페이지</span></a>
 				</div>
 			</li>
 			<li>
@@ -82,10 +82,10 @@
 					<p class="address">주소 : 서울시 금천구 가산동 대륭포스트 타워 6차 813호</p>
 					<p class="homepage">홈페이지 : <a href="http://www.tnkfactory.com/tnk/home.front.main" target="_blank">http://www.tnkfactory.com/tnk/home.front.main</a></p>
 					<p class="item">아이템 : 모바일 서비스 확산 및 수익화를 위한 광고 플랫폼을 제공</p>
-					<div class="detail-group">
-						<a href="#" class="btn btn-detail-popup" type="button" data-toggle="modal" data-target="#board-incubating-detail"><span>상세보기</span></a>
-						<a href="http://www.tnkfactory.com/tnk/home.front.main" target="_blank" class="btn btn-homepage" type="button"><span>홈페이지</span></a>
-					</div>
+				</div>
+				<div class="detail-group">
+					<a href="#" class="btn btn-detail-popup" type="button" data-toggle="modal" data-target="#board-incubating-detail"><span>상세보기</span></a>
+					<a href="http://www.tnkfactory.com/tnk/home.front.main" target="_blank" class="btn btn-homepage" type="button"><span>홈페이지</span></a>
 				</div>
 			</li>
 		</ul>
@@ -128,10 +128,10 @@
 							<p class="address">주소 : 경기도 성남시 판교역로 231 H스퀘어 S동 712호</p>
 							<p class="homepage">홈페이지 : <a href="http://www.buzzpia.com/" target="_blank">http://www.buzzpia.com/</a></p>
 							<p class="item">아이템 : 안드로이드 OS 오픈형 런처 플랫폼인 버즈런처, 홈팩버즈  서비스</p>
-							<div class="detail-group">
-								<a href="#" class="btn btn-detail-popup" type="button" data-toggle="modal" data-target="#board-incubating-detail"><span>상세보기</span></a>
-								<a href="http://www.buzzpia.com/" target="_blank" class="btn btn-homepage" type="button"><span>홈페이지</span></a>
-							</div>
+						</div>
+						<div class="detail-group">
+							<a href="#" class="btn btn-detail-popup" type="button" data-toggle="modal" data-target="#board-incubating-detail"><span>상세보기</span></a>
+							<a href="http://www.buzzpia.com/" target="_blank" class="btn btn-homepage" type="button"><span>홈페이지</span></a>
 						</div>
 					</div>
 					<div class="contents">

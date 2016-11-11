@@ -70,6 +70,10 @@ $config["imageDir"] = $config["resourcesDir"]  . "/images";
 <link rel="stylesheet" href="<?php echo $config["resourcesDir"]; ?>/css/largedesktop.min.css" media="screen and (min-width: <?php echo $config['cssLargeDesktopMinWidth']; ?>px)" />
 <link rel="stylesheet" href="<?php echo $config["resourcesDir"]; ?>-legacy/css/legacy-largedesktop.css" media="screen and (min-width: <?php echo $config['cssLargeDesktopMinWidth']; ?>px)" />
 <?php } ?>
+<link rel="stylesheet" href="/cms_core_pub/resources/core/css/phone.min.css" />
+<link rel="stylesheet" href="/cms_core_pub/resources/core/css/tablet.min.css" media="screen and (min-width: 640px)" />
+<link rel="stylesheet" href="/cms_core_pub/resources/core/css/desktop.min.css" media="screen and (min-width: 1024px)" />
+<link rel="stylesheet" href="/cms_core_pub/resources/core/css/largedesktop.min.css" media="screen and (min-width: 1500px)" />
 <?php if ($config["isDev"] === true && (isset($config['isBuild']) && !$config['isBuild'] || !isset($config['isBuild']))) { ?>
 <!--[if lt IE 9]><script src="<?php echo $config["resourcesDir"]; ?>/jsvendor/jquery-1.12.2.min.js"></script><![endif]-->
 <!--[if gte IE 9]><!--><script src="<?php echo $config["resourcesDir"]; ?>/jsvendor-dev-only/jquery.js"></script><![endif]-->
@@ -79,6 +83,7 @@ $config["imageDir"] = $config["resourcesDir"]  . "/images";
 <!--[if gte IE 9]><!--><script src="<?php echo $config["resourcesDir"]; ?>/js/vendor/jquery.min.js"></script><![endif]-->
 <script src="<?php echo $config["resourcesDir"]; ?>/js/script.min.js"></script>
 <?php } ?>
+<script src="/cms_core_pub/resources/core/js/script.min.js"></script>
 </head>
 <body class="<?php echo getBodyClass($pagePath, $bodyClass); ?>">
 <!-- //App Header.html -->

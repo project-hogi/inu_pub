@@ -262,7 +262,7 @@
 			$topBannerContent.cycle(options);
 
 			$(document).one('pjax:beforeReplace', function() {
-				$visualContent.cycle('destroy');
+				$topBannerContent.cycle('destroy');
 			});
 		});
 		$('#top-banner-area .desktop').each(function() {
@@ -285,7 +285,7 @@
 			$topBannerContent.cycle(options);
 
 			$(document).one('pjax:beforeReplace', function() {
-				$visualContent.cycle('destroy');
+				$topBannerContent.cycle('destroy');
 			});
 		});
 	});

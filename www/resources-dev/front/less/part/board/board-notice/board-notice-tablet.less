@@ -23,6 +23,7 @@ div.board-notice{
 				}
 				
 				.img-area{
+					display: block;
 					width: 215px;
 					padding: 7px;
 					text-align: center;
@@ -40,17 +41,17 @@ div.board-notice{
 				.pre-area{
 					position: relative;
 					width: 100%;
-					padding: 25px 130px 20px 25px;
+					padding: 10px 15% 10px 3%;
 					
 					
 					.title{
-						font-size: 18px;
 						padding-bottom: 5px;
 						color: #444;
+						#util .ellipsis();
 						
 						.title-type{
 							display: inline-block;
-							height: 25px;
+							height: 20px;
 							font-family:'돋움',Dotum;
 							font-size: 12px;
 							color: #fff;
@@ -69,16 +70,17 @@ div.board-notice{
 						}
 						.tit{
 							display: inline-block;
-							height: 25px;
-							font-size: 16px;
+							height: 20px;
+							font-size: 14px;
 							font-weight: bold;
 							padding-left: 10px;
 							margin-top: 1px;
 						}
 					}
 					p{
-						font-size: 12px;
+						font-size: 11px;
 						line-height: 17px !important;
+						text-align: left;
 						color: #888;
 						padding: 0;
 						margin: 0;
@@ -88,7 +90,9 @@ div.board-notice{
 						overflow: hidden;
 					}
 					.draftsman{
-						margin-top: 20px;
+						margin-top: 40px;
+						#util .ellipsis();
+						
 						>span{
 							font-size: 11px;
 							color: #999;
@@ -115,7 +119,8 @@ div.board-notice{
 							}
 						}
 						.date{
-							
+							clear: none;
+							display: inline-block;
 						}
 						
 					}
@@ -129,15 +134,22 @@ div.board-notice{
 		border-top: 2px solid @pointDarkBlue;
 		
 		.title{
+			position: relative;
+			width: 100%;
 			height: 60px;
 			line-height: 60px;
 			font-size: 18px;
 			padding: 0 25px;
 			background-color: #fff;
+			overflow: hidden;
 			
 			.title-type{
+				position: absolute;
+				left: 25px;
+				top: 50%;
 				display: inline-block;
 				height: 25px;
+				margin-top: -13px;
 				font-family:'돋움',Dotum;
 				font-size: 12px;
 				color: #fff;
@@ -148,14 +160,14 @@ div.board-notice{
 				line-height: 1;
 				margin-right: 10px;
 				
-				&:before{
-					display: inline-block;
-					content: '';
-					width: 1px;
-					height: 100%;
-					vertical-align: middle;
-				}
 				
+			}
+			.tit{
+				display: block;
+				width: 100%;
+				height: 100%;
+				padding-left: 50px;
+				#util .ellipsis();
 			}
 		}
 		.draftsman{
@@ -189,6 +201,8 @@ div.board-notice{
 							background: url(../images/part/board/notice/view-footer-up.png) 100% 50% no-repeat;
 						}
 						.title{
+							display: block;
+							padding: 0 120px 0 110px;
 							font-size: 14px;
 							background-color: transparent;
 						}

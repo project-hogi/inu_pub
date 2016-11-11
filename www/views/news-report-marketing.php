@@ -10,7 +10,7 @@
 		<ul>
 			<li>
 				<div class="preview">
-					<div class="img-box"><img src="http://placehold.it/310x180" alt=""></div>
+					<div class="img-box" style="background-image: url(http://placehold.it/310x180);"></div>
 					<div class="pre-box">
 						<span class="type">INU NEWS</span>
 						<strong class="title">로호봇 비즈니스 인큐베이터…’쏘카, 파킹 스퀘어 등 스타트업과
@@ -41,7 +41,7 @@
 			</li>
 			<li>
 				<div class="preview">
-					<div class="img-box"><img src="http://placehold.it/310x180" alt=""></div>
+					<div class="img-box" style="background-image: url(http://placehold.it/310x180);"></div>
 					<div class="pre-box">
 						<span class="type">INU NEWS</span>
 						<strong class="title">로호봇 비즈니스 인큐베이터…’쏘카, 파킹 스퀘어 등 스타트업과
@@ -72,7 +72,7 @@
 			</li>
 			<li>
 				<div class="preview">
-					<div class="img-box"><img src="http://placehold.it/310x180" alt=""></div>
+					<div class="img-box" style="background-image: url(http://placehold.it/310x180);"></div>
 					<div class="pre-box">
 						<span class="type">INU NEWS</span>
 						<strong class="title">로호봇 비즈니스 인큐베이터…’쏘카, 파킹 스퀘어 등 스타트업과
@@ -88,7 +88,7 @@
 			</li>
 			<li>
 				<div class="preview">
-					<div class="img-box"><img src="http://placehold.it/310x180" alt=""></div>
+					<div class="img-box" style="background-image: url(http://placehold.it/310x180);"></div>
 					<div class="pre-box">
 						<span class="type">INU NEWS</span>
 						<strong class="title">로호봇 비즈니스 인큐베이터…’쏘카, 파킹 스퀘어 등 스타트업과
@@ -119,7 +119,7 @@
 			</li>
 			<li>
 				<div class="preview">
-					<div class="img-box"><img src="http://placehold.it/310x180" alt=""></div>
+					<div class="img-box" style="background-image: url(http://placehold.it/310x180);"></div>
 					<div class="pre-box">
 						<span class="type">INU NEWS</span>
 						<strong class="title">로호봇 비즈니스 인큐베이터…’쏘카, 파킹 스퀘어 등 스타트업과

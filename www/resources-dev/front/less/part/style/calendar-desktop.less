@@ -1,15 +1,7 @@
 #content{
 	div.calendar{
-		&.mobile{
-			.style-type{
-				display: none;
-				&.mobile-first{
-					display: block;
-				}
-			}
-		}
 		.calendar-menu{
-			display: none;
+			display: block;
 			text-align: right;
 			margin-bottom: 10px;
 			ul{
@@ -27,7 +19,7 @@
 						text-align: center;
 						color: #c3c3c3;
 					}
-
+					
 					&:hover,
 					&:focus,
 					&.on,
@@ -47,14 +39,13 @@
 				display: block;
 			}
 		}
-
 		.calendar-month{
 			text-align: center;
 			height: 50px;
 			line-height: 50px;
 			background-color: #4b516a;
 			color: #e6e6e6;
-
+			
 			.prev-month{
 				display: inline-block;
 				width: 21px;
@@ -66,7 +57,7 @@
 				box-shadow: -1px 1px 1px 0px rgba(255,255,255,0.2) inset;
 				color: #e6e6e6;
 				margin-right: 10px;
-
+				
 			}
 			.next-month{
 				display: inline-block;
@@ -79,7 +70,7 @@
 				box-shadow: -1px 1px 1px 0px rgba(255,255,255,0.2) inset;
 				color: #e6e6e6;
 				margin-left: 10px;
-
+				
 			}
 			.title-month{
 				font-size: 22px;
@@ -97,17 +88,17 @@
 				box-shadow: -1px 1px 1px 0px rgba(255,255,255,0.2) inset;
 				color: #e6e6e6;
 				font-size: 11px;
-
+				
 			}
 		}
-
+		
 		.table-calendar {
 			border-collapse: collapse;
 			table-layout: auto;
 			width: 100%;
 			border: 1px solid #bcbcbc;
 			border-bottom: none;
-
+			
 			th,
 			td{
 				word-break: break-all;
@@ -118,11 +109,11 @@
 				border-bottom: 1px solid #e0e0e0;
 				border-left: 1px solid #e0e0e0;
 				width: 14.28%;
-
+				
 				&:first-child{
 					border-left: none;
 				}
-
+				
 			}
 			th {
 				text-align: center;
@@ -138,7 +129,7 @@
 					font-weight: bold;
 					color: #666;
 					text-transform: uppercase;
-
+					
 					span{
 						color: #b0b0b0;
 						font-weight: normal;
@@ -174,12 +165,12 @@
 							font-size: 0;
 							text-indent: -99999px;
 							color: #4b525f;
-
+							
 							.schedule-title{
 								height: 27px;
 								overflow-y: hidden;
 							}
-
+							
 							.icon {
 								margin-left: 5px;
 								margin-right: 2px;
@@ -187,7 +178,7 @@
 								line-height: 27px;
 								margin-top: -2px;
 							}
-
+							
 							&.first,
 							&.week-first {
 								z-index: 10;
@@ -243,7 +234,7 @@
 									width: 100% / 7 * 2;
 								}
 							}
-
+							
 							.pre-content {
 								z-index: 20;
 								display: none;
@@ -253,7 +244,7 @@
 								border: 1px solid #666f80;
 								background-color: #fff;
 								box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.2);
-
+								
 								&:after {
 									clear: both;
 									display: block;
@@ -265,7 +256,7 @@
 									left: 0;
 									bottom: -10px;
 								}
-
+								
 								.title {
 									padding: 0 0 0 5px;
 									font-weight: bold;
@@ -292,7 +283,7 @@
 									line-height: 1.2;
 								}
 							}
-
+							
 							&:hover,
 							&:focus,
 							&.on,
@@ -304,9 +295,9 @@
 									left: -1px;
 									top: -120px;
 								}
-
+								
 							}
-
+							
 						}
 					}
 					.sun{
@@ -353,42 +344,44 @@
 							display: block;
 						}
 					}
-
+					
 					>a{
 						display: block;
 						height: 46px;
 						line-height: 46px;
-						padding-right: 40px;
 						border-top: 1px solid #e0e0e0;
 						background: #fff url(../images/part/schedule/detail-list.png) 97% 50% no-repeat;
-						#util .ellipsis();
-
+						
 						.time{
 							float: left;
 							display: block;
 							width: 100px;
 							height: 100%;
-							margin-right: 15px;
 							border-right: 1px solid #e0e0e0;
 							text-align: center;
+						}
+						
+						.title{
+							padding-left: 15px;
+							
+							.icon{
+								
+							}
 						}
 					}
 					.pre{
 						display: none;
 						padding: 17px 18px;
 						border-top: 1px solid #e0e0e0;
-
 						p{
 							font-size: 12px;
 							line-height: 16px;
-
 							&.title{
 								display: inline-block;
 								font-size: 14px;
 								color: #444;
 								font-weight: bold;
 								margin-bottom: 10px;
-
 								&:after{
 									clear: both;
 									display: block;
@@ -407,20 +400,17 @@
 				}
 			}
 		}
-
-
+		
+		
 		.calendar-footer{
 			height: 48px;
+			line-height: 48px;
 			background-color: #f9f9f9;
 			border: 1px solid #bcbcbc ;
 			border-top: none;
-
 			p{
-				padding-top: 13px;
-				display: block;
+				display: inline-block;
 				padding-left: 15px;
-				#util .ellipsis();
-
 				.icon{
 					margin-left: 5px;
 					margin-right: 2px;
@@ -428,10 +418,10 @@
 					line-height: 27px;
 					margin-top: -2px;
 				}
-
+				
 			}
 		}
-
+		
 		.icon{
 			display: inline-block;
 			&.icon-dday{
@@ -441,7 +431,7 @@
 			}
 		}
 	}
-
+	
 }
 div.calendar{
 	&.main{
@@ -449,7 +439,7 @@ div.calendar{
 			.calendar-month{
 				float: left;
 				text-align: center;
-
+				 
 				.title-month{
 					width: 73px;
 					overflow: hidden;
@@ -460,7 +450,7 @@ div.calendar{
 					letter-spacing: -10px;
 					text-align: center;
 					text-indent: -15px;
-
+					
 					.small{
 						display: block;
 						font-size: 20px;
@@ -470,7 +460,7 @@ div.calendar{
 				}
 				.calendar-control{
 					display: inline-block;
-
+					
 					&:after{
 						clear: both;
 						display: block;
@@ -504,7 +494,7 @@ div.calendar{
 					table-layout: auto;
 					width: 100%;
 					border-bottom: none;
-
+					
 					th,td{
 						text-align: center;
 						a{
@@ -540,7 +530,7 @@ div.calendar{
 							th,td{
 								line-height: 29px;
 								padding: 2px;
-
+								
 								a{
 									border-radius: 50%;
 								}
@@ -556,23 +546,23 @@ div.calendar{
 									}
 								}
 							}
-
+							
 							&:first-child{
 								th,td{
 									padding-top: 7px;
 								}
 							}
 						}
-
+						
 					}
 				}
 			}
-
-
+			
+			
 		}
-
-
-
-
+		
+		
+		
+		
 	}
 }

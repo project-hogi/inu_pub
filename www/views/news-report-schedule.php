@@ -8,8 +8,8 @@
 <div class="calendar">
 	<div class="calendar-menu">
 		<ul>
-			<li class="on"><a href="news-report-schedule.php" class="icon icon-calendar"><i class="fa fa-calendar" aria-hidden="true"></i><span class="sr-only">달력</span></a></li>
-			<li><a href="news-report-schedule-detail.php" class="icon icon-schedule"><i class="fa fa-bars" aria-hidden="true"></i><span class="sr-only">일정</span></a></li>
+			<li><a href="#calendar-style" class="icon icon-calendar"><i class="fa fa-calendar" aria-hidden="true"></i><span class="sr-only">달력</span></a></li>
+			<li class="active"><a href="#calendar-list-style" class="icon icon-schedule"><i class="fa fa-bars" aria-hidden="true"></i><span class="sr-only">일정</span></a></li>
 		</ul>
 	</div>
 	<div class="calendar-month">
@@ -18,52 +18,53 @@
 		<a href="#" class="next-month"><i class="fa fa-caret-right" aria-hidden="true"></i><span class="sr-only">다음달</span></a>
 		<a href="#" class="today">오늘</a>
 	</div>
-	<table class="table-calendar">
-		<thead>
-		<tr>
-			<th class="sun">일 <span>sun</span></th>
-			<th>월 <span>mon</span></th>
-			<th>화 <span>tue</span></th>
-			<th>수 <span>wed</span></th>
-			<th>목 <span>thu</span></th>
-			<th>금 <span>fri</span></th>
-			<th class="sat">토 sat</th>
-		</tr>
-		</thead>
-		<tbody>
-		<tr>
-			<td class="sun disabled">
-				<sub><a href="#">30</a></sub>
-			</td>
-			<td class="disabled">
-				<sub><a href="#">31</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">1</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">2</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">3</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">4</a></sub>
-			</td>
-			<td class="sat">
-				<sub><a href="#">5</a></sub>
-			</td>
-		</tr>
-		<tr>
-			<td class="sun">
-				<sub><a href="#">6</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">7</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">8</a></sub>
-				<span class="schedule eq-0  first block-5">
+	<div id="calendar-style" class="style-type">
+		<table class="table-calendar">
+			<thead>
+			<tr>
+				<th class="sun">일 <span>sun</span></th>
+				<th>월 <span>mon</span></th>
+				<th>화 <span>tue</span></th>
+				<th>수 <span>wed</span></th>
+				<th>목 <span>thu</span></th>
+				<th>금 <span>fri</span></th>
+				<th class="sat">토 sat</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td class="sun disabled">
+					<sub><a href="#">30</a></sub>
+				</td>
+				<td class="disabled">
+					<sub><a href="#">31</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">1</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">2</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">3</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">4</a></sub>
+				</td>
+				<td class="sat">
+					<sub><a href="#">5</a></sub>
+				</td>
+			</tr>
+			<tr>
+				<td class="sun">
+					<sub><a href="#">6</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">7</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">8</a></sub>
+					<span class="schedule eq-0  first block-5">
 					<div class="schedule-title">
 						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
 						&#91;<span class="time">12:30</span>&#93;
@@ -89,7 +90,7 @@
 						<a href="#" class="link-style">자세히보기</a>
 					</div>
 				</span>
-				<span class="schedule eq-1 first block-2">
+					<span class="schedule eq-1 first block-2">
 					<div class="schedule-title">
 						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
 						&#91;<span class="time">12:30</span>&#93;
@@ -115,7 +116,7 @@
 						<a href="#" class="link-style">자세히보기</a>
 					</div>
 				</span>
-				<span class="schedule eq-2 first last">
+					<span class="schedule eq-2 first last">
 					<div class="schedule-title">
 						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
 						&#91;<span class="time">12:30</span>&#93;
@@ -141,10 +142,10 @@
 						<a href="#" class="link-style">자세히보기</a>
 					</div>
 				</span>
-			</td>
-			<td>
-				<sub><a href="#">9</a></sub>
-				<span class="schedule eq-0">
+				</td>
+				<td>
+					<sub><a href="#">9</a></sub>
+					<span class="schedule eq-0">
 					<div class="schedule-title">
 						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
 						&#91;<span class="time">12:30</span>&#93;
@@ -170,7 +171,7 @@
 						<a href="#" class="link-style">자세히보기</a>
 					</div>
 				</span>
-				<span class="schedule eq-1 last">
+					<span class="schedule eq-1 last">
 					<div class="schedule-title">
 						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
 						&#91;<span class="time">12:30</span>&#93;
@@ -196,10 +197,10 @@
 						<a href="#" class="link-style">자세히보기</a>
 					</div>
 				</span>
-			</td>
-			<td>
-				<sub><a href="#">10</a></sub>
-				<span class="schedule eq-0">
+				</td>
+				<td>
+					<sub><a href="#">10</a></sub>
+					<span class="schedule eq-0">
 					<div class="schedule-title">
 						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
 						&#91;<span class="time">12:30</span>&#93;
@@ -225,10 +226,10 @@
 						<a href="#" class="link-style">자세히보기</a>
 					</div>
 				</span>
-			</td>
-			<td>
-				<sub><a href="#">11</a></sub>
-				<span class="schedule eq-0">
+				</td>
+				<td>
+					<sub><a href="#">11</a></sub>
+					<span class="schedule eq-0">
 					<div class="schedule-title">
 						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
 						&#91;<span class="time">12:30</span>&#93;
@@ -254,10 +255,10 @@
 						<a href="#" class="link-style">자세히보기</a>
 					</div>
 				</span>
-			</td>
-			<td class="sat">
-				<sub><a href="#">12</a></sub>
-				<span class="schedule eq-0">
+				</td>
+				<td class="sat">
+					<sub><a href="#">12</a></sub>
+					<span class="schedule eq-0">
 					<div class="schedule-title">
 						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
 						&#91;<span class="time">12:30</span>&#93;
@@ -283,12 +284,12 @@
 						<a href="#" class="link-style">자세히보기</a>
 					</div>
 				</span>
-			</td>
-		</tr>
-		<tr>
-			<td class="sun">
-				<sub><a href="#">13</a></sub>
-				<span class="schedule eq-0 week-first block-2">
+				</td>
+			</tr>
+			<tr>
+				<td class="sun">
+					<sub><a href="#">13</a></sub>
+					<span class="schedule eq-0 week-first block-2">
 					<div class="schedule-title">
 						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
 						&#91;<span class="time">12:30</span>&#93;
@@ -314,10 +315,10 @@
 						<a href="#" class="link-style">자세히보기</a>
 					</div>
 				</span>
-			</td>
-			<td>
-				<sub><a href="#">14</a></sub>
-				<span class="schedule eq-0 last">
+				</td>
+				<td>
+					<sub><a href="#">14</a></sub>
+					<span class="schedule eq-0 last">
 					<div class="schedule-title">
 						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
 						&#91;<span class="time">12:30</span>&#93;
@@ -343,36 +344,36 @@
 						<a href="#" class="link-style">자세히보기</a>
 					</div>
 				</span>
-			</td>
-			<td>
-				<sub><a href="#">15</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">16</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">17</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">18</a></sub>
-			</td>
-			<td class="sat">
-				<sub><a href="#">19</a></sub>
-			</td>
-		</tr>
-		<tr>
-			<td class="sun">
-				<sub><a href="#">20</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">21</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">22</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">23</a></sub>
-				<span class="schedule first eq-0 last">
+				</td>
+				<td>
+					<sub><a href="#">15</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">16</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">17</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">18</a></sub>
+				</td>
+				<td class="sat">
+					<sub><a href="#">19</a></sub>
+				</td>
+			</tr>
+			<tr>
+				<td class="sun">
+					<sub><a href="#">20</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">21</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">22</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">23</a></sub>
+					<span class="schedule first eq-0 last">
 					<div class="schedule-title">
 						<span class="icon icon-dday"><span class="sr-only">d-day</span></span>
 						&#91;<span class="time">12:30</span>&#93;
@@ -398,45 +399,150 @@
 						<a href="#" class="link-style">자세히보기</a>
 					</div>
 				</span>
-			</td>
-			<td>
-				<sub><a href="#">24</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">25</a></sub>
-			</td>
-			<td class="sat">
-				<sub><a href="#">26</a></sub>
-			</td>
-		</tr>
-		<tr>
-			<td class="sun">
-				<sub><a href="#">27</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">28</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">29</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">30</a></sub>
-			</td>
-			<td>
-				<sub><a href="#">31</a></sub>
-			</td>
-			<td class="disabled">
-				<sub><a href="#">1</a></sub>
-			</td>
-			<td class="sat disabled">
-				<sub><a href="#">2</a></sub>
-			</td>
-		</tr>
-		</tbody>
-	</table>
-	<div class="calendar-footer">
-		<p><span class="icon icon-dday"><span class="sr-only">D-day</span></span>해당 일정을 <a href="#" class="link-style">클릭</a> 하시면 상세 내용을 보실 수 있습니다.</p>
+				</td>
+				<td>
+					<sub><a href="#">24</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">25</a></sub>
+				</td>
+				<td class="sat">
+					<sub><a href="#">26</a></sub>
+				</td>
+			</tr>
+			<tr>
+				<td class="sun">
+					<sub><a href="#">27</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">28</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">29</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">30</a></sub>
+				</td>
+				<td>
+					<sub><a href="#">31</a></sub>
+				</td>
+				<td class="disabled">
+					<sub><a href="#">1</a></sub>
+				</td>
+				<td class="sat disabled">
+					<sub><a href="#">2</a></sub>
+				</td>
+			</tr>
+			</tbody>
+		</table>
+		<div class="calendar-footer">
+			<p><span class="icon icon-dday"><span class="sr-only">D-day</span></span>해당 일정을 <a href="#" class="link-style">클릭</a> 하시면 상세 내용을 보실 수 있습니다.</p>
+		</div>
 	</div>
+
+	<div id="calendar-list-style" class="style-type mobile-first">
+		<div class="table-calendar-detail">
+			<div class="date">
+				<strong>10월 20일(금요일)</strong>
+			</div>
+			<ul>
+				<li>
+					<a href="#">
+						<span class="time">13:30</span>
+						<spam class="icon icon-dday"><span class="sr-only">d-day</span></spam>
+						데크트랜드 인사이트(머니투데이 테크앤비욘드)
+					</a>
+					<div class="pre">
+						<p class="title">선배 창업자와 교류의 만남</p>
+						<p>시간 : 3월2일(월),00:00 – 3월6일(금),23:30</p>
+						<p>장소 : 인천대학교 창업지원단 대회의실</p>
+						<p>설명 : 창업성공을 위한 선배와의 만남으로 …</p>
+						<a href="#" class="link-style">자세히보기</a>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<span class="time">12:00</span>
+						<spam class="icon icon-dday"><span class="sr-only">d-day</span></spam>
+						데크트랜드 인사이트(머니투데이 테크앤비욘드)
+					</a>
+					<div class="pre">
+						<p class="title">선배 창업자와 교류의 만남</p>
+						<p>시간 : 3월2일(월),00:00 – 3월6일(금),23:30</p>
+						<p>장소 : 인천대학교 창업지원단 대회의실</p>
+						<p>설명 : 창업성공을 위한 선배와의 만남으로 …</p>
+						<a href="#" class="link-style">자세히보기</a>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<span class="time">14:45</span>
+						<spam class="icon icon-dday"><span class="sr-only">d-day</span></spam>
+						데크트랜드 인사이트(머니투데이 테크앤비욘드)
+					</a>
+					<div class="pre">
+						<p class="title">선배 창업자와 교류의 만남</p>
+						<p>시간 : 3월2일(월),00:00 – 3월6일(금),23:30</p>
+						<p>장소 : 인천대학교 창업지원단 대회의실</p>
+						<p>설명 : 창업성공을 위한 선배와의 만남으로 …</p>
+						<a href="#" class="link-style">자세히보기</a>
+					</div>
+				</li>
+			</ul>
+			<div class="date">
+				<strong>10월 20일(금요일)</strong>
+			</div>
+			<ul>
+				<li>
+					<a href="#">
+						<span class="time">13:30</span>
+						<spam class="icon icon-dday"><span class="sr-only">d-day</span></spam>
+						데크트랜드 인사이트(머니투데이 테크앤비욘드)
+					</a>
+					<div class="pre">
+						<p class="title">선배 창업자와 교류의 만남</p>
+						<p>시간 : 3월2일(월),00:00 – 3월6일(금),23:30</p>
+						<p>장소 : 인천대학교 창업지원단 대회의실</p>
+						<p>설명 : 창업성공을 위한 선배와의 만남으로 …</p>
+						<a href="#" class="link-style">자세히보기</a>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<span class="time">12:00</span>
+						<spam class="icon icon-dday"><span class="sr-only">d-day</span></spam>
+						데크트랜드 인사이트(머니투데이 테크앤비욘드)
+					</a>
+					<div class="pre">
+						<p class="title">선배 창업자와 교류의 만남</p>
+						<p>시간 : 3월2일(월),00:00 – 3월6일(금),23:30</p>
+						<p>장소 : 인천대학교 창업지원단 대회의실</p>
+						<p>설명 : 창업성공을 위한 선배와의 만남으로 …</p>
+						<a href="#" class="link-style">자세히보기</a>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<span class="time">14:45</span>
+						<spam class="icon icon-dday"><span class="sr-only">d-day</span></spam>
+						데크트랜드 인사이트(머니투데이 테크앤비욘드)
+					</a>
+					<div class="pre">
+						<p class="title">선배 창업자와 교류의 만남</p>
+						<p>시간 : 3월2일(월),00:00 – 3월6일(금),23:30</p>
+						<p>장소 : 인천대학교 창업지원단 대회의실</p>
+						<p>설명 : 창업성공을 위한 선배와의 만남으로 …</p>
+						<a href="#" class="link-style">자세히보기</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="calendar-footer">
+			<p><span class="icon icon-dday"><span class="sr-only">D-day</span></span>해당 일정을 <a href="#" class="link-style">클릭</a> 하시면 상세 내용을 보실 수 있습니다.</p>
+		</div>
+	</div>
+
+
 </div>
 <?php require "part/footer-sub.php"; ?>
 <?php require "part/footer.php"; ?>

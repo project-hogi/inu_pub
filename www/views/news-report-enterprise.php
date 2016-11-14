@@ -14,7 +14,7 @@
 						<img src="<?php echo $config["imageDir"]; ?>/part/content/news/notice/1.jpg" alt="1">
 					</div>
 					<div class="pre-area">
-						<h3 class="title"><span class="title-type">공지</span><span class="tit">51개의 스타트업이 이야기하는 실패 요인 분석하기</span></h3>
+						<h3 class="title"><span class="label label-notice-size label-notice">공지</span><span for="" class="label label-notice-size label-danger">test</span>51개의 스타트업이 이야기하는 실패 요인 분석하기</h3>
 						<p class="pre">
 							오늘도 많은 창업가들이 똑같은 실수를 반복하면서 실패의 쓴맛을 보고 있습니다.<br>
 							그 이유 중 가장 큰 것은, 성공 스토리는 강연으로, 책으로, 그리고 SNS에서 공유되는 짧은 글들로 급속도로... 그 이유 중 가장 큰 것은, 성공 스토리는 강연으로, 책으로, 그리고 SNS에서 공유되는 짧은 글들로 급속도로...
@@ -33,7 +33,7 @@
 						<img src="<?php echo $config["imageDir"]; ?>/part/content/news/notice/2.jpg" alt="1">
 					</div>
 					<div class="pre-area">
-						<h3 class="title"><span class="title-type">공지</span><span class="tit">51개의 스타트업이 이야기하는 실패 요인 분석하기</span></h3>
+						<h3 class="title"><span class="label label-notice-size label-info">공지</span>51개의 스타트업이 이야기하는 실패 요인 분석하기</h3>
 						<p class="pre">
 							오늘도 많은 창업가들이 똑같은 실수를 반복하면서 실패의 쓴맛을 보고 있습니다.<br>
 							그 이유 중 가장 큰 것은, 성공 스토리는 강연으로, 책으로, 그리고 SNS에서 공유되는 짧은 글들로 급속도로... 그 이유 중 가장 큰 것은, 성공 스토리는 강연으로, 책으로, 그리고 SNS에서 공유되는 짧은 글들로 급속도로...
@@ -49,7 +49,7 @@
 			<li>
 				<a href="news-report-enterprise-detail.php">
 					<div class="pre-area">
-						<h3 class="title"><span class="title-type">공지</span><span class="tit">51개의 스타트업이 이야기하는 실패 요인 분석하기</span></h3>
+						<h3 class="title"><span class="label label-notice-size label-primary">공지</span>51개의 스타트업이 이야기하는 실패 요인 분석하기</h3>
 						<p class="pre">
 							오늘도 많은 창업가들이 똑같은 실수를 반복하면서 실패의 쓴맛을 보고 있습니다.<br>
 							그 이유 중 가장 큰 것은, 성공 스토리는 강연으로, 책으로, 그리고 SNS에서 공유되는 짧은 글들로 급속도로... 그 이유 중 가장 큰 것은, 성공 스토리는 강연으로, 책으로, 그리고 SNS에서 공유되는 짧은 글들로 급속도로...
@@ -65,7 +65,7 @@
 			<li>
 				<a href="news-report-enterprise-detail.php">
 					<div class="pre-area">
-						<h3 class="title"><span class="title-type">공지</span><span class="tit">51개의 스타트업이 이야기하는 실패 요인 분석하기</span></h3>
+						<h3 class="title"><span class="label label-notice-size label-success">공지</span>51개의 스타트업이 이야기하는 실패 요인 분석하기</h3>
 						<p class="pre">
 							오늘도 많은 창업가들이 똑같은 실수를 반복하면서 실패의 쓴맛을 보고 있습니다.<br>
 							그 이유 중 가장 큰 것은, 성공 스토리는 강연으로, 책으로, 그리고 SNS에서 공유되는 짧은 글들로 급속도로... 그 이유 중 가장 큰 것은, 성공 스토리는 강연으로, 책으로, 그리고 SNS에서 공유되는 짧은 글들로 급속도로...
@@ -84,7 +84,7 @@
 						<img src="<?php echo $config["imageDir"]; ?>/part/content/news/notice/3.jpg" alt="1">
 					</div>
 					<div class="pre-area">
-						<h3 class="title"><span class="title-type">공지</span><span class="tit">51개의 스타트업이 이야기하는 실패 요인 분석하기</span></h3>
+						<h3 class="title"><span class="label label-notice-size label-warning">공지</span>51개의 스타트업이 이야기하는 실패 요인 분석하기</h3>
 						<p class="pre">
 							오늘도 많은 창업가들이 똑같은 실수를 반복하면서 실패의 쓴맛을 보고 있습니다.<br>
 							그 이유 중 가장 큰 것은, 성공 스토리는 강연으로, 책으로, 그리고 SNS에서 공유되는 짧은 글들로 급속도로... 그 이유 중 가장 큰 것은, 성공 스토리는 강연으로, 책으로, 그리고 SNS에서 공유되는 짧은 글들로 급속도로...

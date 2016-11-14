@@ -50,7 +50,7 @@ div.board-notice{
 						padding-bottom: 5px;
 						color: #444;
 						
-						display: inline-block;
+						display: block;
 						height: 20px;
 						font-size: 14px;
 						font-weight: bold;
@@ -58,7 +58,7 @@ div.board-notice{
 						
 						.title-type{
 							display: inline-block;
-							height: 25px;
+							height: 20px;
 							font-family:'돋움',Dotum;
 							font-size: 12px;
 							color: #fff;
@@ -67,7 +67,7 @@ div.board-notice{
 							padding: 0 8px;
 							text-align: center;
 							margin-right: 10px;
-							line-height: 1;
+							line-height: 20px;
 							
 							&:before{
 								display: inline-block;
@@ -76,10 +76,6 @@ div.board-notice{
 								height: 100%;
 								vertical-align: middle;
 							}
-							
-						}
-						.tit{
-							
 						}
 					}
 					p{
@@ -287,6 +283,26 @@ div.board-notice{
 					color: #ffd800;
 				}
 			}
+		}
+	}
+	.label{
+		display: inline-block;
+		font-size: 12px;
+		font-family: '돋움', Dotum;
+		margin-right: 5px;
+		
+		&.label-notice-size{
+			line-height: 20px;
+			padding: 0 8px;
+		}
+		&.label-notice-detail-size{
+			line-height: 25px;
+			padding: 0 8px;
+		}
+		
+		&.label-notice{
+			background-color: #c4c4c4;
+			color: #fff;
 		}
 	}
 }

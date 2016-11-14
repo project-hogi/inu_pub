@@ -7,7 +7,7 @@
 <?php require "part/header-sub.php"; ?>
 <div class="board-notice">
 	<div class="board-notice-view">
-		<h3 class="title"><span class="title-type">공지</span>51개의 스타트업이 이야기하는 실패 요인 분석하기</h3>
+		<h3 class="title"><span class="label label-notice-detail-size label-notice">공지</span>51개의 스타트업이 이야기하는 실패 요인 분석하기</h3>
 		<div class="draftsman">
 			<span class="writer"><span class="icon icon-writer"></span>인천대 창업지원단</span>
 			<span class="counter">조회 <span>130</span></span>

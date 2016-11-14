@@ -82,10 +82,10 @@
 				<col width="25%">
 				<thead class="next-icon">
 				<tr>
-					<th bgcolor="#0abccd">요건검토</th>
-					<th bgcolor="#27567d">선정평가</th>
-					<th bgcolor="#ff5a6c">시장반응조사</th>
-					<th bgcolor="#949494">성과보고</th>
+					<th bgcolor="#0abccd"><span>요건</span>검토</th>
+					<th bgcolor="#27567d"><span>선정</span>평가</th>
+					<th bgcolor="#ff5a6c"><span>시장</span>반응조사</th>
+					<th bgcolor="#949494"><span>성과</span>보고</th>
 				</tr>
 				</thead>
 				<tbody>

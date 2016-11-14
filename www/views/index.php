@@ -91,9 +91,13 @@
 									<span class="content">비즈쿨 고등학교 재학생에게 인천대학교 송도, 제물포창업 보육센터 입주업체에 현장학습 기회제공을 통하여 취업 ...</span>
 									<span class="category">[창업교육] 창업체험학습</span>
 									<span class="states">
+										<span class="date"><span class="icon icon-clock"></span>2016-09-16 18:26:17</span>
 									<span class="hit"><em class="sr-only">조회수</em> 32</span>
-									<span class="favorite"><em class="sr-only">종아요</em> 14</span>
-									<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+
+										<!--
+										<span class="favorite"><em class="sr-only">종아요</em> 14</span>
+										<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+										-->
 								</span>
 								</div>
 							</a>
@@ -104,9 +108,13 @@
 									<span class="content">비즈쿨 고등학교 재학생에게 인천대학교 송도, 제물포창업 보육센터 입주업체에 현장학습 기회제공을 통하여 취업 ...</span>
 									<span class="category">[창업교육] 창업체험학습</span>
 									<span class="states">
+										<span class="date"><span class="icon icon-clock"></span>2016-09-16 18:26:17</span>
 									<span class="hit"><em class="sr-only">조회수</em> 32</span>
-									<span class="favorite"><em class="sr-only">종아요</em> 14</span>
-									<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+
+										<!--
+										<span class="favorite"><em class="sr-only">종아요</em> 14</span>
+										<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+										-->
 								</span>
 								</div>
 							</a>
@@ -117,9 +125,13 @@
 									<span class="content">비즈쿨 고등학교 재학생에게 인천대학교 송도, 제물포창업 보육센터 입주업체에 현장학습 기회제공을 통하여 취업 ...</span>
 									<span class="category">[창업교육] 창업체험학습</span>
 									<span class="states">
+										<span class="date"><span class="icon icon-clock"></span>2016-09-16 18:26:17</span>
 									<span class="hit"><em class="sr-only">조회수</em> 32</span>
-									<span class="favorite"><em class="sr-only">종아요</em> 14</span>
-									<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+
+										<!--
+										<span class="favorite"><em class="sr-only">종아요</em> 14</span>
+										<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+										-->
 								</span>
 								</div>
 							</a>
@@ -131,9 +143,12 @@
 								<span class="content">사업화 기회를 제공하며 발굴육성된 초기 창업자에게는지속적인 성장을 위한 도약기반 마련을 지원...</span>
 								<span class="category">인천대 창업지원단 창업사업화</span>
 								<span class="states">
+										<span class="date"><span class="icon icon-clock-white"></span>2016-09-16 18:26:17</span>
 									<span class="hit"><em class="sr-only">조회수</em> 32</span>
+									<!--
 									<span class="favorite"><em class="sr-only">종아요</em> 14</span>
 									<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+									-->
 								</span>
 							</span>
 							</a>
@@ -143,9 +158,12 @@
 								<span class="content">사업화 기회를 제공하며 발굴육성된 초기 창업자에게는지속적인 성장을 위한 도약기반 마련을 지원...</span>
 								<span class="category">인천대 창업지원단 창업사업화</span>
 								<span class="states">
+										<span class="date"><span class="icon icon-clock-white"></span>2016-09-16 18:26:17</span>
 									<span class="hit"><em class="sr-only">조회수</em> 32</span>
+									<!--
 									<span class="favorite"><em class="sr-only">종아요</em> 14</span>
 									<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+									-->
 								</span>
 							</span>
 							</a>
@@ -155,9 +173,12 @@
 								<span class="content">사업화 기회를 제공하며 발굴육성된 초기 창업자에게는지속적인 성장을 위한 도약기반 마련을 지원...</span>
 								<span class="category">인천대 창업지원단 창업사업화</span>
 								<span class="states">
+										<span class="date"><span class="icon icon-clock-white"></span>2016-09-16 18:26:17</span>
 									<span class="hit"><em class="sr-only">조회수</em> 32</span>
+									<!--
 									<span class="favorite"><em class="sr-only">종아요</em> 14</span>
 									<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+									-->
 								</span>
 							</span>
 							</a>
@@ -170,9 +191,13 @@
 									<span class="content">마케팅, 해외(중국) 영업, 창업과 경영지도...</span>
 									<span class="category">[창업네트워킹] 멘토링 카페</span>
 									<span class="states">
+										<span class="date"><span class="icon icon-clock"></span>2016-09-16 18:26:17</span>
 									<span class="hit"><em class="sr-only">조회수</em> 32</span>
-									<span class="favorite"><em class="sr-only">종아요</em> 14</span>
-									<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+
+										<!--
+										<span class="favorite"><em class="sr-only">종아요</em> 14</span>
+										<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+										-->
 								</span>
 								</div>
 							</a>
@@ -183,9 +208,13 @@
 									<span class="content">마케팅, 해외(중국) 영업, 창업과 경영지도...</span>
 									<span class="category">[창업네트워킹] 멘토링 카페</span>
 									<span class="states">
+										<span class="date"><span class="icon icon-clock"></span>2016-09-16 18:26:17</span>
 									<span class="hit"><em class="sr-only">조회수</em> 32</span>
-									<span class="favorite"><em class="sr-only">종아요</em> 14</span>
-									<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+
+										<!--
+										<span class="favorite"><em class="sr-only">종아요</em> 14</span>
+										<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+										-->
 								</span>
 								</div>
 							</a>
@@ -196,9 +225,13 @@
 									<span class="content">마케팅, 해외(중국) 영업, 창업과 경영지도...</span>
 									<span class="category">[창업네트워킹] 멘토링 카페</span>
 									<span class="states">
+										<span class="date"><span class="icon icon-clock"></span>2016-09-16 18:26:17</span>
 									<span class="hit"><em class="sr-only">조회수</em> 32</span>
-									<span class="favorite"><em class="sr-only">종아요</em> 14</span>
-									<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+
+										<!--
+										<span class="favorite"><em class="sr-only">종아요</em> 14</span>
+										<span class="comment"><em class="sr-only">댓글수</em> 23</span>
+										-->
 								</span>
 								</div>
 							</a>

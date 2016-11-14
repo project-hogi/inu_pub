@@ -105,10 +105,10 @@
 				<col width="25%">
 				<thead class="next-icon">
 				<tr>
-					<th bgcolor="#0abccd">요건검토</th>
-					<th bgcolor="#27567d">서면평가</th>
-					<th bgcolor="#ff5a6c">시장반응조사</th>
-					<th bgcolor="#949494">발표평가</th>
+					<th bgcolor="#0abccd"><span>요건</span>검토</th>
+					<th bgcolor="#27567d"><span>서면</span>평가</th>
+					<th bgcolor="#ff5a6c"><span>시장</span>반응조사</th>
+					<th bgcolor="#949494"><span>발표</span>평가</th>
 				</tr>
 				</thead>
 				<tbody>

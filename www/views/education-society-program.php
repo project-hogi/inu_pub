@@ -38,10 +38,10 @@
 				<col width="25%">
 				<thead class="next-icon">
 				<tr>
-					<th bgcolor="#0abccd">1단계: 선발</th>
-					<th bgcolor="#27567d">2단계: 육성</th>
-					<th bgcolor="#ff5a6c">3단계: 평가</th>
-					<th bgcolor="#949494">4단계: 우수팀 선정</th>
+					<th bgcolor="#0abccd"><span>1단계:</span> 선발</th>
+					<th bgcolor="#27567d"><span>2단계:</span> 육성</th>
+					<th bgcolor="#ff5a6c"><span>3단계:</span> 평가</th>
+					<th bgcolor="#949494"><span>4단계:</span> 우수팀 선정</th>
 				</tr>
 				</thead>
 				<tbody>

@@ -106,9 +106,9 @@
 				<col width="25%">
 				<thead>
 					<tr>
-						<th bgcolor="#0abccd">1단계: 사업준비</th>
-						<th bgcolor="#27567d">2단계:시제품 설계</th>
-						<th bgcolor="#ff5a6c">3단계:시제품 개발</th>
+						<th bgcolor="#0abccd"><span>1단계:</span> 사업준비</th>
+						<th bgcolor="#27567d"><span>2단계:</span>시제품 설계</th>
+						<th bgcolor="#ff5a6c"><span>3단계:</span>시제품 개발</th>
 						<th bgcolor="#dedede"></th>
 					</tr>
 				</thead>

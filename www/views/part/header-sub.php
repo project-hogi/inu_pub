@@ -1,6 +1,6 @@
 <!-- Header Sub.html -->
 <div class="visual">
-	<h2 class="page-title-depth-0"><?php echo getPageName($pagePath, 0); ?>창업교육</h2>
+	<h2 class="page-title-depth-0"><?php echo getPageName($pagePath, 1); ?>창업교육</h2>
 	<?php if(getDepthId($pagePath, 0) == "education"){ ?>
 		<p class="sr-only">창업지원단의 체계적인 지원으로 창업단계별 맞춤지원 프로그램!<br> 인천대학교 창업지원단</p>
 	<?php } ?>
@@ -180,6 +180,16 @@
 			</div>
 		<?php } else if(getDepthId($pagePath, 1) == "findpw"){ ?>
 			<h2 class="page-title">비밀번호 찾기</h2>
+			<div class="breadcrumb">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">뎁스1</a></li>
+					<li><a href="#">뎁스2</a></li>
+					<li><a href="#">뎁스3</a></li>
+				</ul>
+			</div>
+		<?php } else if(getDepthId($pagePath, 1) == "mypage"){ ?>
+			<h2 class="page-title">회원정보</h2>
 			<div class="breadcrumb">
 				<ul>
 					<li><a href="#">Home</a></li>

@@ -43,13 +43,35 @@
 	}
 }
 
+.list-cloud{
+	width: 100%;
+	border-right: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+	
+	&:after{
+		clear: both;
+		display: block;
+		content: '';
+	}
+	li{
+		width: 50%;
+		float: left;
+		border-left: 1px solid #e5e5e5;
+		border-bottom: 1px solid #e5e5e5;
+		img{
+			width: 100%;
+		}
+	}
+}
+
 .certify-list{
 	text-align: center;
 	ul{
 		display: inline-block;
 		li{
-			width: 319px;
+			width: 320px;
 			float: left;
+			margin: 0;
 			margin-left: 4px;
 			background-color: #fff;
 			padding: 8px;

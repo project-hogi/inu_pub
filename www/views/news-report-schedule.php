@@ -447,7 +447,7 @@
 			</div>
 			<ul>
 				<li>
-					<a href="#">
+					<a href="#slide">
 						<span class="time">13:30</span>
 						<spam class="icon icon-dday"><span class="sr-only">d-day</span></spam>
 						데크트랜드 인사이트(머니투데이 테크앤비욘드)
@@ -461,7 +461,7 @@
 					</div>
 				</li>
 				<li>
-					<a href="#">
+					<a href="#slide">
 						<span class="time">12:00</span>
 						<spam class="icon icon-dday"><span class="sr-only">d-day</span></spam>
 						데크트랜드 인사이트(머니투데이 테크앤비욘드)
@@ -475,7 +475,7 @@
 					</div>
 				</li>
 				<li>
-					<a href="#">
+					<a href="#slide">
 						<span class="time">14:45</span>
 						<spam class="icon icon-dday"><span class="sr-only">d-day</span></spam>
 						데크트랜드 인사이트(머니투데이 테크앤비욘드)
@@ -494,7 +494,7 @@
 			</div>
 			<ul>
 				<li>
-					<a href="#">
+					<a href="#slide">
 						<span class="time">13:30</span>
 						<spam class="icon icon-dday"><span class="sr-only">d-day</span></spam>
 						데크트랜드 인사이트(머니투데이 테크앤비욘드)
@@ -508,7 +508,7 @@
 					</div>
 				</li>
 				<li>
-					<a href="#">
+					<a href="#slide">
 						<span class="time">12:00</span>
 						<spam class="icon icon-dday"><span class="sr-only">d-day</span></spam>
 						데크트랜드 인사이트(머니투데이 테크앤비욘드)
@@ -522,7 +522,7 @@
 					</div>
 				</li>
 				<li>
-					<a href="#">
+					<a href="#slide">
 						<span class="time">14:45</span>
 						<spam class="icon icon-dday"><span class="sr-only">d-day</span></spam>
 						데크트랜드 인사이트(머니투데이 테크앤비욘드)

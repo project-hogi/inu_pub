@@ -9,10 +9,10 @@
 	<ul>
 		<li>
 			<div class="img-area">
-				<img src="/resources-dev/front/images/part/content/introduce/work/1.png" alt="창업선도대학 육성사업">
+				<img src="<?php echo $config["imageDir"]; ?>/part/content/introduce/work/1.png" alt="창업선도대학 육성사업">
 			</div>
 			<div class="pre-area">
-				<h3 class="title"><span class="title-type">사업명</span><span class="tit">창업선도대학 육성사업</span></h3>
+				<h3 class="title"><span class="label label-default-size label-default-color">사업명</span><span class="tit">창업선도대학 육성사업</span></h3>
 				<ul class="list">
 					<li>
 						- 우수한 창업지원 인프라를 갖춘 대학을 ‘창업선도대학’으로 지정하여<br>
@@ -27,10 +27,10 @@
 		</li>
 		<li>
 			<div class="img-area">
-				<img src="/resources-dev/front/images/part/content/introduce/work/2.png" alt="창업보육사업">
+				<img src="<?php echo $config["imageDir"]; ?>/part/content/introduce/work/2.png" alt="창업보육사업">
 			</div>
 			<div class="pre-area">
-				<h3 class="title"><span class="title-type">사업명</span><span class="tit">창업보육사업</span></h3>
+				<h3 class="title"><span class="label label-default-size label-default-color">사업명</span><span class="tit">창업보육사업</span></h3>
 				<ul class="list">
 					<li>
 						- 핵심기술과 기술에 대한 기술성/사업성/시장성 등은 가지고 있으나<br>
@@ -42,10 +42,10 @@
 		</li>
 		<li>
 			<div class="img-area">
-				<img src="/resources-dev/front/images/part/content/introduce/work/3.png" alt="SK청년비상 프로그램">
+				<img src="<?php echo $config["imageDir"]; ?>/part/content/introduce/work/3.png" alt="SK청년비상 프로그램">
 			</div>
 			<div class="pre-area">
-				<h3 class="title"><span class="title-type">사업명</span><span class="tit">SK청년비상 프로그램</span></h3>
+				<h3 class="title"><span class="label label-default-size label-default-color">사업명</span><span class="tit">SK청년비상 프로그램</span></h3>
 				<ul class="list">
 					<li>
 						- 대학생 대상 창업교육, 인큐베이팅, 해외진출 등 체계적인 창업교육 지원을 통한<br>

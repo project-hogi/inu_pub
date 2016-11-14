@@ -28,7 +28,7 @@
 						</div>
 					</div>
 					<div class="pre-area">
-						<h3 class="title"><span class="title-type">디지이너</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>
+						<h3 class="title"><span class="label label-job-size label-notice">디지이너</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>
 						<p class="pre">
 							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
 						</p>
@@ -87,7 +87,7 @@
 						</div>
 					</div>
 					<div class="pre-area">
-						<h3 class="title"><span class="title-type">기획자</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>
+						<h3 class="title"><span class="label label-job-size label-notice">기획자</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>
 						<p class="pre">
 							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
 						</p>
@@ -146,7 +146,7 @@
 						</div>
 					</div>
 					<div class="pre-area">
-						<h3 class="title"><span class="title-type">개발자</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>
+						<h3 class="title"><span class="label label-job-size label-notice">개발자</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>
 						<p class="pre">
 							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
 						</p>
@@ -205,7 +205,7 @@
 						</div>
 					</div>
 					<div class="pre-area">
-						<h3 class="title"><span class="title-type">마케터</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>
+						<h3 class="title"><span class="label label-job-size label-notice">마케터</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>
 						<p class="pre">
 							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
 						</p>
@@ -264,7 +264,7 @@
 						</div>
 					</div>
 					<div class="pre-area">
-						<h3 class="title"><span class="title-type">기타</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>
+						<h3 class="title"><span class="label label-job-size label-notice">기타</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>
 						<p class="pre">
 							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
 						</p>

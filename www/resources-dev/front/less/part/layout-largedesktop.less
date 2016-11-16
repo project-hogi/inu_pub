@@ -537,3 +537,50 @@ body>.sitemap{
 	}
 	
 }
+
+.qnb{
+	position: absolute;
+	right: 0;
+	top: 427px;
+	z-index: 800;
+	display: inline-block;
+	width: 88px;
+	
+	>ul{
+		>li{
+			margin-top: -1px;
+			position: relative;
+			
+			&:first-child{
+				margin-top: 0;
+			}
+			>a{
+				display: block;
+				padding: 57px 2px 14px;
+				border: 1px solid #81d6e4;
+				background-color: #fff;
+				background-position: 50% 10px;
+				background-repeat: no-repeat;
+				text-align: center;
+				font-size: 13px;
+				line-height: 1.4em;
+				color: #034a87;
+				
+				-webkit-transition: border-color ease-in-out .12s, background-color ease-in-out .12s, color ease-in-out .12s;
+				-moz-transition: border-color ease-in-out .12s, background-color ease-in-out .12s, color ease-in-out .12s;
+				-ms-transition: border-color ease-in-out .12s, background-color ease-in-out .12s, color ease-in-out .12s;
+				-o-transition: border-color ease-in-out .12s, background-color ease-in-out .12s, color ease-in-out .12s;
+				transition: border-color ease-in-out .12s, background-color ease-in-out .12s, color ease-in-out .12s;
+			}
+			&.active{
+				z-index: 10;
+				
+				>a{
+					background-color: #2691e3;
+					border-color: #2691e3;
+					color: #fff;
+				}
+			}
+		}
+	}
+}

@@ -1,322 +1,566 @@
-<?php $pagePath = isset($_pagePath) ? $_pagePath : __FILE__; ?>
-<?php $bodyClass = "layout-page module-content"; ?>
-<?php require "part/sitemap.php"; ?>
-<?php require_once $_SERVER["DOCUMENT_ROOT"] . "/lib.php"; ?>
-<?php require "part/app-header.php"; ?>
-<?php require "part/header.php"; ?>
-<?php require "part/header-sub.php"; ?>
+<ul class="waterfall">
+	<li class="h2-wrap">
+		<h2><span>인사심의위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>최호순(내과학, 학장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>최동호(외과학, 의학과장)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>전재범(내과학, 교무부학장),고현철(약리학, 연구부학장),정진환(신경외과학, 학생부학장),김현영(신경과학, 의예과장),이오영(내과학, 서울병원기획실장),한동수(내과학, 구리병원기획실장),선출직(송순영(영상의학),김용석(생화학·분자생물학),류재숙(환경의생물학))</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>발전위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>최호순(내과학, 학장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>전재범(내과학, 교무부학장)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>고현철(약리학, 연구부학장),정진환(신경외과학, 학생부학장),최동호(외과학, 의학과장),김현영(신경과학, 의예과장),이오영(내과학, 서울병원기획실장),한동수(내과학, 구리병원기획실장),신영전(예방의학),윤지희(해부·세포생물학),전대원(내과학),정승준(생리학),명인식(행정팀장)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>기금관리위원회<br>
+		(메디칼컴플렉스 <br>
+		건립추진TFT)</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>최호순(내과학, 학장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>전재범(내과학, 교무부학장<span style="line-height: 1.5;">)</span><br></td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>고현철(약리학, 연구부학장),정진환(신경외과학, 학생부학장),최동호(외과학, 의학과장),김현영(신경과학, 의예과장),호정규(산부인과학, 서울교육과장),한상웅(내과학, 구리교육과장),김승현(신경과학),최중섭(산부인과학),한중수(생화학·분자생물학),이숭구(동문위원),김동선(학부형),이진수(학생회장),명인식(행정팀장)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>예산운영위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>최호순(내과학, 학장)</td>
+			</tr>
+			<tr>
+				<th>간 사</th>
+				<td><br></td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>전재범(내과학, 교무부학장),고현철(약리학, 연구부학장),정진환(신경외과학, 학생부학장),최동호(외과학, 의학과장),김현영(신경과학, 의예과장),명인식(행정팀장),학부생대표1인,대학원생대표1인</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>질관리개선위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>한중수(생화학·분자생물학)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>신영전(예방의학)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>전재범(내과학, 교무부학장),최동호(외과학, 의학과장),이수진(직업환경의학, 교무부학장보),노재숙(해부·세포생물학),박병배(내과학),박준성(내과학),조석현(이비인후과학),호정규(산부인과학)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>입학정책위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>최호순(내과학, 학장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>최동호(내과학, 의학과장)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>전재범(내과학, 교무부학장),정진환(신경외과학, 학생부학장),김현영(신경과학, 의예과장),송순영(영상의학, 직전의학과장),김용석(생화학·분자생물학),김석현(정신건강의학),손장원(내과학),이경근(외과학)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>학과업적평가위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td><p>최호순(내과학, 학장)</p></td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>최동호(외과학, 의학과장)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>김정수(피부과학),고현철(약리학, 연구부학장),김상헌(내과학, 의학정보실장),김용석(생화학·분자생물학),류재숙(환경의생물학),문홍상(비뇨기과학),박병배(내과학),박정선(영상의학),백두진(해부·세포생물학),백승삼(병리학),전대원(내과학, 의학연구실장),송순영(영상의학),신인철(약리학),이규용(신경과학),<span style="line-height: 1.5;">이형중(신경외과학),이혜순(내과학),임태호(응급의학</span><span style="line-height: 1.5;">),정진환(신경외과학</span>, 학생부학장<span style="line-height: 1.5;">),조석현(이비인후과학),최찬범(내과학),하태경(외과학),한동수(내과학),호정규(산부인과학),황경균(치과학)</span><span style="line-height: 1.5;"><br></span></td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>교육과정위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>전재범(내과학, 교무부학장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>최동호(외과학, 의학과장)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>고현철(약리학, 연구부학장),정진환(신경외과학, 학생부학장),박훈기(의학교육학교실 주임교수),김현영(신경과학, 의예과장),호정규(산부인과학, 서울교육과장),한상웅(내과학, 구리교육과장),김상헌(내과학, 의학정보실장),5개 소위원회 위원장과 간사</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>교육과정위원회 / <br>
+		의예과 위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>김현영(신경과학, 의예과장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>정승준(생리학)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>고현철(약리학, 연구부학장),김석현(정신건강의학),김원규(해부·세포생물학),신영전(예방의학),이상훈(생화학·분자생물학),유상호(의학교육학교실),조율희(유전학),한중수(생화학·분자생물학)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>교육과정위원회 / <br>
+		기초의학 위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>김현영(신경과학, 기초교육과장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>백승삼(병리학)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>고현철(약리학, 연구부학장),박훈기(의학교육학교실 주임교수),김미경(예방의학),김정목(미생물학),류재숙(환경의생물학),신인철(약리학),조율희(유전학)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>교육과정위원회 / <br>
+		장기계통위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>전재범(내과학, 교무부학장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td><br></td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>박훈기(의학교육학교실 주임교수),각 장기계통과정 책임교수</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>교육과정위원회 / <br>
+		임상실습위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>호정규(산부인과학, 서울교육과장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>정미애(마취통증의학)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>한상웅(내과학, 구리교육과장),박훈기(의학교육학교실 주임교수),이경근(외과학),이창화(내과학),이혜순(내과학),전대원(내과학),임영효(내과학)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>교육과정위원회 / <br>
+		PDS 위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>박훈기(의학교육학교실 주임교수)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>유상호(의료인문학교실)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>김근호(내과학),김미정(재활의학),김원규(해부·세포생물학),김인영(의공학),박용천(정신건강의학),백두진(해부·세포생물학),신영전(예방의학),한동운(예방의학)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>의학교육위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>전재범(내과학, 교무부학장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>최동호(외과학, 의학과장)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>고현철(약리학, 연구부학장),정진환(신경외과학, 학생부학장),박훈기(의학교육학교실 주임교수),김현영(신경과학, 의예과장),호정규(산부인과학, 서울교육과장),한상웅(내과학, 구리교육과장),김상헌(내과학, 의학정보실장),6개 소위원회 위원장과 간사</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>의학교육위원회 / <br>
+		임상종합평가위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>한상웅(내과학, 구리교육과장)</td>
+			</tr>
+			<tr>
+				<th>간 사</th>
+				<td>박진규(내과학),최혁중(응급의학)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>김지은(내과학),김영서(신경과학),이항락(내과학),김정은(피부과학),김민규(외과학),이강홍(외과학),이현주(소아청소년과학),박훈기(의학교육학교실 주임교수),이원무(산부인과학),성민철(안과학),성윤경(내과학),김태형(내과학),김인아(직업환경의학),박찬혁(내과학),정진환(신경외과학, 학생부학장),황규태(정형외과학),박성열(비뇨기과학),지용배(이비인후과학),최정혜(내과학),노성원(정신건강의학),정언석(임상교수),박정환(임상교수)<br></td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>의학교육위원회 / <br>
+		기초종합평가위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>김현영(신경과학, 기초교육과장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>정희경(병리학)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>김정목(미생물학),노재숙(해부·세포생물학),류재숙(환경의생물학),신인철(약리학),손현(생화학·분자생물학),윤지희(해부·세포생물학),정승준(생리학)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>의학교육위원회 / <br>
+		CPX위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>최찬범(내과학)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>임영효(내과학)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>박훈기(의학교육학교실 주임교수),전대원(내과학, 의학연구실장),김상헌(내과학, 의학정보실장),박준성(정신건강의학),김지은(내과학),방소영(내과학),원영웅(내과학),박현경(소아청소년과학),김대호(정신건강의학),배재만(산부인과학),이정일(정형외과학),안병규(외과학),김영서(신경과학)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>의학교육위원회 / <br>
+		OSCE위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>강형구(응급의학)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>이희종(마취통증의학)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>김용태(비뇨기과학),강보승(응급의학),이봉근(정형외과학),강형구(응급의학),이양순(진단검사의학),김석현(정신건강의학),김연환(성형외과학),김영서(신경과학),이준호,방소영(내과학),최찬범(내과학),김상헌(내과학, 의학정보실장),임영효(내과학),이항락(내과학),박현경(소아청소년과학),전형준(신경외과학),정민성,지용배(이비인후과학),조희윤(안과학),정재호,안병규(외과학),이유경(영상의학),배재만(산부인과학)<br></td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>의학교육위원회 / <br>
+		PBL위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>하태경(외과학)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>원영웅(내과학)</td>
+			</tr>
+			<tr>
 
-<!-- Swiper -->
-<div class="swiper-container">
-	<ul class="swiper-wrapper">
-		<li class="swiper-slide">Slide 1</li>
-		<li class="swiper-slide">Slide 2</li>
-		<li class="swiper-slide">Slide 3</li>
-		<li class="swiper-slide">Slide 4</li>
-		<li class="swiper-slide">Slide 5</li>
-		<li class="swiper-slide">Slide 6</li>
-		<li class="swiper-slide">Slide 7</li>
-		<li class="swiper-slide">Slide 8</li>
-		<li class="swiper-slide">Slide 9</li>
-		<li class="swiper-slide">Slide 10</li>
-	</ul>
-	<!-- Add Pagination -->
-	<div class="swiper-pagination"></div>
-</div>
-
-
-<?php require "part/footer-sub.php"; ?>
-<?php require "part/footer.php"; ?>
-<?php require "part/app-footer.php"; ?>
-
-
-
-<div class="board-job">
-	<div class="board-job-list">
-		<ul>
-			<li>
-				<a href="">
-					<div class="img-area">
-						<div class="img">
-							<img src="/resources/front/images/part/content/incubating/buzzpia.png" alt="buzzpia">
-						</div>
-					</div>
-					<div class="pre-area">
-						<h3 class="title"><span class="title-type">디지이너</span><span class="tit">진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</span></h3>
-						<p class="pre">
-							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
-						</p>
-						<div class="employment-info">
-							<table class="table-info">
-								<colgroup><col width="70">
-									<col width="240">
-									<col width="70">
-									<col width="240">
-								</colgroup><tbody>
-								<tr>
-									<th>ㆍ고용형태</th>
-									<td>단기, 정직원</td>
-									<th>ㆍ업무분야</th>
-									<td>소프트웨어엔지니어 디자인</td>
-								</tr>
-								<tr>
-									<th>ㆍ모집인원</th>
-									<td>00명</td>
-									<th>ㆍ접수기간</th>
-									<td>2016.08.01 (월) ~ 2016.12.31 (토)</td>
-								</tr>
-								<tr>
-									<th>ㆍ연락처</th>
-									<td>02-3222-0011</td>
-									<th>ㆍ홈페이지</th>
-									<td><span class="link-style">http://www.buzzpia.co.kr</span></td>
-								</tr>
-								<tr>
-									<th>ㆍ기타</th>
-									<td>동종업종의 경력자를 우대합니다.</td>
-									<th></th>
-									<td></td>
-								</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="">
-					<div class="img-area">
-						<div class="img">
-							<img src="/resources/front/images/part/content/incubating/onnet.png" alt="buzzpia">
-						</div>
-					</div>
-					<div class="pre-area">
-						<h3 class="title"><span class="title-type">기획자</span><span class="tit">진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</span></h3>
-						<p class="pre">
-							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
-						</p>
-						<div class="employment-info">
-							<table class="table-info">
-								<colgroup><col width="70">
-									<col width="240">
-									<col width="70">
-									<col width="240">
-
-								</colgroup><tbody>
-								<tr>
-									<th>ㆍ고용형태</th>
-									<td>단기, 정직원</td>
-									<th>ㆍ업무분야</th>
-									<td>소프트웨어엔지니어 디자인</td>
-								</tr>
-								<tr>
-									<th>ㆍ모집인원</th>
-									<td>00명</td>
-									<th>ㆍ접수기간</th>
-									<td>2016.08.01 (월) ~ 2016.12.31 (토)</td>
-								</tr>
-								<tr>
-									<th>ㆍ연락처</th>
-									<td>02-3222-0011</td>
-									<th>ㆍ홈페이지</th>
-									<td><span class="link-style">http://www.buzzpia.co.kr</span></td>
-								</tr>
-								<tr>
-									<th>ㆍ기타</th>
-									<td>동종업종의 경력자를 우대합니다.</td>
-									<th></th>
-									<td></td>
-								</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="">
-					<div class="img-area">
-						<div class="img">
-							<img src="/resources/front/images/part/content/incubating/dialoio.png" alt="buzzpia">
-						</div>
-					</div>
-					<div class="pre-area">
-						<h3 class="title"><span class="title-type">개발자</span><span class="tit">진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</span></h3>
-						<p class="pre">
-							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
-						</p>
-						<div class="employment-info">
-							<table class="table-info">
-								<colgroup><col width="70">
-									<col width="240">
-									<col width="70">
-									<col width="240">
-
-								</colgroup><tbody>
-								<tr>
-									<th>ㆍ고용형태</th>
-									<td>단기, 정직원</td>
-									<th>ㆍ업무분야</th>
-									<td>소프트웨어엔지니어 디자인</td>
-								</tr>
-								<tr>
-									<th>ㆍ모집인원</th>
-									<td>00명</td>
-									<th>ㆍ접수기간</th>
-									<td>2016.08.01 (월) ~ 2016.12.31 (토)</td>
-								</tr>
-								<tr>
-									<th>ㆍ연락처</th>
-									<td>02-3222-0011</td>
-									<th>ㆍ홈페이지</th>
-									<td><span class="link-style">http://www.buzzpia.co.kr</span></td>
-								</tr>
-								<tr>
-									<th>ㆍ기타</th>
-									<td>동종업종의 경력자를 우대합니다.</td>
-									<th></th>
-									<td></td>
-								</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="">
-					<div class="img-area">
-						<div class="img">
-							<img src="/resources/front/images/part/content/incubating/imageon.png" alt="buzzpia">
-						</div>
-					</div>
-					<div class="pre-area">
-						<h3 class="title"><span class="title-type">마케터</span><span class="tit">진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</span></h3>
-						<p class="pre">
-							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
-						</p>
-						<div class="employment-info">
-							<table class="table-info">
-								<colgroup><col width="70">
-									<col width="240">
-									<col width="70">
-									<col width="240">
-
-								</colgroup><tbody>
-								<tr>
-									<th>ㆍ고용형태</th>
-									<td>단기, 정직원</td>
-									<th>ㆍ업무분야</th>
-									<td>소프트웨어엔지니어 디자인</td>
-								</tr>
-								<tr>
-									<th>ㆍ모집인원</th>
-									<td>00명</td>
-									<th>ㆍ접수기간</th>
-									<td>2016.08.01 (월) ~ 2016.12.31 (토)</td>
-								</tr>
-								<tr>
-									<th>ㆍ연락처</th>
-									<td>02-3222-0011</td>
-									<th>ㆍ홈페이지</th>
-									<td><span class="link-style">http://www.buzzpia.co.kr</span></td>
-								</tr>
-								<tr>
-									<th>ㆍ기타</th>
-									<td>동종업종의 경력자를 우대합니다.</td>
-									<th></th>
-									<td></td>
-								</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="">
-					<div class="img-area">
-						<div class="img">
-							<img src="/resources/front/images/part/content/incubating/tnk.png" alt="buzzpia">
-						</div>
-					</div>
-					<div class="pre-area">
-						<h3 class="title"><span class="title-type">기타</span><span class="tit">진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</span></h3>
-						<p class="pre">
-							주식회사 비즈피아는 투자전략/금융상품 실계좌 성과공유/투자자 매칭 플랫폼 금융상품을 퍼즐화하여 사용자가 직접 상품을 조립하고 구매하는 금융상품 장터입니다.
-						</p>
-						<div class="employment-info">
-							<table class="table-info">
-								<colgroup><col width="70">
-									<col width="240">
-									<col width="70">
-									<col width="240">
-
-								</colgroup><tbody>
-								<tr>
-									<th>ㆍ고용형태</th>
-									<td>단기, 정직원</td>
-									<th>ㆍ업무분야</th>
-									<td>소프트웨어엔지니어 디자인</td>
-								</tr>
-								<tr>
-									<th>ㆍ모집인원</th>
-									<td>00명</td>
-									<th>ㆍ접수기간</th>
-									<td>2016.08.01 (월) ~ 2016.12.31 (토)</td>
-								</tr>
-								<tr>
-									<th>ㆍ연락처</th>
-									<td>02-3222-0011</td>
-									<th>ㆍ홈페이지</th>
-									<td><span class="link-style">http://www.buzzpia.co.kr</span></td>
-								</tr>
-								<tr>
-									<th>ㆍ기타</th>
-									<td>동종업종의 경력자를 우대합니다.</td>
-									<th></th>
-									<td></td>
-								</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</a>
-			</li>
-		</ul>
-	</div>
-
-	<div class="board-footer">
-		<ul class="pagination">
-			<li class="active"><a href="#">1</a></li>
-			<li><a href="#">2</a></li>
-			<li><a href="#">3</a></li>
-		</ul>
-		<ul class="pager">
-			<li><a href="#" class="btn-prev"><span class="sr-only">이전</span></a></li>
-			<li><a href="#" class="btn-next"><span class="sr-only">다음</span></a></li>
-		</ul>
-		<div class="search-box">
-			<form action="">
-				<fieldset>
-					<div class="select select-type-search">
-						<a href="#" class="selected"><span>제목+내용</span></a>
-						<ul class="list">
-							<li><a href="#"><span>제목+내용</span></a></li>
-							<li><a href="#"><span>제목</span></a></li>
-							<li><a href="#"><span>내용</span></a></li>
-							<li><a href="#"><span>본문</span></a></li>
-							<li><a href="#"><span>작성자</span></a></li>
-						</ul>
-					</div>
-					<input type="text" class="form-control form-size-160">
-					<button type="submit" class="btn btn-board btn-borad-submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-				</fieldset>
-			</form>
-
-		</div>
-
-	</div>
-	<!-- /.board-footer -->
-
-</div>
+				<th>위 원</th>
+				<td>김근호(내과학),김대호(정신건강의학),<span style="line-height: 1.5;">김용석(생화학·분자생물학),김지은(내과학),김현영(신경과학, 의예과장),</span>류재숙(환경의생물학),<span style="line-height: 1.5;">문지용(내과학),박기철(정형외과학),박성열(비뇨기과학),박훈기(의학교육학교실 주임교수),박현경(소아청소년과학),백은정(진단검사의학),성민철(안과학),안병규(외과학),</span><span style="line-height: 1.5;">임영효(내과학),전대원(내과학),</span><span style="line-height: 1.5;">조수경(내과학),</span><span style="line-height: 1.5;">호정규(산부인과학),김이석(정형외과학).김연환(성형외과학)</span><br></td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>의학교육위원회 / <br>
+		포트폴리오위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>유상호(의료인문학교실)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>최혁중(응급의학)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>박훈기(의학교육학교실 주임교수),고현철(약리학, 연구부학장),김석현(정신건강의학),김지은(내과학),김희진(신경과학),박준성(내과학),박현경(소아청소년과학),성윤경(내과학),신진호(내과학),안명희(환경의생물학),윤지희(해부·세포생물학),이봉근(정신외과학),이정한(산부인과학),이창화(내과학),장기석(병리학),정민성,한승훈(재활의학),호정규(산부인과학)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>대학원위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>최호순(내과학, 학장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>이항락(내과학)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>황세진(해부·세포생물학, 연구부학장),송순영(영상의학, 의학과장),조석현(이비인후과학),고현철(약리학, 의예과장),김근호(내과학),김용석(생화학·분자생물학),김용수(영상의학),손주현(내과학),성윤경(내과학),신영전(예방의학),신인철(약리학),윤지희(해부·세포생물학),이규용(신경과학),이형중(신경외과학),조석현(이비인후과학)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>대학원장학위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>최동호(외과학, 의학과장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>호정규(산부인과학, 서울교육과장)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>고현철(약리학, 연구부학장),정진환(신경외과학, 학생부학장),신영전(예방의학),협동과정 책임교수 일동</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>장학위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>정진환(신경외과학, 학생부학장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>김현영(신경과학, 의예과장)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>고현철(약리학, 교무부학장),최동호(외과학, 의학과장),호정규(산부인과학, 서울교육과장),한상웅(내과학, 구리교육과장),명인식(행정팀장)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>공간관리위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>최호순(내과학, 학장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>전재범(내과학, 교무부학장)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>고현철(약리학, 연구부학장),정진환(신경외과학, 학생부학장),최동호(외과학, 의학과장),김현영(신경과학, 의예과장),호정규(산부인과학, 서울교육과장),한상웅(내과학, 구리교육과장),명인식(행정팀장)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>국제협력위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>한동운(예방의학)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>호정규(산부인과학, 서울교육과장)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>고현철(약리학, 연구부학장),정진환(신경외과학, 학생부학장),강주섭(약리학),배현주(내과학),백승삼(병리학),백은정(진단검사의학),이규훈(재활의학),전대원(내과학),최윤영(핵의학),황정혜(산부인과학)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>학생지도 및 <br>
+		소명위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>최호순(내과학, 학장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>정진환(신경외과학, 학생부학장)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>전재범(내과학, 교무부학장),고현철(약리학, 연구부학장),최동호(외과학, 의학과장),김현영(신경과학, 의예과장),호정규(산부인과학, 서울교육과장),한상웅(내과학, 구리교육과장),박훈기(의학교육학교실 주임교수),박용천(정신건강의학),백광흠(신경외과학),이형중(신경외과학),학생대표(지도관련 안건),학생처 학생실장(징계관련 안건),명인식(행정팀장)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>진급사정위원회</span></h2>
+		<table class="table-clean">
+			<tbody>
+			<tr>
+				<th>위원장</th>
+				<td>최호순(내과학, 학장)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>최동호(외과학, 의학과장)</td>
+			</tr>
+			<tr>
+				<th>위 원</th>
+				<td>전재범(내과학, 교무부학장),정진환(신경외과학, 학생부학장),김현영(신경과학, 의예과장),호정규(산부인과학, 서울교육과장),한상웅(내과학, 구리교육과장),박훈기(의학교육학교실 주임교수),유상호(의료인문학교실, 포트폴리오위원회 위원장)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+	<li class="h2-wrap">
+		<h2><span>편집위원회</span></h2>
+		<table class="table-clean">
+			<colgroup><col style="width: 110px;">
+			</colgroup><tbody>
+			<tr>
+				<th>위원장</th>
+				<td>이승환(이비인후과학)</td>
+			</tr>
+			<tr>
+				<th>부위원장</th>
+				<td>고성호(신경과학)</td>
+			</tr>
+			<tr>
+				<th>간 사</th>
+				<td>최정혜(내과학)</td>
+			</tr>
+			<tr>
+				<th>편집위원(교내)</th>
+				<td> 강정옥(진단검사의학),고성호(신경과학),김정목(미생물학),박용수(내과학),박훤겸(외과학),배현주(내과학),백광흠(신경외과학),손장원(내과학),신우종(마취통증의학),신진호(내과학),전대원(내과학),전재범(내과학),정승준(생리학),정희경(병리학),조석현(이비인후과학),최동호(외과학),최정혜(내과학),한동수(내과학),한중수(생화학·분자생물학)</td>
+			</tr>
+			<tr>
+				<th>편집위원(교외)</th>
+				<td> 강일규(가천대/이비인후과학),김정욱(울산대/진단검사의학),김지현(단국대/신경과학),김현정(제주대/마취통증의학),박동일(성균관대/내과학),박필환(가천대/진단검사의학),박호선(영남대/미생물학),배종석(인제대/신경과학),정용기(성균관대/이비인후과학),조윤주(을지대/내과학)</td>
+			</tr>
+			<tr>
+				<th>English Editor</th>
+				<td>Eric B. Richardson(의생명공학전문대학원), 전순호(제주 S-중앙병원 흉부외과)</td>
+			</tr>
+			<tr>
+				<th> Manuscript Editor</th>
+				<td>이현정(한양대학교 구리병원 의학학술정보실)</td>
+			</tr>
+			</tbody>
+		</table>
+	</li>
+</ul>

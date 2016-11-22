@@ -15,7 +15,6 @@ $config["imageDir"] = $config["resourcesDir"]  . "/images";
 <html lang="ko-KR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="<?php echo $config["sitename"]; ?> 홈페이지 입니다." />
 <title><?php echo $config["sitename"]; ?></title>
@@ -84,6 +83,7 @@ $config["imageDir"] = $config["resourcesDir"]  . "/images";
 <script src="<?php echo $config["resourcesDir"]; ?>/js/script.min.js"></script>
 <?php } ?>
 <script src="/cms_core_pub/resources/core/js/script.min.js"></script>
+
 </head>
 <body class="<?php echo getBodyClass($pagePath, $bodyClass); ?>">
 <!-- //App Header.html -->

@@ -460,8 +460,8 @@ body>.sitemap{
 		position: relative;
 		width: 100%;
 		left: 0;
-		height: 100%;
-		background-color: #000;
+		height: 100% !important;
+		background-color: rgba(0,0,0,0) !important;
 		#util>.opacity(.85);
 		-webkit-transition: left ease-in-out .3s;
 		-moz-transition: left ease-in-out .3s;
@@ -691,7 +691,7 @@ body>.sitemap{
 	}
 	&.active{
 		.bg{
-			#util>.opacity(0);
+			#util>.opacity(0.85);
 		}
 		.cont{
 			display: block;

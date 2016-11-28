@@ -6,7 +6,7 @@
 <?php require "part/header.php"; ?>
 <?php require "part/header-sub.php"; ?>
 
-<img src="<?php echo $config["imageDir"]; ?>/part/content/introduce/people/tree.jpg" alt="" width="100%">
+<img src="<?php echo $config["imageDir"]; ?>/part/content/introduce/people/6-6.png" alt="" width="100%">
 <div class="next-part-30">
 <table class="table-primary">
 	<col width="20%">

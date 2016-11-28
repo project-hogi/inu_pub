@@ -29,9 +29,8 @@
 	<h5 class="point-title">
 		지원내용 및 절차
 	</h5>
-	<ul class="list-style doted">
-		<li>잠시만 기다려주세요! 자료 업데이트 중입니다.</li>
-	</ul>
+	<img src="<?php echo $config["imageDir"]; ?>/part/content/education/1-4-6-2.png" alt="지원내용 및 절차">
+
 	<h5 class="point-title">
 		지원절차
 	</h5>

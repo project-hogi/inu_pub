@@ -44,7 +44,7 @@
 			</div>
 			<div class="sns">
 				<ul>
-					<li class="twitter"><a href="https://www.instagram.com/inustartup/"><span class="sr-only">인스타</span></a></li>
+					<li class="instagram"><a href="https://www.instagram.com/inustartup/"><span class="sr-only">인스타</span></a></li>
 					<li class="facebook"><a href="https://www.facebook.com/inustartup/"><span class="sr-only">페이스북</span></a></li>
 				</ul>
 			</div>

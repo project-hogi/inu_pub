@@ -40,6 +40,8 @@ if (desktopModeTF == "true") {
                     $(".mode-btn").html(
                         '<button onclick="undesktopMode()" class="mode-change pc">원래대로</button>'
                     );
+                }else{
+                    $(".mode-btn").empty();
                 }
             }
         });

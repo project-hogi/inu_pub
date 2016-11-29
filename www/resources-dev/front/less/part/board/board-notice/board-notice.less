@@ -212,6 +212,11 @@ div.board-notice{
 		.board-content{
 			padding: 32px 24px;
 			word-break: normal;
+			&:after{
+				clear: both;
+				display: block;
+				content: '';
+			}
 		}
 		.board-view-footer{
 			border: 1px solid #aaa;

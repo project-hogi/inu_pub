@@ -1,16 +1,21 @@
 div.board-notice{
-	
+	margin: 10px 0;
 	.board-notice-list{
 		>ul{
 			border-top: 1px solid #ddd;
 			>li{
+				position: relative;
 				height: 150px;
 				border: 1px solid #ddd;
 				border-top-color: transparent;
 				overflow: hidden;
 				background: #fff url(../images/part/layout-page/notice-list-bg.png) 95% 50% no-repeat;
 				
-				
+				.btn-warning{
+					position: absolute;
+					right: 10px;
+					bottom: 10px;
+				}
 				
 				&:hover,
 				&:focus,
@@ -49,9 +54,9 @@ div.board-notice{
 					.title{
 						padding-bottom: 5px;
 						color: #444;
-						
 						display: block;
-						height: 20px;
+						height: 30px;
+						line-height: 24px;
 						font-size: 14px;
 						#util .ellipsis();
 						
@@ -66,7 +71,7 @@ div.board-notice{
 							padding: 0 8px;
 							text-align: center;
 							margin-right: 10px;
-							line-height: 20px;
+							line-height: 24px;
 							
 							&:before{
 								display: inline-block;
@@ -206,6 +211,12 @@ div.board-notice{
 		}
 		.board-content{
 			padding: 32px 24px;
+			word-break: normal;
+			&:after{
+				clear: both;
+				display: block;
+				content: '';
+			}
 		}
 		.board-view-footer{
 			border: 1px solid #aaa;
@@ -286,4 +297,63 @@ div.board-notice{
 			}
 		}
 	}
+	
+	.extra-infos{
+		margin-top: 10px;
+		width: 100%;
+		padding: 0 20px 30px;
+		border-bottom: 1px solid #d9d9d9;
+		margin-bottom: 30px;
+		
+		&:after{
+			clear: both;
+			display: block;
+			content: '';
+		}
+		
+		li{
+			width: 100%;
+			height: auto;
+			float: left;
+			line-height: 22px;
+			font-size: 12px;
+			
+			dl{
+				position: relative;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+				
+				&:after{
+					clear: both;
+					display: block;
+					content: '';
+				}
+				dt,dd{
+					float: left;
+					min-height: 17px;
+				}
+				dt{
+					position: absolute;
+					left: 0;
+					top: 0;
+					max-width: 120px;
+					color: #aaaaaa;
+				}
+				dd{
+					width: 100%;
+					padding-left: 130px;
+					color: #666666;
+					#util .ellipsis();
+				}
+			}
+		}
+	}
+	
+	.forms-files{
+		margin: 0;
+		padding: 16px 25px;
+	}
+	
+	
 }

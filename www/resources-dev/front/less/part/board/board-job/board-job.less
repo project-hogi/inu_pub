@@ -1,8 +1,10 @@
 div.board-job{
 	
+	margin: 10px 0;
 	.board-job-list{
 		>ul{
 			>li{
+				width: 100%;
 				height: auto;
 				margin: 2% 0;
 				border: 1px solid #ddd;
@@ -32,18 +34,9 @@ div.board-job{
 						width: 100%;
 						height: 100%;
 						background-color: #f2f2f2;
-						
-						&:before{
-							display: inline-block;
-							content: '';
-							width: 1px;
-							height: 100%;
-							vertical-align: middle;
-						}
-						*{
-							display: inline-block;
-							vertical-align: middle;
-						}
+						background-repeat: no-repeat;
+						background-position: 50% 50%;
+						background-size: 135px auto;
 					}
 					
 				}
@@ -163,6 +156,7 @@ div.board-job{
 				}
 				dt,dd{
 					float: left;
+					min-height: 17px;
 				}
 				dt{
 					position: absolute;

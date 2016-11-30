@@ -289,6 +289,69 @@ body.layout-page{
 		>ul{
 			overflow: hidden;
 			
+			&.children-count-1{
+				li{
+					width: 100%;
+				}
+			}
+			&.children-count-2{
+				li{
+					width: 50%;
+				}
+			}
+			&.children-count-3{
+				li{
+					width: 33.3%;
+					&:first-child{
+						width: 33.3%;
+					}
+				}
+			}
+			&.children-count-4{
+				li{
+					width: 25%;
+				}
+			}
+			&.children-count-5{
+				li{
+					width: 20%;
+					&:first-child{
+						width: 20%;
+					}
+				}
+			}
+			&.children-count-6{
+				li{
+					width: 33.3%;
+				}
+			}
+			&.children-count-7{
+				li{
+					width: 33.3%;
+					&:first-child{
+						width: 100%;
+					}
+				}
+			}
+			&.children-count-8{
+				li{
+					width: 50%;
+				}
+			}
+			&.children-count-9{
+				li{
+					width: 50%;
+					&:first-child{
+						width: 100%;
+					}
+				}
+			}
+			&.children-count-10{
+				li{
+					width: 50%;
+				}
+			}
+			
 			>li{
 				float: left;
 				margin-left: -1px;
@@ -355,15 +418,17 @@ body.layout-page{
 					}
 				}
 			}
+			/*
 			.for(1, 10); .-each(@i) {
-			&.children-count-@{i}{
-				margin-right: -1px * (@i - 1);
-				
-				>li{
-					width: 100% / @i;
+				&.children-count-@{i}{
+					margin-right: -1px * (@i - 1);
+					
+					>li{
+						width: 100% / @i;
+					}
 				}
 			}
-		}
+			*/
 			&.arrow-type{
 				li{
 					position: relative;

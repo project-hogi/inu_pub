@@ -176,4 +176,45 @@ div.board-notice{
 			}
 		}
 	}
+	
+	.extra-infos{
+		&:after{
+			clear: both;
+			display: block;
+			content: '';
+		}
+		li{
+			width: 50%;
+			float: left;
+			float: left;
+			line-height: 22px;
+			font-size: 12px;
+			
+			dl{
+				width: 100%;
+				margin: 0;
+				padding: 0;
+				
+				&:after{
+					clear: both;
+					display: block;
+					content: '';
+				}
+				dt,dd{
+					float: left;
+				}
+				dt{
+					width: 90px;
+					color: #aaaaaa;
+				}
+				dd{
+					color: #666666;
+				}
+			}
+		}
+		
+	}
+}
+.board-view-footer{
+	
 }

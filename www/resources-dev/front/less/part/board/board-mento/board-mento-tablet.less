@@ -37,6 +37,7 @@ div.board-mento{
 				border: 1px solid #ddd;
 				overflow: hidden;
 				float: left;
+				background-color: #fff;
 				
 				&:hover,
 				&:focus,
@@ -53,18 +54,19 @@ div.board-mento{
 				
 				.img-area,
 				.pre-area{
-					float: left;
+					
 				}
 				
 				.img-area{
-					float: left;
+					z-index: 1000;
 					display: block;
-					width: 45%;
-					min-height: 142px;
+					float: left;
+					width: 40%;
+					height: 142px;
+					margin-right: 5%;
 					background-repeat:no-repeat;
 					background-position: 50% 50%;
 					background-size: cover;
-					display: block;
 					
 					img{
 						
@@ -73,10 +75,8 @@ div.board-mento{
 				
 				.pre-area{
 					display: block;
-					width: 55%;
 					position: relative;
 					padding: 20px 17px;
-					background-color: #fff;
 					border-left: 2px solid #eee;
 					
 					

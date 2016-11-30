@@ -14,7 +14,7 @@
 	어떤 일을 감히 하지 못하는 것은 그 일이 너무 어렵기 때문이 아니라, 어렵다는 생각에 사로잡혀 그일을 시도하지 않기 때문이라고들 합니다. 인천대학교 창업지원단에서는 여러분들이 창업을 시도 할 수 있는 용기와 기회를 제공하여 성공적인 창업을 이룰 수 있도록 여러분들의 동반자가 되어 드리겠습니다.<br>
 	<br>
 	인천대학교 창업지원단장 정영식&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="<?php echo $config["imageDir"]; ?>/part/content/introduce/greeting/sign.jpg" alt="정영식"></p>
-<img src="<?php echo $config["imageDir"]; ?>/part/content/introduce/greeting/professor.png" alt="정영식">
+<img src="<?php echo $config["imageDir"]; ?>/part/content/introduce/greeting/jys.png" alt="정영식" class="greeting-pic">
 
 <?php require "part/footer-sub.php"; ?>
 <?php require "part/footer.php"; ?>

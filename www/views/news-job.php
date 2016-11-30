@@ -20,13 +20,8 @@
 <div class="board-job">
 	<div class="board-job-list">
 		<ul>
-			<li>
+			<li class="grid-item">
 				<a href="">
-					<div class="img-area">
-						<div class="img">
-							<img src="<?php echo $config["imageDir"]; ?>/part/content/incubating/buzzpia.png" alt="buzzpia">
-						</div>
-					</div>
 					<div class="pre-area">
 						<h3 class="title"><span class="label label-job-size label-notice">디지이너</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>
 						<p class="pre">
@@ -79,12 +74,10 @@
 					</div>
 				</a>
 			</li>
-			<li>
+			<li class="grid-item">
 				<a href="">
 					<div class="img-area">
-						<div class="img">
-							<img src="<?php echo $config["imageDir"]; ?>/part/content/incubating/onnet.png" alt="buzzpia">
-						</div>
+						<div class="img" style="background-image: url(<?php echo $config["imageDir"]; ?>/part/content/incubating/onnet.png);"></div>
 					</div>
 					<div class="pre-area">
 						<h3 class="title"><span class="label label-job-size label-notice">기획자</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>
@@ -138,12 +131,10 @@
 					</div>
 				</a>
 			</li>
-			<li>
+			<li class="grid-item">
 				<a href="">
 					<div class="img-area">
-						<div class="img">
-							<img src="<?php echo $config["imageDir"]; ?>/part/content/incubating/dialoio.png" alt="buzzpia">
-						</div>
+						<div class="img" style="background-image: url(<?php echo $config["imageDir"]; ?>/part/content/incubating/dialoio.png);"></div>
 					</div>
 					<div class="pre-area">
 						<h3 class="title"><span class="label label-job-size label-notice">개발자</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>
@@ -197,13 +188,8 @@
 					</div>
 				</a>
 			</li>
-			<li>
+			<li class="grid-item">
 				<a href="">
-					<div class="img-area">
-						<div class="img">
-							<img src="<?php echo $config["imageDir"]; ?>/part/content/incubating/imageon.png" alt="buzzpia">
-						</div>
-					</div>
 					<div class="pre-area">
 						<h3 class="title"><span class="label label-job-size label-notice">마케터</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>
 						<p class="pre">
@@ -256,12 +242,10 @@
 					</div>
 				</a>
 			</li>
-			<li>
+			<li class="grid-item">
 				<a href="">
 					<div class="img-area">
-						<div class="img">
-							<img src="<?php echo $config["imageDir"]; ?>/part/content/incubating/tnk.png" alt="buzzpia">
-						</div>
+						<div class="img" style="background-image: url(<?php echo $config["imageDir"]; ?>/part/content/incubating/tnk.png);"></div>
 					</div>
 					<div class="pre-area">
 						<h3 class="title"><span class="label label-job-size label-notice">기타</span>진보적인 미래형 뷰티서비스 프랫폼에서 특급 디자이너를 모집합니다.</h3>

@@ -95,7 +95,7 @@
 	}
 	.state{
 		display: inline-block;
-		width: 65px;
+		min-width: 65px;
 		height: 40px;
 		text-align: center;
 		font-size: 14px;
@@ -104,6 +104,7 @@
 		border: 1px solid #d7d7d7;
 		border-radius: 5px;
 		box-shadow: 0px 0px 3px 0px #fff inset;
+		padding: 0 6px;
 		
 		&:before{
 			display: inline-block;
@@ -226,31 +227,6 @@
 			margin-right: 5px;
 		}
 	}
-	input[type="file"] + label{
-		display: inline-block;
-		width: 76px;
-		height: 36px;
-		overflow: hidden;
-		cursor: pointer;
-		margin: 0;
-		padding: 0;
-		vertical-align: middle;
-		background: url(../images/part/board/mypage/file-form.png) 50% 50% no-repeat;
-		text-align: center;
-		color: #444444;
-		font-size: 13px;
-		
-		&:before{
-			display: inline-block;
-			content: '';
-			width: 1px;
-			height: 100%;
-			vertical-align: middle;
-		}
-	}
-	input[type="file"]{
-		display: none;
-	}
 	input[type="checkbox"],
 	input[type="radio"]{
 		vertical-align: middle;
@@ -272,6 +248,7 @@
 				height: 48px;
 				background-color: #989898;
 				font-size: 16px;
+				line-height: 34px;
 				color: #fff;
 				font-weight: bold;
 				box-shadow: 0px 0px 3px 0px #fff inset;
